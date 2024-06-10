@@ -1,9 +1,3 @@
-# Ignore compiled files
-*.class
-*.jar
-*.war
-*.ear
-
 # Ignore build output directories
 /target/
 /build/
@@ -34,3 +28,5 @@ Thumbs.db
 # Ignore backup files
 *~
 *.bak
+# Ignore Python bytecode cache
+__pycache__/
