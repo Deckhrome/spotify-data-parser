@@ -1,29 +1,47 @@
 class ClassManager:
     def __init__(self):
-        self.hierarchies = {} # Dictionary for hierarchies
+        self.hierarchies = {}  # Dictionary for hierarchies
         self.tagsets = {}  # Dictionary for tagsets
-        self.tags = {}  # Dictionary for tags
+        self.tags = {
+            'sp_track_name': {},
+            'sp_track_duration': {},
+            'sp_track_popularity': {},
+            'sp_album_name': {},
+            'sp_artist_infos': {},
+            'happiness_percentage': {},
+            'fear_percentage': {},
+            'sadness_percentage': {},
+            'anger_percentage': {},
+            'genre_1': {}
+        }  # Separate dictionaries for tag categories
         self.medias = []  # List for medias
         self.next_tag_id = 1
         self.next_tagset_id = 1
 
-    def get_or_create_tag_id(self, value):
-        # Search for the tag in the dictionary
-        if value in self.tags:
-            return self.tags[value]['id']
+    def get_or_create_tag_id(self, value, category, verify=True):
+        # Ensure the category exists
+        if category == "genre_2" or category == "genre_3":
+            category = "genre_1"
+        if category not in self.tags:
+            raise ValueError(f"Unknown category: {category}")
+
+        # Search for the tag in the appropriate category dictionary
+        if value in self.tags[category] and verify:
+            return self.tags[category][value]['id']
+
         # If the tag is not found, create it
         tag_id = self.next_tag_id
-        self.tags[value] = {'id': tag_id, 'value': value}
+        self.tags[category][value] = {'id': tag_id, 'value': value}
         self.next_tag_id += 1
         return tag_id
 
     def get_or_create_tagset_id(self, name, tagset_type):
-        # Search for the tagset in the dictionary
-        if name in self.tagsets:
-            return self.tagsets[name]['id']
         # If name is genre_2 or genre_3, return the id of genre_1
         if name == "genre_2" or name == "genre_3":
             return self.tagsets["genre_1"]['id']
+        # Search for the tagset in the dictionary
+        if name in self.tagsets:
+            return self.tagsets[name]['id']
         # If the tagset is not found, create it
         tagset_id = self.next_tagset_id
         self.tagsets[name] = {'id': tagset_id, 'name': name, 'type': tagset_type, 'tags': []}
@@ -51,6 +69,6 @@ class ClassManager:
             'tagsets': tagsets_list,
             'medias': self.medias
         }
-    
+
     def add_hierarchy(self, name, hierarchy):
         self.hierarchies[name] = hierarchy

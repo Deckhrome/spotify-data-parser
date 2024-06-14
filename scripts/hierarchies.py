@@ -10,16 +10,45 @@ genre_hierarchy = {
             {
                 "tag_id": "rock",
                 "child_nodes": [
-                    {"tag_id": "alternativerock", "child_nodes": [
-                        {"tag_id": "grunge", "child_nodes": []},
-                        {"tag_id": "indierock", "child_nodes": []},
+                    {   "tag_id": "alternativerock", 
+                        "child_nodes": [
+                            {   "tag_id": "dreampop", 
+                                "child_nodes": [
+                                    {"tag_id": "shoegaze", "child_nodes": []},
+                                ]},
+                            {"tag_id": "grunge", "child_nodes": []},
+                            {"tag_id": "indierock", "child_nodes": []},
                     ]},
+                    {   "tag_id": "experimentalrock", 
+                        "child_nodes": [
+                            {"tag_id": "postrock", "child_nodes": []},
+                            {"tag_id": "artrock", "child_nodes": []},
+                        ]},
+                    {   "tag_id": "progressiverock", 
+                        "child_nodes": [
+                            {"tag_id": "symphonicrock", "child_nodes": []},
+                        ]},
                     {"tag_id": "hardrock", "child_nodes": []},
+                    {"tag_id": "psychedelicrock", "child_nodes": []},
+                    {"tag_id": "southernrock", "child_nodes": []},
+                    {"tag_id": "classicrock", "child_nodes": []},
+                    {"tag_id": "christianrock", "child_nodes": []},
+                    {"tag_id": "stonerrock", "child_nodes": []},
+
                 ]
             },
             {
                 "tag_id": "pop",
                 "child_nodes": [
+                    {   "tag_id": "jpop", 
+                        "child_nodes": [
+                            {"tag_id": "anime", "child_nodes": []},
+                        ]},
+                    {   "tag_id": "poprock", 
+                        "child_nodes": [
+                            {"tag_id": "poppunk", "child_nodes": []},
+                        ]},
+                    {"tag_id": "electropop", "child_nodes": []},
                     {"tag_id": "indiepop", "child_nodes": []},
                     {"tag_id": "kpop", "child_nodes": []},
                 ]
@@ -29,6 +58,7 @@ genre_hierarchy = {
                 "child_nodes": [
                     {"tag_id": "trap", "child_nodes": []},
                     {"tag_id": "comedy", "child_nodes": []},
+                    {"tag_id": "undergroundhiphop", "child_nodes": []},
                 ]
             },
             {
@@ -60,6 +90,8 @@ genre_hierarchy = {
                         ]},
                     {"tag_id": "grindcore", "child_nodes": []},
                     {"tag_id": "posthardcore", "child_nodes": []},
+                    {"tag_id": "postpunk", "child_nodes": []},
+                    {"tag_id": "skatepunk", "child_nodes": []},
                 ]
             },
             {
@@ -157,6 +189,46 @@ genre_hierarchy = {
                     {"tag_id": "electro", "child_nodes": []},
                     {"tag_id": "electronica", "child_nodes": []},
                 ]
+            },
+            {
+                "tag_id": "soundtrack",
+                "child_nodes": [
+                    {"tag_id": "videogamemusic", "child_nodes": []},
+                ]
+            },
+            {
+                "tag_id": "rnbandsoul",
+                "child_nodes": [
+                    {"tag_id": "disco", "child_nodes": []},
+                    {"tag_id": "soul", "child_nodes": []},
+                    {"tag_id": "funk", "child_nodes": []},                ]
+            },
+            {
+                "tag_id": "experimental",
+                "child_nodes": [
+                    {"tag_id": "noise", "child_nodes": []},
+                    {"tag_id": "lofi", "child_nodes": []},
+                ]
+            },
+            {
+                "tag_id": "reggae",
+                "child_nodes": [
+                    {"tag_id": "dub", "child_nodes": []},
+                    {"tag_id": "ska", "child_nodes": []},
+                ]
+            },
+            {
+                "tag_id": "latin",
+                "child_nodes": [
+                    {"tag_id": "salsa", "child_nodes": []},
+                    {"tag_id": "reggaeton", "child_nodes": []},
+                ]
+            },
+            {
+                "tag_id": "rap",
+                "child_nodes": [
+                    {"tag_id": "raprock", "child_nodes": []},
+                ]
             }
         ]
     }
@@ -165,7 +237,7 @@ genre_hierarchy = {
 def associate_tag_with_id(node, class_manager, tagset_id):
     # Associate the tag with the id
     if "tag_id" in node:
-        tag_id = class_manager.get_or_create_tag_id(node["tag_id"])
+        tag_id = class_manager.get_or_create_tag_id(node["tag_id"], "genre_1")
         tag = {"id": tag_id, "value": node["tag_id"]}
         class_manager.add_tag_to_tagset(tagset_id, tag)
         node["tag_id"] = tag_id
