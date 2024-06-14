@@ -8,10 +8,6 @@ tagset_types = {
     "sp_track_popularity": 5,
     "sp_album_name": 1,
     "sp_artist_infos": 1,
-    "x": 5,
-    "y": 5,
-    "z": 5,
-    "color": 1,
     "happiness_percentage": 5,
     "sadness_percentage": 5,
     "anger_percentage": 5,
@@ -25,9 +21,12 @@ tagset_types = {
 def parse_data(path):
     df = CSV_to_DF(path)
     tag_manager = ClassManager()
+
+    # Create tagsets
     for name, type in tagset_types.items():
         tag_manager.get_or_create_tagset_id(name, type)
     
+    # Add tags to tagsets
     for _, row in df.iterrows():
         file_uri = f"https://open.spotify.com/track/{row['sp_uri']}"
         tags = []
@@ -40,6 +39,7 @@ def parse_data(path):
                 tag_manager.add_tag_to_tagset(tagset_id, tag)
                 tags.append(tag_id)
         
+        # Once all tags are added, add the media to the tag manager
         tag_manager.add_media(file_uri, tags)
     
     return tag_manager

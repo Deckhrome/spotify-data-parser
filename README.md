@@ -19,4 +19,5 @@ This project provides a utility to parse Spotify track data from a CSV file, cle
 1. Clone the repository:
    ```sh
    git clone https://github.com/Deckhrome/spotify-data-parser.git
-   cd spotify-data-parser
+   cd SpotifyDataParser/scripts
+   python3 main.py

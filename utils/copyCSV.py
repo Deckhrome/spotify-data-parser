@@ -1,7 +1,7 @@
-num_lines = 100
+num_lines = 1000
 
-with open('../../data/full_table_27_aug.csv', 'r', encoding='utf-8') as input_file:
-    with open('../../data/sample_table.csv', 'w', encoding='utf-8') as output_file:
+with open('../data/full_table_27_aug.csv', 'r', encoding='utf-8') as input_file:
+    with open('../data/sample_table.csv', 'w', encoding='utf-8') as output_file:
         for _ in range(num_lines):
             line = input_file.readline()
             if not line:

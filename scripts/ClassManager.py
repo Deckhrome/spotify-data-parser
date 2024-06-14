@@ -1,5 +1,6 @@
 class ClassManager:
     def __init__(self):
+        self.hierarchies = {} # Dictionary for hierarchies
         self.tagsets = {}  # Dictionary for tagsets
         self.tags = {}  # Dictionary for tags
         self.medias = []  # List for medias
@@ -20,6 +21,9 @@ class ClassManager:
         # Search for the tagset in the dictionary
         if name in self.tagsets:
             return self.tagsets[name]['id']
+        # If name is genre_2 or genre_3, return the id of genre_1
+        if name == "genre_2" or name == "genre_3":
+            return self.tagsets["genre_1"]['id']
         # If the tagset is not found, create it
         tagset_id = self.next_tagset_id
         self.tagsets[name] = {'id': tagset_id, 'name': name, 'type': tagset_type, 'tags': []}
@@ -40,8 +44,13 @@ class ClassManager:
 
     def to_dict(self):
         # Convert tagsets to a list
+        hierarchies_list = list(self.hierarchies.values())
         tagsets_list = list(self.tagsets.values())
         return {
+            'hierarchies': hierarchies_list,
             'tagsets': tagsets_list,
             'medias': self.medias
         }
+    
+    def add_hierarchy(self, name, hierarchy):
+        self.hierarchies[name] = hierarchy
