@@ -17,7 +17,7 @@ def clean_data(df):
     # Strip leading/trailing whitespace from all relevant columns
     strip_columns = ['sp_uri', 'sp_track_name', 'sp_album_name', 'sp_artist_infos', 'genre_1', 'genre_2', 'genre_3']
     for col in strip_columns:
-        df[col] = df[col].str.strip()
+        df.loc[:,col] = df[col].str.strip()
 
     # Drop rows with missing values in essential columns
     essential_columns = ['sp_track_name', 'sp_album_name', 'sp_artist_infos', 'sp_uri']
@@ -27,15 +27,15 @@ def clean_data(df):
     df.drop_duplicates(subset='sp_uri', keep='first', inplace=True)
 
     # Replace missing values in genre_2 and genre_3 with genre_1
-    df['genre_2'].fillna(df['genre_1'], inplace=True)
-    df['genre_3'].fillna(df['genre_1'], inplace=True)
+    df.loc[:,'genre_2'].fillna(df['genre_1'], inplace=True)
+    df.loc[:,'genre_3'].fillna(df['genre_1'], inplace=True)
 
     # Ensure 'emotion_code' is a string and filter by valid emotion codes
     df['emotion_code'] = df['emotion_code'].astype(str)
     df = df[df['emotion_code'].isin(['0', '1', '2', '3'])]
 
     # Drop rows with any missing values in remaining columns (if needed)
-    df.dropna(inplace=True)
+    #df.dropna(inplace=True)
 
     print(f"Number of rows after cleaning: {df.shape[0]}")
 

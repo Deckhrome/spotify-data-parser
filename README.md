@@ -8,6 +8,7 @@ This project provides a utility to parse Spotify track data from a CSV file, cle
 - `parse_data.py`: Contains functions for parsing data from the CSV file and managing tags and media.
 - `clean_CSV.py`: Contains functions for cleaning and transforming the data.
 - `ClassManager.py`: Manages the tags, tagsets, and media.
+- `hierarchies.py`: Contain every hierarchies and add them to the existing data in the ClassManager
 
 ## Requirements
 

@@ -6,16 +6,11 @@ try:
 except Exception as e:
     print(f"Erreur lors de la lecture du fichier : {e}")
 
-# Compter les occurrences de chaque genre
-genre_1_counts = df['genre_1'].value_counts()
+# count distinct values in a column
+for key in df.keys():
+    print(f"{key} : {df[key].nunique()}")
 
-# Calculer le nombre total d'occurrences pour chaque genre
-total_genre_1 = genre_1_counts.sum()
-
-print(f"Total genre_1: {total_genre_1}")
-
-# Write the first 50 best genres
-write_file = open("distinct_genres.txt", "w")
-
-for genre, count in genre_1_counts.items():
-    write_file.write(f"{genre}: {count}\n")
+# Count unique values for each track_name and print them when the count is greater than 1
+track_name_count = df['sp_track_name'].value_counts()
+track_name_count = track_name_count[track_name_count > 1]
+print(track_name_count)

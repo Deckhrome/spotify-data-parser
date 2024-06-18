@@ -4,7 +4,7 @@ import json
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from scripts import parse_data, genre_hierarchy, build_hierarchy_json
+from scripts import parse_data, genre_hierarchy, build_hierarchy_json, tagset, ClassManager
 
 full_csv = '../data/full_table_27_aug.csv'
 sample_csv = '../data/sample_table.csv'
@@ -13,9 +13,12 @@ path = os.path.join(os.path.dirname(__file__), sample_csv)
 
 if __name__ == '__main__':
     try:
+        class_manager = ClassManager()
+        
+        # Build the tagsets into the class manager
+        tagset.build_tagset(class_manager)
         # Parse the data into dictionaries
         class_manager = parse_data(path)
-
         # Build the genre hierarchy into the class manager
         build_hierarchy_json(genre_hierarchy, class_manager) 
 
@@ -26,7 +29,7 @@ if __name__ == '__main__':
         os.makedirs(output_dir, exist_ok=True)
         # Save the data in a JSON file
         with open(os.path.join(output_dir, 'full_data.json'), 'w') as f:
-            json.dump(data, f, indent=4)
+            json.dump(data, f)
         print("Data successfully parsed and saved to build/data.json")
     except Exception as e:
         print(f"An error occurred: {e}")

@@ -234,23 +234,51 @@ genre_hierarchy = {
     }
 }
 
-def associate_tag_with_id(node, class_manager, tagset_id):
+def associate_tag_with_id(node, class_manager, tagset_id, category):
     # Associate the tag with the id
     if "tag_id" in node:
-        tag_id = class_manager.get_or_create_tag_id(node["tag_id"], "genre_1")
+        tag_id = class_manager.get_or_create_tag_id(node["tag_id"], category)
         tag = {"id": tag_id, "value": node["tag_id"]}
         class_manager.add_tag_to_tagset(tagset_id, tag)
         node["tag_id"] = tag_id
     if "child_nodes" in node:
         for child_node in node["child_nodes"]:
-            associate_tag_with_id(child_node, class_manager, tagset_id)
+            associate_tag_with_id(child_node, class_manager, tagset_id, category)
 
 def build_hierarchy_json(hierarchy, class_manager):
-    # Create tagset for genre
+    # Get tagset for genre
     tagset_id = class_manager.get_or_create_tagset_id(hierarchy["name"], 1)
     hierarchy["tagset_id"] = tagset_id
 
-    associate_tag_with_id(hierarchy["rootnode"], class_manager, tagset_id)
+    associate_tag_with_id(hierarchy["rootnode"], class_manager, tagset_id, hierarchy["name"])
+    # Save hierarchy in ClassManager
+    class_manager.add_hierarchy(hierarchy["name"],hierarchy)
+
+    # Build the alphanumerical hierarchy
+    build_alphanumerical_hierarchy(class_manager)
+
+# Build the alphanumerical hierarchy
+def build_alphanumerical_hierarchy(class_manager):
+    # Create tagset for genre
+    alphabet = "abcdefghijklmnopqrstuvwxyz"
+    hierarchy = {
+        "name": "alphanumerical",
+        "tagset_id": None,
+        "rootnode": {
+            "tag_id": "all",
+            "child_nodes": []
+        }
+    }
+    for letter in alphabet:
+        hierarchy["rootnode"]["child_nodes"].append({
+            "tag_id": letter,
+            "child_nodes": []
+        })
+    # Create tagset for alphanumerical
+    tagset_id = class_manager.get_or_create_tagset_id(hierarchy["name"], 1)
+    hierarchy["tagset_id"] = tagset_id
+    associate_tag_with_id(hierarchy["rootnode"], class_manager, tagset_id, hierarchy["name"])
+
     # Save hierarchy in ClassManager
     class_manager.add_hierarchy(hierarchy["name"],hierarchy)
 

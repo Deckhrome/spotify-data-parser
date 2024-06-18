@@ -12,7 +12,8 @@ class ClassManager:
             'fear_percentage': {},
             'sadness_percentage': {},
             'anger_percentage': {},
-            'genre_1': {}
+            'genre_1': {},
+            'alphanumerical': {}
         }  # Separate dictionaries for tag categories
         self.medias = []  # List for medias
         self.next_tag_id = 1
@@ -24,7 +25,7 @@ class ClassManager:
             category = "genre_1"
         if category not in self.tags:
             raise ValueError(f"Unknown category: {category}")
-
+        
         # Search for the tag in the appropriate category dictionary
         if value in self.tags[category] and verify:
             return self.tags[category][value]['id']

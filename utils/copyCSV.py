@@ -1,4 +1,4 @@
-num_lines = 1000
+num_lines = 5000
 
 with open('../data/full_table_27_aug.csv', 'r', encoding='utf-8') as input_file:
     with open('../data/sample_table.csv', 'w', encoding='utf-8') as output_file:
