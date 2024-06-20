@@ -4,12 +4,12 @@ def clean_data(df):
     print(f"Number of rows before cleaning: {df.shape[0]}")
 
     # Convert 'sp_track_popularity' to numeric
-    df['sp_track_popularity'] = pd.to_numeric(df['sp_track_popularity'], errors='coerce')
+    df['sp_track_popularity'] = pd.to_numeric(df['sp_track_popularity'], errors='coerce').astype('Int64')
 
     # Convert emotion columns to percentage, round and convert to string
     emotion_columns = ['happiness_percentage', 'sadness_percentage', 'fear_percentage', 'anger_percentage']
     for col in emotion_columns:
-        df[col] = pd.to_numeric(df[col] * 100, errors='coerce').round().astype('Int64').astype(str)
+        df[col] = pd.to_numeric(df[col] * 100, errors='coerce').round().astype('Int64')
 
     # Convert 'sp_track_duration' to seconds, round and convert to integer
     df['sp_track_duration'] = (pd.to_numeric(df['sp_track_duration'], errors='coerce') / 1000).round().astype('Int64')
@@ -33,19 +33,16 @@ def clean_data(df):
     # Ensure 'emotion_code' is a string and filter by valid emotion codes
     df['emotion_code'] = df['emotion_code'].astype(str)
     df = df[df['emotion_code'].isin(['0', '1', '2', '3'])]
-
-    # Drop rows with any missing values in remaining columns (if needed)
-    #df.dropna(inplace=True)
+    df['emotion_code'] = df['emotion_code'].astype('Int64')
 
     print(f"Number of rows after cleaning: {df.shape[0]}")
-
     return df
 
 def CSV_to_DF(path):
     try:
         df = pd.read_csv(path, sep='\t', encoding='utf-8')
-        df.info()
         df = clean_data(df)
+        df.info()
     except Exception as e:
         print(f"Error: {e}")
         df = pd.DataFrame()  # Return an empty DataFrame in case of an error

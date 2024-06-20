@@ -281,12 +281,4 @@ def build_alphanumerical_hierarchy(class_manager):
 
     # Save hierarchy in ClassManager
     class_manager.add_hierarchy(hierarchy["name"],hierarchy)
-
-def save_hierarchy_json(hierarchy, path):
-    with open(path, "w") as f:
-        json.dump(hierarchy, f, indent=4)
-
-def load_hierarchy_json(path):
-    with open(path, "r") as f:
-        return json.load(f)
     
