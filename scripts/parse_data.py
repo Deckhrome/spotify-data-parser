@@ -29,6 +29,7 @@ alphanumerical_tagset_types = {
 }
 
 def parse_data(path):
+    # Clean the data and convert it to a DataFrame
     df = CSV_to_DF(path)
     tag_manager = ClassManager()
 
