@@ -237,10 +237,13 @@ genre_hierarchy = {
 def associate_tag_with_id(node, class_manager, tagset_id, category):
     # Associate the tag with the id
     if "tag_id" in node:
-        tag_id = class_manager.get_or_create_tag_id(node["tag_id"], category)
-        tag = {"id": tag_id, "value": node["tag_id"]}
-        class_manager.add_tag_to_tagset(tagset_id, tag)
+        tag_id, new_id = class_manager.get_or_create_tag_id(node["tag_id"], category)
+        # And add the tag to the tagset if it is new
+        if new_id:
+            tag = {"id": tag_id, "value": node["tag_id"]}
+            class_manager.add_tag_to_tagset(tagset_id, tag)
         node["tag_id"] = tag_id
+    # Recurse on the children
     if "child_nodes" in node:
         for child_node in node["child_nodes"]:
             associate_tag_with_id(child_node, class_manager, tagset_id, category)

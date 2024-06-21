@@ -8,8 +8,12 @@ from scripts import parse_data, genre_hierarchy, build_hierarchy_json, tagset, C
 
 full_csv = '../data/full_table_27_aug.csv'
 sample_csv = '../data/sample_table.csv'
+small_csv = '../data/small_sample.csv'
+
+full_csv_clean = '../data/full_table_27_aug_clean.csv'
+sample_csv_clean = '../data/sample_table_clean.csv'
 # Path to the CSV file
-path = os.path.join(os.path.dirname(__file__), sample_csv)
+path = os.path.join(os.path.dirname(__file__), sample_csv_clean)
 
 if __name__ == '__main__':
     try:
@@ -29,7 +33,7 @@ if __name__ == '__main__':
         os.makedirs(output_dir, exist_ok=True)
         # Save the data in a JSON file
         with open(os.path.join(output_dir, 'full_data.json'), 'w') as f:
-            json.dump(data, f)
+            json.dump(data, f, indent=4)
         print("Data successfully parsed and saved to build/data.json")
     except Exception as e:
         print(f"An error occurred: {e}")

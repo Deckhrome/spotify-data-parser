@@ -1,4 +1,26 @@
 class ClassManager:
+    """
+    Description: This class manages the creation of hierarchies, tagsets, tags, and medias.
+
+    Attributes:
+    ----------------
+    hierarchies: A dictionary that stores hierarchies.
+    tagsets: A dictionary that stores tagsets.
+    tags: A dictionary that stores tags.
+    medias: A list that stores medias.
+    next_tag_id: An integer that stores the next tag ID.
+    next_tagset_id: An integer that stores the next tagset ID.
+
+    Methods:
+    ----------------
+    get_or_create_tag_id: Returns the tag ID if it exists, otherwise creates it.
+    get_or_create_tagset_id: Returns the tagset ID if it exists, otherwise creates it.
+    add_tag_to_tagset: Adds a tag to a tagset.
+    add_media: Adds a media to the list of medias.
+    to_dict: Converts the tag manager to a dictionary.
+    add_hierarchy: Adds a hierarchy to the dictionary of hierarchies.
+
+    """
     def __init__(self):
         self.hierarchies = {}  # Dictionary for hierarchies
         self.tagsets = {}  # Dictionary for tagsets
@@ -28,13 +50,13 @@ class ClassManager:
         
         # Search for the tag in the appropriate category dictionary
         if value in self.tags[category] and verify:
-            return self.tags[category][value]['id']
+            return self.tags[category][value], False
 
         # If the tag is not found, create it
         tag_id = self.next_tag_id
-        self.tags[category][value] = {'id': tag_id, 'value': value}
+        self.tags[category][value] = tag_id
         self.next_tag_id += 1
-        return tag_id
+        return tag_id, True
 
     def get_or_create_tagset_id(self, name, tagset_type):
         # If name is genre_2 or genre_3, return the id of genre_1
@@ -53,8 +75,8 @@ class ClassManager:
         # Search for the tagset in the dictionary
         for tagset in self.tagsets.values():
             if tagset['id'] == tagset_id:
-                if tag not in tagset['tags']:  # Ensure the tag is unique
-                    tagset['tags'].append(tag)
+                # if tag not in tagset['tags']:  # Ensure the tag is unique
+                tagset['tags'].append(tag)
                 return
         raise ValueError(f"Tagset with id {tagset_id} not found")
 
