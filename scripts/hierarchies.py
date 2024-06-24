@@ -1,9 +1,43 @@
 import json
 from ClassManager import ClassManager
 
+# Define the duration hierarchy
+duration_hierarchy = {
+    "name": "track_duration",
+    "tagset_id": None, 
+    "rootnode": {
+        "tag_id": "duration",
+        "child_nodes": [
+            {  "tag_id": "veryshort", "child_nodes": []}, # 0 - 30 seconds
+            {  "tag_id": "short", "child_nodes": []}, # 30 - 90 
+            {  "tag_id": "medium", "child_nodes": []}, # 90 - 300 
+            {  "tag_id": "long", "child_nodes": []}, # 300 - 600 
+            {  "tag_id": "verylong", "child_nodes": []}, # 600 - 1200 
+            {  "tag_id": "extralong", "child_nodes": []}, # 1200+ 
+        ]
+    }
+}
+
+popularity_hierarchy = {
+    "name": "track_popularity",
+    "tagset_id": None, 
+    "rootnode": {
+        "tag_id": "popularity",
+        "child_nodes": [
+            {  "tag_id": "veryunpopular", "child_nodes": []}, # 0 - 5 (Scores from 0 to 5 included)
+            {  "tag_id": "unpopular", "child_nodes": []}, # 5 - 10
+            {  "tag_id": "mediumpopular", "child_nodes": []}, # 10 - 25
+            {  "tag_id": "popular", "child_nodes": []}, # 25 - 50
+            {  "tag_id": "verypopular", "child_nodes": []}, # 50 - 70
+            {  "tag_id": "extrapopular", "child_nodes": []}, # 70+ (It goes up to 100)
+        ]
+    }
+}
+
+# Define the genre hierarchy
 genre_hierarchy = {
-    "name": "genre_1",
-    "tagset_id": None,  # Vous devrez définir le tagset_id pour les genres
+    "name": "genre",
+    "tagset_id": None,
     "rootnode": {
         "tag_id": "popular",  # Root genre
         "child_nodes": [
@@ -234,6 +268,8 @@ genre_hierarchy = {
     }
 }
 
+all_hierarchies = [duration_hierarchy, popularity_hierarchy, genre_hierarchy]
+
 def associate_tag_with_id(node, class_manager, tagset_id, category):
     # Associate the tag with the id
     if "tag_id" in node:
@@ -248,17 +284,17 @@ def associate_tag_with_id(node, class_manager, tagset_id, category):
         for child_node in node["child_nodes"]:
             associate_tag_with_id(child_node, class_manager, tagset_id, category)
 
-def build_hierarchy_json(hierarchy, class_manager):
-    # Get tagset for genre
-    tagset_id = class_manager.get_or_create_tagset_id(hierarchy["name"], 1)
-    hierarchy["tagset_id"] = tagset_id
 
-    associate_tag_with_id(hierarchy["rootnode"], class_manager, tagset_id, hierarchy["name"])
-    # Save hierarchy in ClassManager
-    class_manager.add_hierarchy(hierarchy["name"],hierarchy)
+def build_hierarchies(class_manager):
+    # loop through the hierarchies
+    for hierarchy in all_hierarchies:
+        name = hierarchy["name"]
+        tagset_id = class_manager.get_or_create_tagset_id(name, 1)
+        hierarchy["tagset_id"] = tagset_id
+        associate_tag_with_id(hierarchy["rootnode"], class_manager, tagset_id, name)
+        # Save hierarchy in ClassManager
+        class_manager.add_hierarchy(name,hierarchy)
 
-    # Build the alphanumerical hierarchy
-    build_alphanumerical_hierarchy(class_manager)
 
 # Build the alphanumerical hierarchy
 def build_alphanumerical_hierarchy(class_manager):
@@ -268,7 +304,7 @@ def build_alphanumerical_hierarchy(class_manager):
         "name": "alphanumerical",
         "tagset_id": None,
         "rootnode": {
-            "tag_id": "all",
+            "tag_id": "alphabet",
             "child_nodes": []
         }
     }

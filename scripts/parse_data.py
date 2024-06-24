@@ -12,23 +12,73 @@ import time
 # date = 4
 # numerical = 5
 
+# All the tagset types
 tagset_types = {
-    "sp_track_name": 1,
-    "sp_album_name": 1,
-    "sp_artist_infos": 1,
-    # "sp_track_duration": 5,
-    # "sp_track_popularity": 5,
+    "track_name": 1,
+    "album_name": 1,
+    "artist_infos": 1,
+    "track_duration": 5,
+    # "track_popularity": 5,
     # "happiness_percentage": 5,
     # "sadness_percentage": 5,
     # "anger_percentage": 5,
     # "fear_percentage": 5,
-    "genre_1": 1,
+    "genre": 1,
     "genre_2": 1,
     "genre_3": 1
 }
 
-alphanumerical_tagset_types = {
+numerical_tagset_types = {
+    "track_duration": 5,
+    "track_popularity": 5,
+    # "happiness_percentage": 5,
+    # "sadness_percentage": 5,
+    # "anger_percentage": 5,
+    # "fear_percentage": 5,
 }
+
+alphanumerical_tagset_types = {
+    "track_name": 1,
+    "album_name": 1,
+    "artist_infos": 1,
+    "genre": 1,
+    "genre_2": 1,
+    "genre_3": 1
+}
+
+# Define duration ranges and corresponding tags
+duration_ranges = {
+    "veryshort": (0, 20),
+    "short": (21, 90),
+    "medium": (91, 300),
+    "long": (301, 600),
+    "verylong": (601, 1200),
+    "extralong": (1201, float('inf'))
+}
+
+# Define popularity ranges and corresponding tags
+popularity_ranges = {
+    "veryunpopular": (0, 5),
+    "unpopular": (6, 10),
+    "mediumpopular": (11, 25),
+    "popular": (26, 50),
+    "verypopular": (51, 75),
+    "extrapopular": (76, 100)
+}
+
+def get_popularity_tag(popularity):
+    for tag, (low, high) in popularity_ranges.items():
+        if low <= popularity <= high:
+            return tag
+    return None
+
+def get_duration_tag(duration):
+    for tag, (low, high) in duration_ranges.items():
+        if low <= duration <= high:
+            return tag
+    return None
+
+
 
 def parse_data(path: str):
     """
@@ -56,31 +106,42 @@ def parse_data(path: str):
     
     # Add tags to tagsets with progress bar
     for i, row in tqdm(df.iterrows(), total=len(df), desc="Processing rows", unit="row"):
-        file_uri = f"https://open.spotify.com/track/{row['sp_uri']}"
+        file_uri = f"https://open.spotify.com/track/{row['uri']}"
         tags = set()
-        for name in tagset_types.keys():
+        for name in alphanumerical_tagset_types.keys():
             tag_value = row[name]
             if pd.notna(tag_value):
                 tag_id, new_id = tag_manager.get_or_create_tag_id(tag_value, name)
                 # If the tag is new, add it to the tagset
                 if new_id:
-                    tagset_id = tag_manager.get_or_create_tagset_id(name, tagset_types[name])
+                    tagset_id = tag_manager.get_or_create_tagset_id(name, 1)
                     tag = {"id": tag_id, "value": tag_value}
                     tag_manager.add_tag_to_tagset(tagset_id, tag)
                 tags.add(tag_id)
-        # for name in alphanumerical_tagset_types.keys():
-        #     tag_value = row[name]
-        #     if pd.notna(tag_value):
-        #         # Get the first letter of the name
-        #         tag_value = tag_value[0].lower()
-        #         tag_value = f"{name}_{tag_value}"
-        #         tag_id = tag_manager.get_or_create_tag_id(tag_value, name)
-        #         tagset_id = tag_manager.get_or_create_tagset_id(name, alphanumerical_tagset_types[name])
-        #         tag = {"id": tag_id, "value": tag_value}
-        #         tag_manager.add_tag_to_tagset(tagset_id, tag)
-        #         tags.add(tag_id)
-        # Eliminate any duplicate tags
-        #tags = list(set(tags))
+        for name in numerical_tagset_types.keys():
+            tag_value = row[name]
+            if pd.notna(tag_value):
+                if name == "track_duration":
+                    # Get a specific name depending on the value of the track duration
+                    duration_tag = get_duration_tag(tag_value)
+                    if duration_tag:
+                        tag_id, new_id = tag_manager.get_or_create_tag_id(duration_tag, name)
+                        if new_id:
+                            tagset_id = tag_manager.get_or_create_tagset_id(name, 5)
+                            tag = {"id": tag_id, "value": duration_tag}
+                            tag_manager.add_tag_to_tagset(tagset_id, tag)
+                        tags.add(tag_id)
+                if name == "track_popularity":
+                    # Get a specific name depending on the value of the track popularity
+                    popularity_tag = get_popularity_tag(tag_value)
+                    if popularity_tag:
+                        tag_id, new_id = tag_manager.get_or_create_tag_id(popularity_tag, name)
+                        if new_id:
+                            tagset_id = tag_manager.get_or_create_tagset_id(name, 5)
+                            tag = {"id": tag_id, "value": popularity_tag}
+                            tag_manager.add_tag_to_tagset(tagset_id, tag)
+                        tags.add(tag_id)
+                
         
         # Add the media to the tag manager
         tag_manager.add_media(file_uri, list(tags))

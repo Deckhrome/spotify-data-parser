@@ -25,26 +25,39 @@ class ClassManager:
         self.hierarchies = {}  # Dictionary for hierarchies
         self.tagsets = {}  # Dictionary for tagsets
         self.tags = {
-            'sp_track_name': {},
-            'sp_track_duration': {},
-            'sp_track_popularity': {},
-            'sp_album_name': {},
-            'sp_artist_infos': {},
+            'track_name': {},
+            'track_duration': {},
+            'track_popularity': {},
+            'album_name': {},
+            'artist_infos': {},
             'happiness_percentage': {},
             'fear_percentage': {},
             'sadness_percentage': {},
             'anger_percentage': {},
-            'genre_1': {},
-            'alphanumerical': {}
+            'genre': {},
+            'alphanumerical': {},
         }  # Separate dictionaries for tag categories
         self.medias = []  # List for medias
         self.next_tag_id = 1
         self.next_tagset_id = 1
 
     def get_or_create_tag_id(self, value, category, verify=True):
+        """
+        Description: This function returns the tag ID if it exists, otherwise creates it.
+
+        Arguments:
+        ----------------
+        value: The value of the tag.
+        category: The category of the tag.
+        verify: A boolean that specifies whether to verify the tag.
+
+        Returns:
+        ----------------
+        tag_id: The tag ID.
+        """
         # Ensure the category exists
         if category == "genre_2" or category == "genre_3":
-            category = "genre_1"
+            category = "genre"
         if category not in self.tags:
             raise ValueError(f"Unknown category: {category}")
         
@@ -59,9 +72,21 @@ class ClassManager:
         return tag_id, True
 
     def get_or_create_tagset_id(self, name, tagset_type):
+        """
+        Description: This function returns the tagset ID if it exists, otherwise creates it.
+
+        Arguments:
+        ----------------
+        name: The name of the tagset.
+        tagset_type: The type of the tagset.
+
+        Returns:
+        ----------------
+        tagset_id: The tagset ID.
+        """
         # If name is genre_2 or genre_3, return the id of genre_1
         if name == "genre_2" or name == "genre_3":
-            return self.tagsets["genre_1"]['id']
+            return self.tagsets["genre"]['id']
         # Search for the tagset in the dictionary
         if name in self.tagsets:
             return self.tagsets[name]['id']
