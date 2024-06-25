@@ -18,11 +18,12 @@ tagset_types = {
     "album_name": 1,
     "artist_infos": 1,
     "track_duration": 5,
-    # "track_popularity": 5,
+    "track_popularity": 5,
     # "happiness_percentage": 5,
     # "sadness_percentage": 5,
     # "anger_percentage": 5,
     # "fear_percentage": 5,
+    "emotion": 1,
     "genre": 1,
     "genre_2": 1,
     "genre_3": 1
@@ -30,7 +31,7 @@ tagset_types = {
 
 numerical_tagset_types = {
     "track_duration": 5,
-    "track_popularity": 5,
+    "track_popularity": 5
     # "happiness_percentage": 5,
     # "sadness_percentage": 5,
     # "anger_percentage": 5,
@@ -41,6 +42,7 @@ alphanumerical_tagset_types = {
     "track_name": 1,
     "album_name": 1,
     "artist_infos": 1,
+    "emotion": 1,
     "genre": 1,
     "genre_2": 1,
     "genre_3": 1
@@ -56,6 +58,12 @@ duration_ranges = {
     "extralong": (1201, float('inf'))
 }
 
+def get_duration_tag(duration):
+    for tag, (low, high) in duration_ranges.items():
+        if low <= duration <= high:
+            return tag
+    return None
+
 # Define popularity ranges and corresponding tags
 popularity_ranges = {
     "veryunpopular": (0, 5),
@@ -69,12 +77,6 @@ popularity_ranges = {
 def get_popularity_tag(popularity):
     for tag, (low, high) in popularity_ranges.items():
         if low <= popularity <= high:
-            return tag
-    return None
-
-def get_duration_tag(duration):
-    for tag, (low, high) in duration_ranges.items():
-        if low <= duration <= high:
             return tag
     return None
 
@@ -142,7 +144,6 @@ def parse_data(path: str):
                             tag_manager.add_tag_to_tagset(tagset_id, tag)
                         tags.add(tag_id)
                 
-        
         # Add the media to the tag manager
         tag_manager.add_media(file_uri, list(tags))
 

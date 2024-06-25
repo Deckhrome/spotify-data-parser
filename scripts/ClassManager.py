@@ -31,11 +31,12 @@ class ClassManager:
             'album_name': {},
             'artist_infos': {},
             'happiness_percentage': {},
-            'fear_percentage': {},
             'sadness_percentage': {},
             'anger_percentage': {},
+            'fear_percentage': {},
             'genre': {},
             'alphanumerical': {},
+            'emotion': {},
         }  # Separate dictionaries for tag categories
         self.medias = []  # List for medias
         self.next_tag_id = 1

@@ -34,6 +34,21 @@ popularity_hierarchy = {
     }
 }
 
+emotion_hierarchy = {
+    "name": "emotion",
+    "tagset_id": None,
+    "rootnode": {
+        "tag_id": "emotion",
+        "child_nodes": [
+            {  "tag_id": "happiness", "child_nodes": []},
+            {  "tag_id": "sadness", "child_nodes": []},
+            {  "tag_id": "anger", "child_nodes": []},
+            {  "tag_id": "fear", "child_nodes": []},
+        ]
+    }
+
+}
+
 # Define the genre hierarchy
 genre_hierarchy = {
     "name": "genre",
@@ -268,7 +283,7 @@ genre_hierarchy = {
     }
 }
 
-all_hierarchies = [duration_hierarchy, popularity_hierarchy, genre_hierarchy]
+all_hierarchies = [duration_hierarchy, popularity_hierarchy, genre_hierarchy, emotion_hierarchy]
 
 def associate_tag_with_id(node, class_manager, tagset_id, category):
     # Associate the tag with the id

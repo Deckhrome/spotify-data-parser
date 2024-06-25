@@ -29,18 +29,22 @@ def clean_data(df):
     df['genre_2'].fillna(df['genre_1'], inplace=True)
     df['genre_3'].fillna(df['genre_1'], inplace=True)
 
-    # Ensure 'emotion_code' is a string, filter by valid emotion codes, and convert back to integer
+    # Ensure 'emotion_code' is a string, filter by valid emotion codes
     df['emotion_code'] = df['emotion_code'].astype(str)
     df = df[df['emotion_code'].isin(['0', '1', '2', '3'])]
-    #df['emotion_code'] = df['emotion_code'].astype('Int64')
+
+    # Convert 0 to hapiness, 1 to sadness, 2 to anger, 3 to fear
+    df.loc[:, 'emotion_code'] = df['emotion_code'].replace({'0': 'happiness', '1': 'sadness', '2': 'anger', '3': 'fear'})
+
+    
 
     # Change name of the columns
     df.columns = [
         'id', 'uri', 'track_name', 'track_duration', 'track_popularity', 'album_name', 'artist_infos',
         'x', 'y', 'z', 'color', 'happiness_percentage', 'sadness_percentage', 'anger_percentage',
-        'fear_percentage', 'emotion_code', 'genre', 'genre_2', 'genre_3'
+        'fear_percentage', 'emotion', 'genre', 'genre_2', 'genre_3'
     ]
-    
+
     print(f"Number of rows after cleaning: {df.shape[0]}")
     return df
 

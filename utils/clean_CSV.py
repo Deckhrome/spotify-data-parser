@@ -34,6 +34,9 @@ def clean_data(df):
     df.loc[:, 'emotion_code'] = df['emotion_code'].astype(str)
     df = df[df['emotion_code'].isin(['0', '1', '2', '3'])]
     df.loc[:, 'emotion_code'] = df['emotion_code'].astype('Int64')
+    
+    # Convert 0 to hapiness, 1 to sadness, 2 to anger, 3 to fear
+    df.loc[:, 'emotion_code'] = df['emotion_code'].replace({0: 'happiness', 1: 'sadness', 2: 'anger', 3: 'fear'})
 
     # Change name of the columns
     df.columns = ['id', 'uri', 'track_name', 'track_duration','track_popularity', 'album_name', 'artist_infos',
