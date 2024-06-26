@@ -286,34 +286,28 @@ genre_hierarchy = {
 all_hierarchies = [duration_hierarchy, popularity_hierarchy, genre_hierarchy, emotion_hierarchy]
 
 def associate_tag_with_id(node, class_manager, tagset_id, category):
-    # Associate the tag with the id
     if "tag_id" in node:
-        tag_id, new_id = class_manager.get_or_create_tag_id(node["tag_id"], category)
-        # And add the tag to the tagset if it is new
-        if new_id:
+        tag_id, is_new = class_manager.get_or_create_tag_id(node["tag_id"], category)
+        if is_new:
             tag = {"id": tag_id, "value": node["tag_id"]}
             class_manager.add_tag_to_tagset(tagset_id, tag)
         node["tag_id"] = tag_id
-    # Recurse on the children
+
     if "child_nodes" in node:
         for child_node in node["child_nodes"]:
             associate_tag_with_id(child_node, class_manager, tagset_id, category)
 
-
 def build_hierarchies(class_manager):
-    # loop through the hierarchies
     for hierarchy in all_hierarchies:
-        name = hierarchy["name"]
-        tagset_id = class_manager.get_or_create_tagset_id(name, 1)
+        hierarchy_name = hierarchy["name"]
+        tagset_id = class_manager.get_or_create_tagset_id(hierarchy_name, 1)
         hierarchy["tagset_id"] = tagset_id
-        associate_tag_with_id(hierarchy["rootnode"], class_manager, tagset_id, name)
-        # Save hierarchy in ClassManager
-        class_manager.add_hierarchy(name,hierarchy)
+        associate_tag_with_id(hierarchy["rootnode"], class_manager, tagset_id, hierarchy_name)
+        class_manager.add_hierarchy(hierarchy_name, hierarchy)
 
 
 # Build the alphanumerical hierarchy
 def build_alphanumerical_hierarchy(class_manager):
-    # Create tagset for genre
     alphabet = "abcdefghijklmnopqrstuvwxyz"
     hierarchy = {
         "name": "alphanumerical",

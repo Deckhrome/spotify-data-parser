@@ -9,7 +9,7 @@ def clean_data(df):
     # Convert emotion columns to percentage, round and convert to integer
     emotion_columns = ['happiness_percentage', 'sadness_percentage', 'fear_percentage', 'anger_percentage']
     for col in emotion_columns:
-        df[col] = (pd.to_numeric(df[col] * 100, errors='coerce').round()).astype('Int64')
+        df[col] = (pd.to_numeric(df[col], errors='coerce') * 100).round().astype('Int64')
 
     # Convert 'sp_track_duration' to seconds, round and convert to integer
     df['sp_track_duration'] = (pd.to_numeric(df['sp_track_duration'], errors='coerce') / 1000).round().astype('Int64')
@@ -31,19 +31,25 @@ def clean_data(df):
 
     # Ensure 'emotion_code' is a string, filter by valid emotion codes
     df['emotion_code'] = df['emotion_code'].astype(str)
-    df = df[df['emotion_code'].isin(['0', '1', '2', '3'])]
+    valid_emotion_codes = ['0', '1', '2', '3']
+    df = df[df['emotion_code'].isin(valid_emotion_codes)]
 
-    # Convert 0 to hapiness, 1 to sadness, 2 to anger, 3 to fear
-    df.loc[:, 'emotion_code'] = df['emotion_code'].replace({'0': 'happiness', '1': 'sadness', '2': 'anger', '3': 'fear'})
+    # Convert emotion codes to emotion names
+    emotion_mapping = {'0': 'happiness', '1': 'sadness', '2': 'anger', '3': 'fear'}
+    df['emotion_code'] = df['emotion_code'].replace(emotion_mapping)
 
-    
-
-    # Change name of the columns
-    df.columns = [
-        'id', 'uri', 'track_name', 'track_duration', 'track_popularity', 'album_name', 'artist_infos',
-        'x', 'y', 'z', 'color', 'happiness_percentage', 'sadness_percentage', 'anger_percentage',
-        'fear_percentage', 'emotion', 'genre', 'genre_2', 'genre_3'
-    ]
+    # Rename columns
+    column_mapping = {
+        'sp_uri': 'uri',
+        'sp_track_name': 'track_name',
+        'sp_track_duration': 'track_duration',
+        'sp_track_popularity': 'track_popularity',
+        'sp_album_name': 'album_name',
+        'sp_artist_infos': 'artist_infos',
+        'emotion_code': 'emotion',
+        'genre_1': 'genre'
+    }
+    df.rename(columns=column_mapping, inplace=True)
 
     print(f"Number of rows after cleaning: {df.shape[0]}")
     return df
