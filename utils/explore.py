@@ -61,5 +61,27 @@ def explore_data():
         print("DataFrame is empty. No operations performed.")
 
 
+def plot_stats():
+    df = pd.read_csv('stats.csv', sep='\t', encoding='utf-8')
+
+    sample_length = np.array(df['sample_length'])
+    rows_count = np.array(df['rows_count'])
+
+    # Plot number of rows depeding of the value of the first column which is sample_lenght
+    plt.figure(figsize=(10, 6))
+    plt.plot(sample_length, rows_count, label='Number of Rows')
+    plt.xlabel('Sample Length')
+    plt.ylabel('Number of Rows')
+    plt.title('Number of Rows vs Sample Length')
+    plt.legend()
+    plt.grid(True)
+    plt.show()
+
+    # Get the equation of the line 
+    m, b = np.polyfit(sample_length, rows_count, 1)
+    print(f"Equation of the line: y = {m}x + {b}")
+    print(f"Number of rows for all data: {m * 436000 + b}")
+
 if __name__ == '__main__':
-    explore_data()
+    plot_stats()
+    #explore_data()
