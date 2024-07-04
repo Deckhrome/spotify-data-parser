@@ -1,32 +1,43 @@
 import json
+from collections import defaultdict
 
-def check_duplicates(json_file):
-    with open(json_file, 'r') as file:
-        data = json.load(file)
-
+def check_unique_ids(data):
+    # Initialize containers for the ids
     tagset_ids = set()
-    tags = set()
-
-    tagsets = data['tagsets']
-    medias = data['medias']
-
-    for item in tagsets:
-        tagset_id = item['id']
-        if tagset_id in tagset_ids:
-            return f"Duplicate tagset ID: {tagset_id}"
-        tagset_ids.add(tagset_id)
+    tag_ids = set()
     
-    for item in medias:
-        tags = set()
-        for tag in item['tags']:
-            if tag in tags:
-                return f"Duplicate tag ID: {tag} in media: {item['path']}"
-            tags.add(tag)
+    # Check tagset IDs
+    for tagset in data['tagsets']:
+        if tagset['id'] in tagset_ids:
+            return f"Duplicate tagset ID found: {tagset['id']}"
+        tagset_ids.add(tagset['id'])
         
-    
-    return "No duplicates found"
+        # Check tag IDs within each tagset
+        for tag in tagset['tags']:
+            if tag['id'] in tag_ids:
+                return f"Duplicate tag ID found: {tag['id']}"
+            tag_ids.add(tag['id'])
 
-# Usage
-json_file = '../build/full_data.json'
-result = check_duplicates(json_file)
-print(result)
+    # Check media tag IDs
+    for media in data['medias']:
+        media_tag_ids = set()
+        for tag_id in media['tags']:
+            if tag_id not in tag_ids:
+                return f"Media tag ID {tag_id} does not match any tag IDs"
+            if tag_id in media_tag_ids:
+                return f"Duplicate media tag ID found: {tag_id}"
+            media_tag_ids.add(tag_id)
+    
+    return "All IDs are unique and valid."
+
+def main():
+    # Load the JSON file
+    with open('../build/full_data.json') as f:
+        data = json.load(f)
+        
+    # Run the ID checks
+    result = check_unique_ids(data)
+    print(result)
+
+if __name__ == "__main__":
+    main()

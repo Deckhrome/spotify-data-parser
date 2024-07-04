@@ -9,8 +9,8 @@ TAGSET_TYPES = {
     "track_name": 1,
     "album_name": 1,
     "artist_infos": 1,
-    "track_duration": 5,
-    "track_popularity": 5,
+    "track_duration": 1,
+    "track_popularity": 1,
     "emotion": 1,
     "genre": 1,
     "genre_2": 1,
@@ -32,34 +32,29 @@ ALPHANUMERICAL_TAGSET_TYPES = {
     "genre_3": 1
 }
 
-# Define duration and popularity ranges
-DURATION_RANGES = {
-    "veryshort": (0, 20),
-    "short": (21, 90),
-    "medium": (91, 300),
-    "long": (301, 600),
-    "verylong": (601, 1200),
-    "extralong": (1201, float('inf'))
+# Define ranges for duration and popularity
+RANGES = {
+    "track_duration": {
+        "veryshort": (0, 20),
+        "short": (21, 90),
+        "medium": (91, 300),
+        "long": (301, 600),
+        "verylong": (601, 1200),
+        "extralong": (1201, float('inf'))
+    },
+    "track_popularity": {
+        "veryunpopular": (0, 5),
+        "unpopular": (6, 10),
+        "mediumpopular": (11, 25),
+        "popular": (26, 50),
+        "verypopular": (51, 75),
+        "extrapopular": (76, 100)
+    }
 }
 
-POPULARITY_RANGES = {
-    "veryunpopular": (0, 5),
-    "unpopular": (6, 10),
-    "mediumpopular": (11, 25),
-    "popular": (26, 50),
-    "verypopular": (51, 75),
-    "extrapopular": (76, 100)
-}
-
-def get_duration_tag(duration):
-    for tag, (low, high) in DURATION_RANGES.items():
-        if low <= duration <= high:
-            return tag
-    return None
-
-def get_popularity_tag(popularity):
-    for tag, (low, high) in POPULARITY_RANGES.items():
-        if low <= popularity <= high:
+def get_tag(value, ranges):
+    for tag, (low, high) in ranges.items():
+        if low <= value <= high:
             return tag
     return None
 
@@ -91,6 +86,7 @@ def parse_data(path: str):
         file_uri = f"https://open.spotify.com/track/{row['uri']}"
         tags = set()
 
+        # Process alphanumerical tags
         for name in ALPHANUMERICAL_TAGSET_TYPES.keys():
             tag_value = row[name]
             if pd.notna(tag_value):
@@ -101,27 +97,18 @@ def parse_data(path: str):
                     tag_manager.add_tag_to_tagset(tagset_id, tag)
                 tags.add(tag_id)
 
+        # Process numerical tags by ranges
         for name in NUMERICAL_TAGSET_TYPES.keys():
             tag_value = row[name]
             if pd.notna(tag_value):
-                if name == "track_duration":
-                    duration_tag = get_duration_tag(tag_value)
-                    if duration_tag:
-                        tag_id, new_id = tag_manager.get_or_create_tag_id(duration_tag, name)
-                        if new_id:
-                            tagset_id = tag_manager.get_or_create_tagset_id(name, 5)
-                            tag = {"id": tag_id, "value": duration_tag}
-                            tag_manager.add_tag_to_tagset(tagset_id, tag)
-                        tags.add(tag_id)
-                elif name == "track_popularity":
-                    popularity_tag = get_popularity_tag(tag_value)
-                    if popularity_tag:
-                        tag_id, new_id = tag_manager.get_or_create_tag_id(popularity_tag, name)
-                        if new_id:
-                            tagset_id = tag_manager.get_or_create_tagset_id(name, 5)
-                            tag = {"id": tag_id, "value": popularity_tag}
-                            tag_manager.add_tag_to_tagset(tagset_id, tag)
-                        tags.add(tag_id)
+                tag_name = get_tag(tag_value, RANGES[name])
+                if tag_name:
+                    tag_id, new_id = tag_manager.get_or_create_tag_id(tag_name, name)
+                    if new_id:
+                        tagset_id = tag_manager.get_or_create_tagset_id(name, 5)
+                        tag = {"id": tag_id, "value": tag_name}
+                        tag_manager.add_tag_to_tagset(tagset_id, tag)
+                    tags.add(tag_id)
 
         tag_manager.add_media(file_uri, list(tags))
 

@@ -17,20 +17,24 @@ def ensure_directory(directory):
 def save_json(data, filepath):
     """ Save data to a JSON file. """
     with open(filepath, 'w') as f:
-        json.dump(data, f, indent=4)
+        json.dump(data, f)
+
+full_path = '../data/full_table_27_aug.csv'
+full_path_clean = '../data/full_table_27_aug_clean.csv'
+sample_csv = '../data/sample_table.csv'
+sample_csv_clean = '../data/sample_table_clean.csv'
 
 def main():
     try:
         # Define paths
-        sample_csv = '../data/sample_table.csv'
         output_dir = '../build'
-        output_file = os.path.join(output_dir, 'sample_data.json')
+        output_file = os.path.join(output_dir, 'full_data.json')
 
         # Initialize ClassManager
         class_manager = ClassManager()
 
         # Parse data
-        class_manager = parse_data(get_csv_path(sample_csv))
+        class_manager = parse_data(get_csv_path(full_path))
 
         # Build hierarchies
         build_hierarchies(class_manager)

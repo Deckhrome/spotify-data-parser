@@ -1,6 +1,28 @@
 import pandas as pd
 
 def clean_data(df):
+    '''
+    Description: This function cleans the input DataFrame by performing the following operations:
+    - Convert 'sp_track_popularity' to numeric and handle missing values
+    - Convert emotion columns to percentage, round and convert to integer
+    - Convert 'sp_track_duration' to seconds, round and convert to integer
+    - Strip leading/trailing whitespace from all relevant columns
+    - Drop rows with missing values in essential columns
+    - Drop rows with duplicate 'sp_uri' values
+    - Replace missing values in genre_2 and genre_3 with genre_1
+    - Ensure 'emotion_code' is a string, filter by valid emotion codes
+    - Convert emotion codes to emotion names
+    - Rename columns
+
+    Args:
+    ----------------
+    df: The input DataFrame.
+
+    Returns:
+    ----------------
+    df: The cleaned DataFrame.
+    '''
+
     print(f"Number of rows before cleaning: {df.shape[0]}")
 
     # Convert 'sp_track_popularity' to numeric and handle missing values
@@ -54,8 +76,20 @@ def clean_data(df):
     print(f"Number of rows after cleaning: {df.shape[0]}")
     return df
 
-def CSV_to_DF(path):
+def CSV_to_DF(path: str):
+    '''
+    Description: This function reads the data from the CSV file and cleans it if necessary.
+
+    Args:
+    ----------------
+    path: The path to the CSV file.
+
+    Returns:
+    ----------------
+    df: The DataFrame containing the data from the CSV file.
+    '''
     try:
+        print(path)
         df = pd.read_csv(path, sep='\t', encoding='utf-8')
         if not path.endswith('_clean.csv'):
             df = clean_data(df)

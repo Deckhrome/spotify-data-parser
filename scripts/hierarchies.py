@@ -66,16 +66,31 @@ genre_hierarchy = {
                                     {"tag_id": "shoegaze", "child_nodes": []},
                                 ]},
                             {"tag_id": "grunge", "child_nodes": []},
-                            {"tag_id": "indierock", "child_nodes": []},
+                            {   "tag_id": "indierock", 
+                                "child_nodes": [
+                                    {"tag_id": "mathrock", "child_nodes": []},
+                                    {"tag_id": "midwestemo", "child_nodes": []},
+                                ]},
                     ]},
                     {   "tag_id": "experimentalrock", 
                         "child_nodes": [
+                            {   "tag_id": "postpunk", 
+                                "child_nodes": [
+                                    {"tag_id": "nowave", "child_nodes": []},
+                                    {"tag_id": "gothicrock", "child_nodes": []},
+                                    {"tag_id": "noiserock", "child_nodes": []},
+                                ]},
                             {"tag_id": "postrock", "child_nodes": []},
                             {"tag_id": "artrock", "child_nodes": []},
                         ]},
                     {   "tag_id": "progressiverock", 
                         "child_nodes": [
+                            {"tag_id": "artrock", "child_nodes": []},
                             {"tag_id": "symphonicrock", "child_nodes": []},
+                        ]},
+                    {   "tag_id": "rockandroll",
+                        "child_nodes": [
+                            {"tag_id": "rockabilly", "child_nodes": []},
                         ]},
                     {"tag_id": "hardrock", "child_nodes": []},
                     {"tag_id": "psychedelicrock", "child_nodes": []},
@@ -83,7 +98,8 @@ genre_hierarchy = {
                     {"tag_id": "classicrock", "child_nodes": []},
                     {"tag_id": "christianrock", "child_nodes": []},
                     {"tag_id": "stonerrock", "child_nodes": []},
-
+                    {"tag_id": "jrock", "child_nodes": []},
+                    {"tag_id": "garagerock", "child_nodes": []},
                 ]
             },
             {
@@ -100,6 +116,7 @@ genre_hierarchy = {
                     {"tag_id": "electropop", "child_nodes": []},
                     {"tag_id": "indiepop", "child_nodes": []},
                     {"tag_id": "kpop", "child_nodes": []},
+                    {"tag_id": "chanson", "child_nodes": []},
                 ]
             },
             {
@@ -113,8 +130,10 @@ genre_hierarchy = {
             {
                 "tag_id": "folk",
                 "child_nodes": [
+                    {"tag_id": "neofolk", "child_nodes": []},
                     {"tag_id": "folkrock", "child_nodes": []},
                     {"tag_id": "singersongwriter", "child_nodes": []},
+                    {"tag_id": "celtic", "child_nodes": []},
                 ]
             },
             {
@@ -126,8 +145,14 @@ genre_hierarchy = {
             {
                 "tag_id": "jazz",
                 "child_nodes": [
+                    {"tag_id": "bossanova", "child_nodes": []},
                     {"tag_id": "nujazz", "child_nodes": []},
                     {"tag_id": "smoothjazz", "child_nodes": []},
+                    {"tag_id": "jazzfusion", "child_nodes": []},
+                    {"tag_id": "jazzrock", "child_nodes": []},
+                    {"tag_id": "acidjazz", "child_nodes": []},
+                    {"tag_id": "bigband", "child_nodes": []},
+                    {"tag_id": "swing", "child_nodes": []},
                 ]
             },
             {
@@ -135,11 +160,14 @@ genre_hierarchy = {
                 "child_nodes": [
                     {   "tag_id": "hardcorepunk",
                         "child_nodes": [
-                            {"tag_id": "emo", "child_nodes": []},
+                            {   "tag_id": "emo", 
+                                "child_nodes": [
+                                    {"tag_id": "screamo", "child_nodes": []},
+                                ]},
+                            {"tag_id": "melodichardcore", "child_nodes": []},
                         ]},
                     {"tag_id": "grindcore", "child_nodes": []},
                     {"tag_id": "posthardcore", "child_nodes": []},
-                    {"tag_id": "postpunk", "child_nodes": []},
                     {"tag_id": "skatepunk", "child_nodes": []},
                 ]
             },
@@ -149,6 +177,10 @@ genre_hierarchy = {
                     {   "tag_id": "deathmetal",
                         "child_nodes": [
                             {"tag_id": "melodicdeathmetal", "child_nodes": []},
+                            {"tag_id": "technicaldeathmetal", "child_nodes": []},
+                            {"tag_id": "brutaldeathmetal", "child_nodes": []},
+                            {"tag_id": "deathnroll", "child_nodes": []},
+                            {"tag_id": "deathgrind", "child_nodes": []},
                         ]},
                     {   "tag_id": "metalcore",
                         "child_nodes": [
@@ -158,12 +190,17 @@ genre_hierarchy = {
                         "child_nodes": [
                             {"tag_id": "numetal", "child_nodes": []},
                         ]},
+                    {   "tag_id": "blackmetal", 
+                        "child_nodes": [
+                            {"tag_id": "symphonicblackmetal", "child_nodes": []},
+                            {"tag_id": "melodicblackmetal", "child_nodes": []},
+                            {"tag_id": "vikingmetal", "child_nodes": []},
+                        ]},
                     {"tag_id": "folkmetal", "child_nodes": []},
                     {"tag_id": "trashmetal", "child_nodes": []},
                     {"tag_id": "doommetal", "child_nodes": []},
                     {"tag_id": "symphonicmetal", "child_nodes": []},
                     {"tag_id": "powermetal", "child_nodes": []},
-                    {"tag_id": "blackmetal", "child_nodes": []},
                     {"tag_id": "progressivemetal", "child_nodes": []},
                     {"tag_id": "gothicmetal", "child_nodes": []},
                 ]
@@ -180,7 +217,7 @@ genre_hierarchy = {
                 "child_nodes": [
                     {   "tag_id": "electronicrock", 
                         "child_nodes": [
-                            {   "tag_id": "newwave", 
+                            {   "tag_id": "electronicpop", 
                                 "child_nodes": [
                                     {   "tag_id": "synthpop", 
                                         "child_nodes": [
@@ -189,18 +226,29 @@ genre_hierarchy = {
                                                     {"tag_id": "electropop", "child_nodes": []},
                                             ]},
                                         ]},
-                                    {"tag_id": "darkwave", "child_nodes": []},
                                 ]},
+                            {   "tag_id": "newwave", 
+                                "child_nodes": [
+                                    {"tag_id": "darkwave", "child_nodes": []},
+                                    {"tag_id": "coldwave", "child_nodes": []},
+                                    {"tag_id": "minimalwave", "child_nodes": []},
+                                    {"tag_id": "newromantic", "child_nodes": []},
+                                ]},
+                            {"tag_id": "indietronica", "child_nodes": []},
+                        ]},
+                    {   "tag_id": "industrial", 
+                        "child_nodes": [
+                            {   "tag_id": "electroindustrial", 
+                                "child_nodes": [
+                                    {"tag_id": "darkelectro", "child_nodes": []},
+                                ]},
+                            {"tag_id": "ebm", "child_nodes": []},
+                            {"tag_id": "industrialmetal", "child_nodes": []},
                         ]},
                     {   "tag_id": "ambient", 
                         "child_nodes": [
                             {"tag_id": "darkambient", "child_nodes": []},
                             {"tag_id": "newage", "child_nodes": []},
-                        ]},
-                    {   "tag_id": "industrial", 
-                        "child_nodes": [
-                            {"tag_id": "ebm", "child_nodes": []},
-                            {"tag_id": "industrialmetal", "child_nodes": []},
                         ]},
                     {   "tag_id": "ukgarage", 
                         "child_nodes": [
@@ -277,6 +325,13 @@ genre_hierarchy = {
                 "tag_id": "rap",
                 "child_nodes": [
                     {"tag_id": "raprock", "child_nodes": []},
+                ]
+            },
+            {
+                "tag_id": "classical",
+                "child_nodes": [
+                    {"tag_id": "contemporaryclassical", "child_nodes": []},
+                    {"tag_id": "opera", "child_nodes": []},
                 ]
             }
         ]
