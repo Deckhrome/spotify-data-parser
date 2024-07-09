@@ -25,18 +25,20 @@ class ClassManager:
         self.hierarchies = {}
         self.tagsets = {}
         self.tags = {
-            'track_name': {},
-            'track_duration': {},
-            'track_popularity': {},
-            'album_name': {},
-            'artist_infos': {},
-            'happiness_percentage': {},
-            'sadness_percentage': {},
-            'anger_percentage': {},
-            'fear_percentage': {},
-            'genre': {},
-            'alphanumerical': {},
-            'emotion': {},
+            "uri": {},
+            "track_name": {},
+            "track_duration": {},
+            "track_popularity": {},
+            "album_name": {},
+            "artist_infos": {},
+            "happiness_percentage": {},
+            "sadness_percentage": {},
+            "anger_percentage": {},
+            "fear_percentage": {},
+            "genre": {},
+            "alphanumerical": {},
+            "emotion": {},
+            "timestamp": {},
         }
         self.medias = []
         self.next_tag_id = 1
@@ -79,10 +81,15 @@ class ClassManager:
         """
         name = self._normalize_tagset_name(name)
         if name in self.tagsets:
-            return self.tagsets[name]['id']
+            return self.tagsets[name]["id"]
 
         tagset_id = self.next_tagset_id
-        self.tagsets[name] = {'id': tagset_id, 'name': name, 'type': tagset_type, 'tags': []}
+        self.tagsets[name] = {
+            "id": tagset_id,
+            "name": name,
+            "type": tagset_type,
+            "tags": [],
+        }
         self.next_tagset_id += 1
         return tagset_id
 
@@ -95,8 +102,8 @@ class ClassManager:
             tag (objet with id and value): The tag to add.
         """
         for tagset in self.tagsets.values():
-            if tagset['id'] == tagset_id:
-                tagset['tags'].append(tag)
+            if tagset["id"] == tagset_id:
+                tagset["tags"].append(tag)
                 return
         raise ValueError(f"Tagset with id {tagset_id} not found")
 
@@ -108,7 +115,7 @@ class ClassManager:
             path (str): The path of the media.
             list_of_tags (list): The list of tags associated with the media.
         """
-        self.medias.append({'path': path, 'tags': list_of_tags})
+        self.medias.append({"path": path, "tags": list_of_tags})
 
     def to_dict(self):
         """
@@ -118,23 +125,23 @@ class ClassManager:
             dict: A dictionary representation of the tag manager.
         """
         return {
-            'hierarchies': list(self.hierarchies.values()),
-            'tagsets': list(self.tagsets.values()),
-            'medias': self.medias
+            "hierarchies": list(self.hierarchies.values()),
+            "tagsets": list(self.tagsets.values()),
+            "medias": self.medias,
         }
 
     def add_hierarchy(self, name, hierarchy):
-        """ Adds a hierarchy to the dictionary of hierarchies. """
+        """Adds a hierarchy to the dictionary of hierarchies."""
         self.hierarchies[name] = hierarchy
 
     def _normalize_category(self, category):
-        """ Normalizes the category name. """
+        """Normalizes the category name."""
         if category in ["genre_2", "genre_3"]:
             return "genre"
         return category
 
     def _normalize_tagset_name(self, name):
-        """ Normalizes the tagset name. """
+        """Normalizes the tagset name."""
         if name in ["genre_2", "genre_3"]:
             return "genre"
         return name

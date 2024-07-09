@@ -4,8 +4,16 @@ from scripts import ClassManager, CSV_to_DF
 import matplotlib.pyplot as plt
 import time
 
+# tag types
+# 1 - alphanumerical
+# 2 - timestamp
+# 3 - time
+# 4 - date
+# 5 - numerical
+
 # Define tagset types
 TAGSET_TYPES = {
+    "uri": 1,
     "track_name": 1,
     "album_name": 1,
     "artist_infos": 1,
@@ -14,22 +22,22 @@ TAGSET_TYPES = {
     "emotion": 1,
     "genre": 1,
     "genre_2": 1,
-    "genre_3": 1
+    "genre_3": 1,
+    "timestamp": 2,
 }
 
-NUMERICAL_TAGSET_TYPES = {
-    "track_duration": 5,
-    "track_popularity": 5
-}
+NUMERICAL_TAGSET_TYPES = {"track_duration": 1, "track_popularity": 1}
 
 ALPHANUMERICAL_TAGSET_TYPES = {
+    "uri": 1,
     "track_name": 1,
     "album_name": 1,
     "artist_infos": 1,
     "emotion": 1,
     "genre": 1,
     "genre_2": 1,
-    "genre_3": 1
+    "genre_3": 1,
+    "timestamp": 2,
 }
 
 # Define ranges for duration and popularity
@@ -40,7 +48,7 @@ RANGES = {
         "medium": (91, 300),
         "long": (301, 600),
         "verylong": (601, 1200),
-        "extralong": (1201, float('inf'))
+        "extralong": (1201, float("inf")),
     },
     "track_popularity": {
         "veryunpopular": (0, 5),
@@ -48,15 +56,17 @@ RANGES = {
         "mediumpopular": (11, 25),
         "popular": (26, 50),
         "verypopular": (51, 75),
-        "extrapopular": (76, 100)
-    }
+        "extrapopular": (76, 100),
+    },
 }
+
 
 def get_tag(value, ranges):
     for tag, (low, high) in ranges.items():
         if low <= value <= high:
             return tag
     return None
+
 
 def parse_data(path: str):
     """
@@ -83,9 +93,8 @@ def parse_data(path: str):
 
     # Add tags to tagsets with progress bar
     for i, row in tqdm(df.iterrows(), total=len(df), desc="Processing rows", unit="row"):
-        file_uri = f"https://open.spotify.com/track/{row['uri']}"
+        img_path = f"{row['color']}.jpg"
         tags = set()
-
         # Process alphanumerical tags
         for name in ALPHANUMERICAL_TAGSET_TYPES.keys():
             tag_value = row[name]
@@ -105,12 +114,12 @@ def parse_data(path: str):
                 if tag_name:
                     tag_id, new_id = tag_manager.get_or_create_tag_id(tag_name, name)
                     if new_id:
-                        tagset_id = tag_manager.get_or_create_tagset_id(name, 5)
+                        tagset_id = tag_manager.get_or_create_tagset_id(name, 1)
                         tag = {"id": tag_id, "value": tag_name}
                         tag_manager.add_tag_to_tagset(tagset_id, tag)
                     tags.add(tag_id)
 
-        tag_manager.add_media(file_uri, list(tags))
+        tag_manager.add_media(img_path, list(tags))
 
         if i % 100 == 0:
             current_time = time.time()
@@ -119,14 +128,14 @@ def parse_data(path: str):
 
     # Plotting the results
     plt.figure(figsize=(10, 6))
-    plt.plot(times, rows_processed, label='Rows Processed')
-    plt.xlabel('Time (seconds)')
-    plt.ylabel('Rows Processed')
-    plt.title('Rows Processed Over Time')
+    plt.plot(times, rows_processed, label="Rows Processed")
+    plt.xlabel("Time (seconds)")
+    plt.ylabel("Rows Processed")
+    plt.title("Rows Processed Over Time")
     plt.legend()
     plt.grid(True)
 
     # Save the plot figure
-    plt.savefig('../build/rows_processed_over_time_50k.png')
+    plt.savefig("../build/rows_processed_over_time_50k.png")
 
     return tag_manager
