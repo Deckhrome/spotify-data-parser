@@ -82,6 +82,12 @@ def plot_stats():
     print(f"Equation of the line: y = {m}x + {b}")
     print(f"Number of rows for all data: {m * 436000 + b}")
 
+def get_unique_values(df, column):
+    """Get unique values from a column in a DataFrame."""
+    return df[column].unique()
+
 if __name__ == '__main__':
-    plot_stats()
+    df = pd.read_csv('../data/full_table.csv', sep='\t', encoding='utf-8')
+    print(get_unique_values(df, 'color'))
+    # plot_stats()
     #explore_data()

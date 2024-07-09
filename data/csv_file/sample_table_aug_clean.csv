@@ -1,0 +1,988 @@
+id	uri	track_name	track_duration	track_popularity	album_name	artist_infos	x	y	z	color	happiness_percentage	sadness_percentage	anger_percentage	fear_percentage	emotion	genre	genre_2	genre_3	timestamp
+0	https://open.spotify.com/track/4wCmqSrbyCgxEXROQE6vtV	Somebody That I Used To Know	245	77	Making Mirrors	Gotye, Kimbra	879	0	1058	pink	36	9	24	31	happiness	pop	indiepop	rock	2024-08-07 10:00:00
+1	https://open.spotify.com/track/1c8gk2PeTE04A1pIDH9YMk	Rolling in the Deep	228	76	21	Adele	1072	0	443	blue	21	29	30	20	anger	soul	pop	singersongwriter	2024-08-07 10:01:00
+2	https://open.spotify.com/track/4G8gkOterJn0Ywt6uhqbhp	Radioactive	187	72	Night Visions	Imagine Dragons	866	0	737	red	96	0	0	4	happiness	rock	indierock	alternativerock	2024-08-07 10:02:00
+3	https://open.spotify.com/track/2DdfktqCvI3FP9QCuFx6Y5	Video Games - Remastered 2012	282	0	What A Time	Lana Del Rey	773	0	1062	pink	28	22	25	25	happiness	pop	indiepop	chillout	2024-08-07 10:03:00
+4	https://open.spotify.com/track/7w87IxuO7BDcJ3YUqCyMTT	Pumped Up Kicks	240	84	Torches	Foster The People	832	2	1095	pink	100	0	0	0	happiness	indiepop	pop	indierock	2024-08-07 10:04:00
+5	https://open.spotify.com/track/487OPlneJNni3NWC8SYqhW	Born To Die	285	61	Born To Die - The Paradise Edition	Lana Del Rey	879	0	1071	pink	28	22	25	25	happiness	pop	indiepop	chillout	2024-08-07 10:05:00
+6	https://open.spotify.com/track/1eyzqe2QqGZUmfcPZtrIyt	Midnight City	241	72	Hurry Up, We're Dreaming	M83	1151	0	475	cyan	4	96	0	0	sadness	electropop	electro	synthpop	2024-08-07 10:06:00
+7	https://open.spotify.com/track/3TGRqZ0a2l1LRblBkJoaDx	Call Me Maybe	193	71	Kiss (Deluxe)	Carly Rae Jepsen	1322	1	860	pink	0	0	0	100	fear	pop	teenpop	dancepop	2024-08-07 10:07:00
+8	https://open.spotify.com/track/5VfEuwErhx6X4eaPbyBfyu	Intro	128	64	xx	The xx	1342	0	1231	pink	28	22	25	25	happiness	indiepop	shoegaze	chillout	2024-08-07 10:08:00
+9	https://open.spotify.com/track/2lFTzUnuGaWlWHJQokjRyb	Blue Jeans	209	60	Born To Die - The Paradise Edition	Lana Del Rey	1290	0	851	pink	0	100	0	0	sadness	pop	soul	indiepop	2024-08-07 10:09:00
+10	https://open.spotify.com/track/33R3swWziWYmnDYvZqcZVS	Crystalised	202	57	xx	The xx	819	1	572	red	0	0	0	99	fear	indierock	chillout	rock	2024-08-07 10:10:00
+11	https://open.spotify.com/track/1zwMYTA5nlNjZxYrvBB2pV	Someone Like You	285	78	21	Adele	1331	1	1150	blue	0	50	48	2	sadness	soul	pop	singersongwriter	2024-08-07 10:11:00
+12	https://open.spotify.com/track/5ghIJDpPoe3CfHMGu71E6T	Smells Like Teen Spirit	302	77	Nevermind (Remastered)	Nirvana	1619	2	1216	red	9	1	0	90	fear	grunge	rock	alternativerock	2024-08-07 10:12:00
+13	https://open.spotify.com/track/2ihCaVdNZmnHZWt0fvAM7B	Little Talks	267	81	My Head Is An Animal	Of Monsters and Men	571	0	685	green	7	1	0	92	fear	folk	indiefolk	indiepop	2024-08-07 10:13:00
+14	https://open.spotify.com/track/6nek1Nin9q48AVZcWs9e9D	Paradise	279	80	Mylo Xyloto	Coldplay	874	0	835	red	36	9	24	31	happiness	rock	alternativerock	britpop	2024-08-07 10:14:00
+15	https://open.spotify.com/track/2RVIhPeplrQ92Cw2Av7hZe	We Are Young (feat. Janelle Monáe) - Bonus Commentary	302	22	Some Nights	fun.	776	0	1086	pink	100	0	0	0	happiness	indiepop	powerpop	easylistening	2024-08-07 10:15:00
+16	https://open.spotify.com/track/73CMRj62VK8nUS4ezD2wvi	Set Fire to the Rain	243	75	21	Adele	1266	0	843	blue	28	22	25	25	happiness	soul	pop	singersongwriter	2024-08-07 10:16:00
+17	https://open.spotify.com/track/2cbic3TiUENlJX91y67ARR	Skinny Love	239	72	For Emma, Forever Ago	Bon Iver	558	1	745	green	100	0	0	0	happiness	folk	singersongwriter	indiefolk	2024-08-07 10:17:00
+18	https://open.spotify.com/track/2dBwB667LHQkLhdYlwLUZK	Summertime Sadness	265	63	Born To Die - The Paradise Edition	Lana Del Rey	877	0	1076	pink	1	77	22	0	sadness	pop	indiepop	triphop	2024-08-07 10:18:00
+19	https://open.spotify.com/track/7ueP5u2qkdZbIPN2YA6LR0	Sail	259	75	Megalithic Symphony	AWOLNATION	681	2	1075	red	5	95	0	0	sadness	rock	indierock	alternativerock	2024-08-07 10:19:00
+20	https://open.spotify.com/track/6i5tYaGlOFDLILEB6HfJAa	Islands	161	53	xx	The xx	819	0	572	red	100	0	0	0	happiness	indierock	indiepop	postpunk	2024-08-07 10:20:00
+21	https://open.spotify.com/track/1YLJVmuzeM2YSUkCCaTNUB	Dog Days Are Over	252	70	Lungs (Deluxe Edition)	Florence + The Machine	803	1	1136	pink	20	27	33	20	anger	indiepop	pop	rock	2024-08-07 10:21:00
+22	https://open.spotify.com/track/1jJci4qxiYcOHhQR247rEU	Kids	303	78	Oracular Spectacular	MGMT	1151	0	478	cyan	22	30	27	21	sadness	electro	synthpop	indietronica	2024-08-07 10:22:00
+23	https://open.spotify.com/track/6JnufVNLIO5F5Lk4sEVLeI	Little Lion Man	247	70	Sigh No More	Mumford & Sons	569	1	687	green	22	30	27	21	sadness	folk	indiefolk	banjo	2024-08-07 10:23:00
+24	https://open.spotify.com/track/4P5KoWXOxwuobLmHXLMobV	Come As You Are	219	74	Nevermind (Remastered)	Nirvana	1623	0	1209	red	82	11	6	1	happiness	grunge	rock	alternativerock	2024-08-07 10:24:00
+25	https://open.spotify.com/track/1mea3bSkSGXuIRvnydlB5b	Viva La Vida	242	79	Viva La Vida or Death and All His Friends	Coldplay	883	0	822	red	55	0	0	45	happiness	rock	alternativerock	britpop	2024-08-07 10:25:00
+26	https://open.spotify.com/track/0ntQJM78wzOLVeCUAW7Y45	Sex on Fire	203	82	Only By The Night	Kings of Leon	857	0	662	red	100	0	0	0	happiness	rock	indierock	alternativerock	2024-08-07 10:26:00
+27	https://open.spotify.com/track/7oK9VyNzrYvRFo7nQEYkWN	Mr. Brightside	223	76	Hot Fuss	The Killers	885	0	806	red	100	0	0	0	happiness	rock	indierock	alternativerock	2024-08-07 10:27:00
+30	https://open.spotify.com/track/7ygpwy2qP3NbrxVkHvUhXY	Wonderwall - Remastered	259	79	(What's The Story) Morning Glory? (Deluxe Remastered Edition)	Oasis	930	3	702	red	36	9	24	31	happiness	rock	britpop	alternativerock	2024-08-07 10:28:00
+31	https://open.spotify.com/track/0W4Kpfp1w2xkY3PrV714B7	Ho Hey	163	72	The Lumineers	The Lumineers	730	1	771	green	0	100	0	0	sadness	folk	folkrock	indiefolk	2024-08-07 10:29:00
+32	https://open.spotify.com/track/75JFxkI2RXiU7L9VXzMkle	The Scientist	310	83	A Rush of Blood to the Head	Coldplay	816	0	843	red	95	0	0	5	happiness	rock	britpop	alternativerock	2024-08-07 10:30:00
+33	https://open.spotify.com/track/6mFkJmJqdDVQ1REhVfGgd1	Wish You Were Here	335	76	Wish You Were Here	Pink Floyd	566	0	956	red	36	9	24	31	happiness	classicrock	progressiverock	rock	2024-08-07 10:31:00
+34	https://open.spotify.com/track/70LcF31zb1H0PyJoS1Sx1r	Creep	239	82	Pablo Honey	Radiohead	865	1	841	red	82	11	6	1	happiness	rock	alternativerock	britpop	2024-08-07 10:32:00
+35	https://open.spotify.com/track/63OQupATfueTdZMWTxW03A	Karma Police	264	74	OK Computer	Radiohead	871	0	841	red	28	22	25	25	happiness	alternativerock	rock	indierock	2024-08-07 10:33:00
+36	https://open.spotify.com/track/7IxVWmdabNVhfLBV3JD0nJ	The Cave	218	66	Sigh No More	Mumford & Sons	579	0	688	green	28	22	25	25	happiness	folk	indiefolk	banjo	2024-08-07 10:34:00
+37	https://open.spotify.com/track/65O4mmCwB46tKBNQhY79Ty	VCR	177	49	xx	The xx	710	1	1097	red	100	0	0	0	happiness	indierock	indiepop	postpunk	2024-08-07 10:35:00
+38	https://open.spotify.com/track/4lY95OMGb9WxP6IYut64ir	Shake It Out	278	63	Ceremonials (Deluxe Edition)	Florence + The Machine	802	2	1138	pink	85	0	14	0	happiness	indiepop	pop	baroquepop	2024-08-07 10:36:00
+39	https://open.spotify.com/track/2DlHlPMa4M17kufBvI2lEN	Chop Suey!	210	80	Toxicity	System Of A Down	375	2	512	black	0	100	0	0	sadness	alternativemetal	metal	rock	2024-08-07 10:37:00
+40	https://open.spotify.com/track/2dLLR6qlu5UJ5gk0dKz0h3	Royals	190	76	Pure Heroine	Lorde	1246	0	991	pink	44	0	30	26	happiness	pop	indiepop	artpop	2024-08-07 10:38:00
+41	https://open.spotify.com/track/67Hna13dNDkZvBpTXRIaOJ	Teardrop	331	69	Mezzanine	Massive Attack	970	4	1039	purple	21	29	29	21	sadness	triphop	chillout	downtempo	2024-08-07 10:39:00
+42	https://open.spotify.com/track/3lPr8ghNDBLc2uZovNyLs9	Supermassive Black Hole	212	76	Black Holes and Revelations	Muse	943	1	820	red	21	29	30	20	anger	alternativerock	rock	progressiverock	2024-08-07 10:40:00
+43	https://open.spotify.com/track/1M0g1beKC4H9gbrOiSayHW	National Anthem	231	63	Born To Die - The Paradise Edition	Lana Del Rey	785	0	1064	pink	28	22	25	25	happiness	indiepop	pop	triphop	2024-08-07 10:41:00
+44	https://open.spotify.com/track/5G1sTBGbZT5o4PNRc75RKI	Lonely Boy	194	74	El Camino	The Black Keys	798	4	507	blue	0	100	0	0	sadness	bluesrock	rock	blues	2024-08-07 10:42:00
+45	https://open.spotify.com/track/7LVHVU3tWfcxj5aiPFEW4Q	Fix You	296	82	X&Y	Coldplay	857	0	821	red	17	0	83	0	anger	rock	britpop	alternativerock	2024-08-07 10:43:00
+46	https://open.spotify.com/track/75K4Eun52V7TzkrSuL8oXV	Lights	246	0	Old But Gold	Ellie Goulding	1291	0	926	pink	96	0	2	2	happiness	pop	electropop	indiepop	2024-08-07 10:44:00
+47	https://open.spotify.com/track/4iG2gAwKXsOcijVaVXzRPW	Time to Pretend	261	72	Oracular Spectacular	MGMT	830	0	1216	cyan	0	0	100	0	anger	indietronica	electronica	indierock	2024-08-07 10:45:00
+48	https://open.spotify.com/track/5CQ30WqJwcep0pYcV4AMNc	Stairway to Heaven - Remaster	483	79	Led Zeppelin IV (Deluxe Edition)	Led Zeppelin	688	1	539	red	20	26	28	27	anger	classicrock	rock	hardrock	2024-08-07 10:46:00
+49	https://open.spotify.com/track/5FVd6KXrgO9B3JPmC8OPst	Do I Wanna Know?	272	85	AM	Arctic Monkeys	816	0	630	red	0	0	100	0	anger	indierock	rock	alternativerock	2024-08-07 10:47:00
+50	https://open.spotify.com/track/60a0Rd6pjrkxjPbaKzXjfq	In the End	217	83	Hybrid Theory (Bonus Edition)	Linkin Park	458	3	682	red	0	100	0	0	sadness	rock	numetal	alternativerock	2024-08-07 10:48:00
+51	https://open.spotify.com/track/34iOH7LY3vme5rQxsVILZ4	Love Will Tear Us Apart - 2020 Remaster	208	68	Love Will Tear Us Apart	Joy Division	1406	0	623	red	0	0	100	0	anger	postpunk	newwave	rock	2024-08-07 10:49:00
+52	https://open.spotify.com/track/48UPSzbZjgc449aqz8bxox	Californication	330	81	Californication (Deluxe Edition)	Red Hot Chili Peppers	299	3	1011	red	28	22	25	25	happiness	rock	alternativerock	funk	2024-08-07 10:50:00
+53	https://open.spotify.com/track/5VGlqQANWDKJFl0MBG3sg2	Use Somebody	231	77	Only By The Night	Kings of Leon	880	6	632	red	21	29	29	21	sadness	rock	indierock	southernrock	2024-08-07 10:51:00
+54	https://open.spotify.com/track/2Y115i0IhELJhyyftvoSFt	Dark Paradise	243	59	Born To Die - The Paradise Edition	Lana Del Rey	879	1	1070	pink	17	27	35	21	anger	pop	indiepop	chamberpop	2024-08-07 10:52:00
+55	https://open.spotify.com/track/5IyblF777jLZj1vGHG2UD3	Off To The Races	300	54	Born To Die - The Paradise Edition	Lana Del Rey	873	1	1081	pink	28	22	25	25	happiness	pop	indiepop	chamberpop	2024-08-07 10:53:00
+56	https://open.spotify.com/track/2AT8iROs4FQueDv2c8q2KE	R U Mine?	202	79	AM	Arctic Monkeys	335	0	936	red	0	0	0	100	fear	indierock	rock	alternativerock	2024-08-07 10:54:00
+57	https://open.spotify.com/track/6WfxJHrQyfGMukUtmrTHLd	Heart Skipped A Beat	242	46	xx	The xx	719	0	1102	red	28	22	25	25	happiness	indierock	indiepop	rock	2024-08-07 10:55:00
+58	https://open.spotify.com/track/5W3cjX2J3tjhG8zb6u0qHn	Harder, Better, Faster, Stronger	225	74	Discovery	Daft Punk	1527	2	712	cyan	21	28	31	20	anger	house	electronica	techno	2024-08-07 10:56:00
+59	https://open.spotify.com/track/0d28khcov6AiegSCpG5TuT	Feel Good Inc.	223	83	Demon Days	Gorillaz	991	7	821	orange	73	3	4	21	happiness	hiphop	rock	pop	2024-08-07 10:57:00
+60	https://open.spotify.com/track/3skn2lauGk7Dx6bVIt5DVj	Starlight	240	73	Black Holes and Revelations	Muse	897	6	844	red	100	0	0	0	happiness	alternativerock	rock	progressiverock	2024-08-07 10:58:00
+61	https://open.spotify.com/track/3dPQuX8Gs42Y7b454ybpMR	Seven Nation Army	232	83	Elephant	The White Stripes	865	1	830	red	78	0	21	0	happiness	rock	alternativerock	indierock	2024-08-07 10:59:00
+62	https://open.spotify.com/track/6t6oULCRS6hnI7rm0h5gwl	Some Nights	277	71	Some Nights	fun.	881	1	1068	pink	100	0	0	0	happiness	pop	indiepop	rock	2024-08-07 11:00:00
+63	https://open.spotify.com/track/3FtYbEfBqAlGO46NUDQSAt	Electric Feel	230	78	Oracular Spectacular	MGMT	1129	0	1130	cyan	1	99	0	0	sadness	electronica	indiepop	synthpop	2024-08-07 11:01:00
+64	https://open.spotify.com/track/0BCPKOYdS2jbQ8iyB56Zns	Clocks	308	77	A Rush of Blood to the Head	Coldplay	831	0	836	red	28	22	25	25	happiness	rock	britpop	alternativerock	2024-08-07 11:02:00
+65	https://open.spotify.com/track/37rKwjBHaZurlyPYy3Nqvz	Thrift Shop (feat. Wanz)	236	55	The Heist	Macklemore & Ryan Lewis, Wanz	441	0	1532	orange	100	0	0	0	happiness	hiphop	rap	hiphop	2024-08-07 11:03:00
+66	https://open.spotify.com/track/10nyNJ6zNy2YVYLrcwLccB	No Surprises	229	73	OK Computer	Radiohead	865	2	844	red	91	0	7	2	happiness	alternativerock	rock	britpop	2024-08-07 11:04:00
+67	https://open.spotify.com/track/0WQiDwKJclirSYG9v5tayI	There Is a Light That Never Goes Out - 2011 Remaster	245	73	The Queen Is Dead	The Smiths	1431	2	541	pink	98	1	1	0	happiness	newwave	rock	britpop	2024-08-07 11:05:00
+68	https://open.spotify.com/track/10igKaIKsSB6ZnWxPxPvKO	Nothing Else Matters	389	69	Metallica	Metallica	1479	0	1018	black	36	9	24	31	happiness	metal	rock	thrashmetal	2024-08-07 11:06:00
+69	https://open.spotify.com/track/6K4t31amVTZDgR3sKmwUJJ	The Less I Know The Better	216	84	Currents	Tame Impala	1105	0	1293	pink	0	0	0	100	fear	disco	psychedelicpop	indierock	2024-08-07 11:07:00
+70	https://open.spotify.com/track/7wCmS9TTVUcIhRalDYFgPy	Where Is My Mind? - Remastered	235	77	Surfer Rosa	Pixies	882	2	715	red	98	1	0	1	happiness	rock	alternativerock	indierock	2024-08-07 11:08:00
+71	https://open.spotify.com/track/1z9kQ14XBSN0r2v6fx4IdG	Diamonds	225	67	Unapologetic (Edited Version)	Rihanna	1377	2	982	pink	28	22	25	25	happiness	pop	rb	hiphop	2024-08-07 11:09:00
+72	https://open.spotify.com/track/4VqPOruhp5EdPBeR92t6lQ	Uprising	305	76	The Resistance	Muse	898	0	844	red	90	0	10	0	happiness	alternativerock	rock	progressiverock	2024-08-07 11:10:00
+73	https://open.spotify.com/track/4MSqgoFS7e8LpsxeeMMVMu	Paranoid	168	44	The Ultimate Collection	Black Sabbath	716	0	479	red	100	0	0	0	happiness	classicrock	hardrock	rock	2024-08-07 11:11:00
+74	https://open.spotify.com/track/0lHAMNU8RGiIObScrsRgmP	Titanium (feat. Sia)	245	68	Nothing but the Beat 2.0	David Guetta, Sia	1487	5	739	cyan	0	100	0	0	sadness	house	pop	electro	2024-08-07 11:12:00
+75	https://open.spotify.com/track/2nLtzopw4rPReszdYBJU6h	Numb	186	82	Meteora	Linkin Park	456	1	682	red	21	29	29	21	sadness	rock	numetal	alternativerock	2024-08-07 11:13:00
+76	https://open.spotify.com/track/6BtmXhTJMM9sBTHeYYASGz	It's Time	238	67	Night Visions	Imagine Dragons	818	3	722	red	18	0	0	82	fear	indierock	rock	pop	2024-08-07 11:14:00
+77	https://open.spotify.com/track/3AJwUDP919kvQ9QcozQPxg	Yellow	267	85	Parachutes	Coldplay	869	0	819	red	36	9	24	31	happiness	rock	britpop	alternativerock	2024-08-07 11:15:00
+78	https://open.spotify.com/track/3LlAyCYU26dvFZBDUIMb7a	Demons	175	73	Night Visions	Imagine Dragons	844	0	646	red	3	6	89	1	anger	rock	indierock	alternativerock	2024-08-07 11:16:00
+79	https://open.spotify.com/track/3n69hLUdIsSa1WlRmjMZlW	Breezeblocks	227	73	An Awesome Wave	alt-J	792	1	622	red	99	1	0	0	happiness	indierock	indiepop	rock	2024-08-07 11:17:00
+80	https://open.spotify.com/track/2YodwKJnbPyNKe8XXSE9V7	Lithium	257	69	Nevermind (Remastered)	Nirvana	1623	3	1177	red	38	16	22	24	happiness	grunge	rock	alternativerock	2024-08-07 11:18:00
+81	https://open.spotify.com/track/7e8utCy2JlSB8dRHKi49xM	Fluorescent Adolescent	173	68	Favourite Worst Nightmare (Standard Version)	Arctic Monkeys	815	0	691	red	28	22	25	25	happiness	indierock	rock	alternativerock	2024-08-07 11:19:00
+82	https://open.spotify.com/track/28cnXtME493VX9NOw9cIUh	Hurt	217	75	American IV: The Man Comes Around	Johnny Cash	1123	1	1475	green	41	33	0	26	happiness	country	folk	singersongwriter	2024-08-07 11:20:00
+83	https://open.spotify.com/track/25nzKGDiua1lE9Qo5V19GL	Young Blood	247	67	Passive Me, Aggressive You	The Naked And Famous	810	0	1136	pink	61	0	2	38	happiness	indiepop	rock	pop	2024-08-07 11:21:00
+84	https://open.spotify.com/track/3UjtIALeg72qmJiKPWBvM3	What You Know	192	70	Tourist History	Two Door Cinema Club	823	0	1036	pink	28	22	25	25	happiness	indiepop	indierock	rock	2024-08-07 11:22:00
+85	https://open.spotify.com/track/29EkMZmUNz1WsuzaMtVo1i	I Bet You Look Good On The Dancefloor	174	62	Whatever People Say I Am, That's What I'm Not	Arctic Monkeys	816	0	688	red	36	9	24	31	happiness	indierock	rock	alternativerock	2024-08-07 11:23:00
+86	https://open.spotify.com/track/5HNCy40Ni5BZJFw1TKzRsC	Comfortably Numb	382	73	The Wall	Pink Floyd	554	1	963	red	21	29	30	20	anger	progressiverock	classicrock	psychedelicrock	2024-08-07 11:24:00
+87	https://open.spotify.com/track/7HGTkn2aX7MNdKs7nV2xBt	Somebody Told Me	197	67	Hot Fuss	The Killers	857	0	727	red	0	0	0	100	fear	rock	indierock	alternativerock	2024-08-07 11:25:00
+88	https://open.spotify.com/track/0SiywuOBRcynK0uKGWdCnn	Bad Romance	295	81	The Fame Monster (Deluxe Edition)	Lady Gaga	1304	0	925	pink	1	5	8	85	fear	pop	electropop	dancepop	2024-08-07 11:26:00
+89	https://open.spotify.com/track/64BbK9SFKH2jk86U3dGj2P	Otherside	255	79	Californication (Deluxe Edition)	Red Hot Chili Peppers	300	2	1011	red	0	0	0	100	fear	rock	alternativerock	funk	2024-08-07 11:27:00
+90	https://open.spotify.com/track/6LgJvl0Xdtc73RJ1mmpotq	Paranoid Android	387	68	OK Computer	Radiohead	892	0	851	red	47	48	4	0	sadness	alternativerock	rock	experimental	2024-08-07 11:28:00
+91	https://open.spotify.com/track/7tFiyTwD0nx5a1eklYtX2J	Bohemian Rhapsody - Remastered 2011	354	75	A Night At The Opera (Deluxe Remastered Version)	Queen	681	0	514	red	93	6	2	0	happiness	classicrock	rock	hardrock	2024-08-07 11:29:00
+92	https://open.spotify.com/track/3zsRP8rH1kaIAo9fmiP4El	Angels	172	65	Coexist	The xx	1373	0	1076	pink	100	0	0	0	happiness	dreampop	chillout	triphop	2024-08-07 11:30:00
+93	https://open.spotify.com/track/4fbvXwMTXPWaFyaMWUm9CR	Holocene	337	68	Bon Iver	Bon Iver	565	1	806	green	0	0	0	100	fear	folk	indiefolk	singersongwriter	2024-08-07 11:31:00
+94	https://open.spotify.com/track/2MVwrvjmcdt4MsYYLCYMt8	Tighten Up	211	63	Brothers	The Black Keys	543	0	544	blue	0	0	100	0	anger	bluesrock	rock	garagerock	2024-08-07 11:32:00
+95	https://open.spotify.com/track/4O9dZs2B0ilk4PEfX2bPEv	Diet Mountain Dew	223	59	Born To Die - The Paradise Edition	Lana Del Rey	863	2	1075	pink	22	30	27	21	sadness	pop	indiepop	baroquepop	2024-08-07 11:33:00
+96	https://open.spotify.com/track/7x8dCjCr0x6x2lXKujYD34	The Pretender	269	77	Echoes, Silence, Patience & Grace	Foo Fighters	1577	1	1192	red	90	0	10	0	happiness	rock	alternativerock	grunge	2024-08-07 11:34:00
+97	https://open.spotify.com/track/0CSTvWUps1YmpQoXXay9ol	Cosmic Love	255	60	Lungs (Deluxe Edition)	Florence + The Machine	838	0	1035	pink	56	0	5	39	happiness	indiepop	rock	pop	2024-08-07 11:35:00
+98	https://open.spotify.com/track/5BIMPccDwShpXq784RJlJp	Enter Sandman	332	74	Metallica	Metallica	1490	4	1007	black	2	0	96	2	anger	metal	thrashmetal	rock	2024-08-07 11:36:00
+99	https://open.spotify.com/track/2takcwOaAZWiXQijPHIx7B	Time is Running Out	237	68	Absolution	Muse	897	4	843	red	21	29	30	20	anger	alternativerock	rock	progressiverock	2024-08-07 11:37:00
+100	https://open.spotify.com/track/7snQQk1zcKl8gZ92AnueZW	Sweet Child O' Mine	356	74	Appetite For Destruction	Guns N' Roses	742	4	521	red	90	0	10	0	happiness	rock	hardrock	classicrock	2024-08-07 11:38:00
+101	https://open.spotify.com/track/7w5cxTEzp1rfV3KCy0Bd5N	Home	303	71	Up from Below	Edward Sharpe & The Magnetic Zeros	562	1	691	green	28	22	25	25	happiness	folk	indiefolk	indierock	2024-08-07 11:39:00
+102	https://open.spotify.com/track/5RoIXwyTCdyUjpMMkk4uPd	Sweet Disposition	231	64	Conditions	The Temper Trap	798	3	480	red	78	0	21	0	happiness	indierock	soundtrack	rock	2024-08-07 11:40:00
+103	https://open.spotify.com/track/20I8RduZC2PWMWTDCZuuAN	Take Me Out	237	78	Franz Ferdinand	Franz Ferdinand	891	1	781	red	0	95	0	5	sadness	rock	indierock	alternativerock	2024-08-07 11:41:00
+104	https://open.spotify.com/track/5UWwZ5lm5PKu6eKsHAGxOk	Everlong	251	78	The Colour And The Shape	Foo Fighters	1573	0	1193	red	58	5	0	37	happiness	rock	alternativerock	grunge	2024-08-07 11:42:00
+106	https://open.spotify.com/track/5y788ya4NvwhBznoDIcXwK	The Sound of Silence - Acoustic Version	185	73	Wednesday Morning, 3 A.M.	Simon & Garfunkel	689	0	764	green	73	3	4	21	happiness	folk	classicrock	singersongwriter	2024-08-07 11:43:00
+107	https://open.spotify.com/track/0nrRP2bk19rLc0orkWPQk2	Wake Me Up	247	85	True	Avicii	1477	1	739	pink	100	0	0	0	happiness	pop	house	country	2024-08-07 11:44:00
+108	https://open.spotify.com/track/3GfOAdcoc3X5GPiiXmpBjK	Song 2	122	66	Blur: The Best Of	Blur	884	0	762	red	22	30	27	21	sadness	rock	britpop	alternativerock	2024-08-07 11:45:00
+109	https://open.spotify.com/track/7xyYsOvq5Ec3P4fr6mM9fD	Hysteria	227	70	Absolution	Muse	897	5	844	red	28	22	25	25	happiness	alternativerock	rock	progressiverock	2024-08-07 11:46:00
+110	https://open.spotify.com/track/4sK96UnGx3NjBaqvfTG2dm	Too Close	257	59	The Lateness Of The Hour	Alex Clare	1749	0	1031	yellow	1	99	0	0	sadness	dubstep	pop	soul	2024-08-07 11:47:00
+111	https://open.spotify.com/track/3CRDbSIZ4r5MsZ0YwxuEkn	Stressed Out	202	84	Blurryface	Twenty One Pilots	1615	1	1077	pink	0	100	0	0	sadness	indiepop	rap	hiphop	2024-08-07 11:48:00
+112	https://open.spotify.com/track/1oHNvJVbFkexQc0BpQp7Y4	Starships	211	73	Pink Friday ... Roman Reloaded	Nicki Minaj	1390	2	937	pink	0	100	0	0	sadness	pop	rap	hiphop	2024-08-07 11:49:00
+114	https://open.spotify.com/track/1G391cbiT3v3Cywg8T7DM1	Scar Tissue	216	78	Californication (Deluxe Edition)	Red Hot Chili Peppers	300	1	1011	red	56	0	5	38	happiness	rock	alternativerock	funk	2024-08-07 11:51:00
+116	https://open.spotify.com/track/0hm8rgOY17z7kQJlqGKbu7	I Will Wait	277	69	Babel (Deluxe Version)	Mumford & Sons	583	0	683	green	100	0	0	0	happiness	folk	country	indiefolk	2024-08-07 11:52:00
+117	https://open.spotify.com/track/3TO7bbrUKrOSPGRTB5MeCz	Time	414	70	The Dark Side of the Moon	Pink Floyd	560	0	959	red	28	22	25	25	happiness	progressiverock	classicrock	psychedelicrock	2024-08-07 11:53:00
+118	https://open.spotify.com/track/3gbBpTdY8lnQwqxNCcf795	Pompeii	214	72	Bad Blood	Bastille	1286	2	926	pink	28	22	25	25	happiness	pop	indiepop	indierock	2024-08-07 11:54:00
+119	https://open.spotify.com/track/0snQkGI5qnAmohLE7jTsTn	Toxicity	219	77	Toxicity	System Of A Down	378	0	515	black	39	8	52	2	anger	metal	alternativemetal	rock	2024-08-07 11:55:00
+120	https://open.spotify.com/track/7EZC6E7UjZe63f1jRmkWxt	Zombie	306	67	No Need To Argue (The Complete Sessions 1994-1995)	The Cranberries	871	1	807	red	100	0	0	0	happiness	rock	alternativerock	pop	2024-08-07 11:56:00
+121	https://open.spotify.com/track/4PMdq7Q7xOFrY424ZelZEb	Radio	215	58	Born To Die - The Paradise Edition	Lana Del Rey	883	1	1071	pink	20	27	33	20	anger	pop	indiepop	chillout	2024-08-07 11:57:00
+122	https://open.spotify.com/track/54bm2e3tk8cliUz3VSdCPZ	Master of Puppets (Remastered)	515	68	Master of Puppets (Remastered Deluxe Box Set)	Metallica	914	2	1771	black	100	0	0	0	happiness	thrashmetal	metal	rock	2024-08-07 11:58:00
+124	https://open.spotify.com/track/13F3T2TWkVW6oVZNnFc69e	Shelter	270	45	xx	The xx	533	0	767	red	17	0	1	82	fear	indierock	postpunk	rock	2024-08-07 11:59:00
+125	https://open.spotify.com/track/5jPLxdGG7KKX9rM3xrm6Dd	Basic Space	188	43	xx	The xx	1387	0	1107	purple	100	0	0	0	happiness	chillout	indierock	indietronica	2024-08-07 12:00:00
+126	https://open.spotify.com/track/5R8dQOPq8haW94K7mgERlO	Poker Face	237	74	The Fame	Lady Gaga	1339	0	911	pink	86	0	0	14	happiness	pop	electropop	disco	2024-08-07 12:01:00
+127	https://open.spotify.com/track/0It6VJoMAare1zdV2wxqZq	Undisclosed Desires	235	65	The Resistance	Muse	931	0	812	red	0	0	1	99	fear	alternativerock	rock	progressiverock	2024-08-07 12:02:00
+128	https://open.spotify.com/track/0JmiBCpWc1IAc0et7Xm7FL	Let Her Go	253	75	All the Little Lights (Deluxe Version)	Passenger	636	0	703	green	4	96	0	0	sadness	folk	pop	singersongwriter	2024-08-07 12:03:00
+129	https://open.spotify.com/track/0vFOzaXqZHahrZp6enQwQb	Money	383	72	The Dark Side of the Moon	Pink Floyd	553	1	976	red	36	9	24	31	happiness	classicrock	progressiverock	rock	2024-08-07 12:04:00
+130	https://open.spotify.com/track/5ka2ajep9OAvU5Sgduhiex	Applause	212	72	ARTPOP	Lady Gaga	511	0	946	pink	21	29	29	21	sadness	pop	artpop	electropop	2024-08-07 12:05:00
+131	https://open.spotify.com/track/1p80LdxRV74UKvL8gnD7ky	Blank Space	232	72	1989	Taylor Swift	1293	0	934	pink	0	5	0	95	fear	pop	electropop	chillout	2024-08-07 12:06:00
+132	https://open.spotify.com/track/3d9DChrdc6BOeFsbrZ3Is0	Under the Bridge	264	81	Blood Sugar Sex Magik (Deluxe Edition)	Red Hot Chili Peppers	298	1	1014	red	21	29	29	21	sadness	rock	alternativerock	funkrock	2024-08-07 12:07:00
+134	https://open.spotify.com/track/7xDydFFgyOYit7yAUsRhrI	Flume	219	62	For Emma, Forever Ago	Bon Iver	630	0	829	green	70	2	11	16	happiness	folk	singersongwriter	indiefolk	2024-08-07 12:08:00
+135	https://open.spotify.com/track/0KAiuUOrLTIkzkpfpn9jb9	Drive By	196	77	California 37	Train	1198	0	894	pink	0	0	0	100	fear	pop	rock	poprock	2024-08-07 12:09:00
+136	https://open.spotify.com/track/1O8d2pWtBclzuY3FctBPVa	Closer	237	66	Only By The Night	Kings of Leon	883	1	714	red	36	9	24	31	happiness	rock	indierock	alternativerock	2024-08-07 12:10:00
+138	https://open.spotify.com/track/5yDX0yhtLyf0zEXEqXqyAa	Something Good Can Work	164	61	Tourist History	Two Door Cinema Club	949	0	645	pink	21	29	29	21	sadness	britpop	indierock	indiepop	2024-08-07 12:11:00
+139	https://open.spotify.com/track/62PaSfnXSMyLshYJrlTuL3	Hello	296	74	25	Adele	1259	1	841	blue	12	25	41	22	anger	soul	pop	powerpop	2024-08-07 12:12:00
+140	https://open.spotify.com/track/1VdZ0vKfR5jneCmWIUAMxK	The A Team	258	75	+	Ed Sheeran	1260	2	1070	pink	99	1	0	0	happiness	pop	chillout	folk	2024-08-07 12:13:00
+141	https://open.spotify.com/track/11bD1JtSjlIgKgZG2134DZ	Chasing Cars	268	78	Eyes Open	Snow Patrol	875	1	702	red	0	95	0	5	sadness	rock	indierock	alternativerock	2024-08-07 12:14:00
+142	https://open.spotify.com/track/5nkYDYUSb1bvLJ4nP8CnQ1	No Light, No Light	275	51	Ceremonials (Deluxe Edition)	Florence + The Machine	1174	0	988	pink	100	0	0	0	happiness	indiepop	pop	indierock	2024-08-07 12:15:00
+143	https://open.spotify.com/track/2cGxRwrMyEAp8dEbuZaVv6	Instant Crush (feat. Julian Casablancas)	338	76	Random Access Memories	Daft Punk, Julian Casablancas	346	1	658	pink	0	0	1	99	fear	disco	synthpop	house	2024-08-07 12:16:00
+144	https://open.spotify.com/track/6cr6UDpkjEaMQ80OjWqEBQ	Sultans of Swing	350	68	Dire Straits	Dire Straits	684	1	450	red	0	100	0	0	sadness	classicrock	rock	blues	2024-08-07 12:17:00
+145	https://open.spotify.com/track/7a4FlhlwnQe6BWl4UtiVek	Infinity	313	44	xx	The xx	768	1	1025	red	63	31	6	0	happiness	indierock	ambient	chillout	2024-08-07 12:18:00
+146	https://open.spotify.com/track/2WfaOiMkCvy7F5fcp2zZ8L	Take on Me	225	84	Hunting High and Low	a-ha	1491	1	604	pink	100	0	0	0	happiness	pop	newwave	synthpop	2024-08-07 12:19:00
+147	https://open.spotify.com/track/30FURVTCpbKyykjSEQzGkH	Back To Black	240	68	Back To Black	Amy Winehouse	608	2	1113	blue	79	0	1	20	happiness	soul	jazz	pop	2024-08-07 12:20:00
+148	https://open.spotify.com/track/2U8g9wVcUu9wsg6i7sFSv8	Every Teardrop Is a Waterfall	241	69	Mylo Xyloto	Coldplay	896	2	837	red	0	95	5	0	sadness	alternativerock	rock	britpop	2024-08-07 12:21:00
+149	https://open.spotify.com/track/2knr7ikPt4l7bk92qS4ZXW	Euphoria	214	64	Heal	Loreen	1636	0	351	pink	22	30	27	21	sadness	eurovision	pop	eurovision	2024-08-07 12:22:00
+150	https://open.spotify.com/track/0COqiPhxzoWICwFCS4eZcp	Bring Me To Life	236	80	Fallen	Evanescence	1596	9	635	red	89	0	11	0	happiness	rock	gothicrock	metal	2024-08-07 12:23:00
+151	https://open.spotify.com/track/1VNWaY3uNfoeWqb5U8x2QX	Lonely Day	168	71	Hypnotize	System Of A Down	377	0	504	red	21	29	29	21	sadness	rock	metal	alternativemetal	2024-08-07 12:24:00
+152	https://open.spotify.com/track/1ixbwbeBi5ufN4noUKmW5a	Paper Planes	205	77	Kala	M.I.A.	1021	0	592	orange	0	0	100	0	anger	hiphop	hiphop	soundtrack	2024-08-07 12:25:00
+153	https://open.spotify.com/track/59WN2psjkt1tyaxjspN8fp	Killing In The Name	314	79	Rage Against The Machine - XX (20th Anniversary Special Edition)	Rage Against The Machine	728	9	1153	red	97	0	3	0	happiness	rock	alternativerock	metal	2024-08-07 12:26:00
+154	https://open.spotify.com/track/2X485T9Z5Ly0xyaghN73ed	Let It Happen	468	75	Currents	Tame Impala	440	0	1064	red	0	0	0	100	fear	psychedelicrock	indierock	psychedelicpop	2024-08-07 12:27:00
+155	https://open.spotify.com/track/2A73XBDBQgmdXO8VsXPWIs	Rumour Has It	223	64	21	Adele	1295	2	838	blue	28	22	25	25	happiness	soul	pop	blues	2024-08-07 12:28:00
+156	https://open.spotify.com/track/3kZC0ZmFWrEHdUCmUqlvgZ	I Will Follow You into the Dark	189	66	Plans	Death Cab for Cutie	844	0	585	red	1	0	99	0	anger	indierock	emo	rock	2024-08-07 12:29:00
+157	https://open.spotify.com/track/32OlwWuMpZ6b0aN2RZOeMS	Uptown Funk (feat. Bruno Mars)	270	83	Uptown Special	Mark Ronson, Bruno Mars	972	0	378	blue	0	100	0	0	sadness	funk	pop	soul	2024-08-07 12:30:00
+158	https://open.spotify.com/track/6SpLc7EXZIPpy0sVko0aoU	Misery Business	212	77	Riot!	Paramore	449	2	841	red	96	2	0	2	happiness	rock	poppunk	alternativerock	2024-08-07 12:31:00
+159	https://open.spotify.com/track/4cluDES4hQEUhmXj6TXkSo	What Makes You Beautiful	200	83	Up All Night	One Direction	1234	0	449	pink	1	0	98	1	anger	pop	poprock	d	2024-08-07 12:32:00
+160	https://open.spotify.com/track/7hwcojGiRqYm100tSmpZE3	Lisztomania	242	65	Wolfgang Amadeus Phoenix	Phoenix	827	1	1050	pink	28	22	25	25	happiness	indiepop	indierock	pop	2024-08-07 12:33:00
+161	https://open.spotify.com/track/31AOj9sFz2gM0O3hMARRBx	Losing My Religion	268	82	Out Of Time (25th Anniversary Edition)	R.E.M.	930	2	792	red	0	0	99	1	anger	rock	alternativerock	pop	2024-08-07 12:34:00
+162	https://open.spotify.com/track/4VDqjSacuRvunZwbsu1WLP	Fantasy	158	40	xx	The xx	769	0	1025	purple	21	28	31	20	anger	chillout	indierock	ambient	2024-08-07 12:35:00
+163	https://open.spotify.com/track/4rwpZEcnalkuhPyGkEdhu0	Scary Monsters and Nice Sprites	243	60	Scary Monsters and Nice Sprites EP	Skrillex	1778	0	1080	yellow	0	0	0	100	fear	dubstep	electro	brostep	2024-08-07 12:36:00
+164	https://open.spotify.com/track/1FvDJ9KGxcqwv1utyPL3JZ	This Charming Man - 2011 Remaster	163	74	The Smiths	The Smiths	1432	2	543	pink	28	22	25	25	happiness	newwave	rock	postpunk	2024-08-07 12:37:00
+165	https://open.spotify.com/track/3RiOPzAvhNKuMIdPYOrKV8	What The Water Gave Me	333	47	Ceremonials (Deluxe Edition)	Florence + The Machine	810	0	1048	red	97	0	0	3	happiness	indierock	indiepop	pop	2024-08-07 12:38:00
+166	https://open.spotify.com/track/0DiWol3AO6WpXZgp0goxAV	One More Time	320	78	Discovery	Daft Punk	1525	0	712	cyan	99	0	1	0	happiness	house	electronica	techno	2024-08-07 12:39:00
+167	https://open.spotify.com/track/3FM33HqRlV7J1QJoPOnd2u	1901	193	67	Wolfgang Amadeus Phoenix	Phoenix	837	1	1083	pink	100	0	0	0	happiness	indiepop	indierock	pop	2024-08-07 12:40:00
+168	https://open.spotify.com/track/7yMiX7n9SBvadzox8T5jzT	Clint Eastwood	341	71	Gorillaz	Gorillaz	992	5	821	orange	36	9	24	31	happiness	hiphop	rock	alternativerock	2024-08-07 12:41:00
+169	https://open.spotify.com/track/3AydAydLzyyZutA0375XIz	A-Punk	138	67	Vampire Weekend	Vampire Weekend	834	0	1087	red	70	2	11	16	happiness	indierock	indiepop	rock	2024-08-07 12:42:00
+170	https://open.spotify.com/track/4VbDJMkAX3dWNBdn3KH6Wx	Helena Beat	276	65	Torches	Foster The People	1138	0	1155	cyan	1	0	0	99	fear	electropop	indierock	indiepop	2024-08-07 12:43:00
+171	https://open.spotify.com/track/5YqpHuXpFjDVZ7tY1ClFll	Heartbeats	162	63	Veneer	José González	588	0	818	purple	36	9	24	31	happiness	chillout	singersongwriter	easylistening	2024-08-07 12:44:00
+172	https://open.spotify.com/track/53AfCfybXX2rNfTSej1mOB	Night Time	217	42	xx	The xx	1155	0	761	red	21	29	29	21	sadness	indierock	chillout	indiepop	2024-08-07 12:45:00
+173	https://open.spotify.com/track/70wYA8oYHoMzhRRkARoMhU	When You Were Young	220	76	Sam's Town	The Killers	863	2	715	red	21	29	30	20	anger	rock	indierock	alternativerock	2024-08-07 12:46:00
+174	https://open.spotify.com/track/5RoLLyMmaEG4WiVMlp7r59	Rabbit Heart (Raise It Up)	232	46	Lungs (Deluxe Edition)	Florence + The Machine	837	0	1036	pink	28	22	25	25	happiness	indiepop	pop	rock	2024-08-07 12:47:00
+175	https://open.spotify.com/track/11LmqTE2naFULdEP94AUBa	Heart-Shaped Box	281	76	In Utero - 20th Anniversary - Deluxe Edition	Nirvana	1623	1	1163	red	28	22	25	25	happiness	grunge	rock	alternativerock	2024-08-07 12:48:00
+176	https://open.spotify.com/track/7ouMYWpwJ422jRcDASZB7P	Knights of Cydonia	366	68	Black Holes and Revelations	Muse	896	5	845	red	100	0	0	0	happiness	rock	alternativerock	progressiverock	2024-08-07 12:49:00
+177	https://open.spotify.com/track/0G21yYKMZoHa30cYVi1iA8	Welcome To The Jungle	273	73	Appetite For Destruction	Guns N' Roses	713	0	479	red	13	87	0	0	sadness	hardrock	rock	classicrock	2024-08-07 12:50:00
+178	https://open.spotify.com/track/3LGsgpx4TfxhXbr07OFKqs	Oblivion	251	68	Visions	Grimes	1191	0	796	pink	100	0	0	0	happiness	synthpop	dreampop	indietronica	2024-08-07 12:51:00
+179	https://open.spotify.com/track/7qiZfU4dY1lWllzX7mPBI3	Shape of You	234	86	÷ (Deluxe)	Ed Sheeran	1337	3	1012	pink	0	0	0	100	fear	pop	dancehall	tropicalhouse	2024-08-07 12:52:00
+180	https://open.spotify.com/track/3geFzA6VBSNZUTmV3bCry6	Mardy Bum	175	58	Whatever People Say I Am, That's What I'm Not	Arctic Monkeys	320	1	880	red	21	29	30	20	anger	indierock	rock	alternativerock	2024-08-07 12:53:00
+181	https://open.spotify.com/track/5lRzWDEe7UuedU2QPsFg0K	The Funeral	322	70	Everything All The Time	Band of Horses	813	0	646	red	98	2	0	0	happiness	indierock	rock	alternativerock	2024-08-07 12:54:00
+182	https://open.spotify.com/track/1YwNlWLf8auhazSQUDQLFU	Enjoy the Silence - Single Mix	257	66	Enjoy the Silence	Depeche Mode, Daniel Miller, Phil Legg	1462	0	585	pink	2	96	0	2	sadness	newwave	synthpop	synthpop	2024-08-07 12:55:00
+183	https://open.spotify.com/track/0obBFrPYkSoBJbvHfUIhkv	Sexy And I Know It	199	63	Sorry For Party Rocking (Deluxe Version)	LMFAO	1337	0	928	pink	39	61	0	0	sadness	pop	hiphop	electro	2024-08-07 12:56:00
+184	https://open.spotify.com/track/5smPViFYtztTo7ww9gJXpD	I’m Yours	219	37	The Best of The King's Singers	Jason Mraz, Philip Lawson, The King's Singers	813	2	958	pink	1	0	98	2	anger	singersongwriter	pop	chillout	2024-08-07 12:57:00
+185	https://open.spotify.com/track/2zYzyRzz6pRmhPzyfMEC8s	Highway to Hell	208	83	Highway to Hell	AC/DC	759	1	539	red	8	1	74	18	anger	hardrock	rock	classicrock	2024-08-07 12:58:00
+186	https://open.spotify.com/track/5Rizj5FLb2AyNKu9esjYY6	Rape Me	170	66	In Utero - 20th Anniversary - Deluxe Edition	Nirvana	1629	4	1179	red	36	9	24	31	happiness	grunge	rock	alternativerock	2024-08-07 12:59:00
+187	https://open.spotify.com/track/08mG3Y1vljYA6bvDt4Wqkj	Back In Black	255	84	Back In Black	AC/DC	740	0	557	red	69	0	0	31	happiness	hardrock	rock	classicrock	2024-08-07 13:00:00
+189	https://open.spotify.com/track/2UWdUez9MB9yzL7Y81Mcip	The Suburbs	315	64	The Suburbs	Arcade Fire	831	1	685	red	70	2	11	16	happiness	indierock	rock	alternativerock	2024-08-07 13:01:00
+190	https://open.spotify.com/track/5WQQIDU3HRaMyPkob8mpFb	Where Have You Been	243	74	Talk That Talk	Rihanna	1261	3	940	pink	28	22	25	25	happiness	pop	electropop	house	2024-08-07 13:02:00
+191	https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs	Iris	290	79	Dizzy up the Girl	The Goo Goo Dolls	896	0	827	red	28	22	25	25	happiness	rock	alternativerock	soundtrack	2024-08-07 13:03:00
+192	https://open.spotify.com/track/4Jv7lweGIUOFQ7Oq2AtAh9	I Follow Rivers - The Magician Remix	280	73	I Follow Rivers (The Magician Remix)	Lykke Li, The Magician	800	2	1130	pink	97	3	1	0	happiness	indiepop	pop	dreampop	2024-08-07 13:04:00
+194	https://open.spotify.com/track/5Qv2Nby1xTr9pQyjkrc94J	All I Need	229	63	In Rainbows	Radiohead	662	0	1009	red	36	9	24	31	happiness	alternativerock	rock	experimental	2024-08-07 13:05:00
+195	https://open.spotify.com/track/4UzVcXufOhGUwF56HT7b8M	My Immortal	263	74	Fallen	Evanescence	1607	3	672	red	75	25	0	0	happiness	rock	gothicrock	alternativerock	2024-08-07 13:06:00
+196	https://open.spotify.com/track/6TVs7Lap6ZcrpZk1xfOgtv	Perth	262	53	Bon Iver	Bon Iver	568	0	805	green	100	0	0	0	happiness	folk	indiefolk	rock	2024-08-07 13:07:00
+197	https://open.spotify.com/track/6HZ9VeI5IRFCNQLXhpF4bq	I Love It (feat. Charli XCX)	157	68	THIS IS... ICONA POP	Icona Pop, Charli XCX	1251	1	350	pink	0	100	0	0	sadness	pop	electrohouse	electronica	2024-08-07 13:08:00
+198	https://open.spotify.com/track/263aNAQCeFSWipk896byo6	Friday I'm in Love	214	67	Wish	The Cure	1445	0	548	pink	0	100	0	0	sadness	newwave	rock	postpunk	2024-08-07 13:09:00
+199	https://open.spotify.com/track/3w3y8KPTfNeOKPiqUTakBh	Locked out of Heaven	233	84	Unorthodox Jukebox	Bruno Mars	1445	0	1001	pink	100	0	0	0	happiness	pop	rb	poprock	2024-08-07 13:10:00
+200	https://open.spotify.com/track/6r2BECwMgEoRb5yLfp0Hca	Born This Way	260	70	Born This Way (Special Edition)	Lady Gaga	1268	0	919	pink	28	22	25	25	happiness	pop	electropop	anthem	2024-08-07 13:11:00
+201	https://open.spotify.com/track/18iKYXLuAP17qUAJvAw6UN	On Top Of The World	193	5	Beach Party	Imagine Dragons	936	0	774	red	100	0	0	0	happiness	indierock	rock	alternativerock	2024-08-07 13:12:00
+202	https://open.spotify.com/track/2kRFrWaLWiKq48YYVdGcm8	Everything In Its Right Place	251	66	Kid A	Radiohead	827	1	860	red	99	1	0	0	happiness	alternativerock	rock	experimental	2024-08-07 13:13:00
+203	https://open.spotify.com/track/3VA4sjTMSTTF02hFGmlpJh	crushcrushcrush	189	66	Riot!	Paramore	448	1	841	red	21	29	29	21	sadness	rock	poppunk	alternativerock	2024-08-07 13:14:00
+204	https://open.spotify.com/track/0rcLhYRihks3t4lFPtHhQV	She's Lost Control - 2007 Remaster	237	60	Unknown Pleasures (Collector's Edition)	Joy Division	1423	0	559	red	36	9	24	31	happiness	postpunk	newwave	rock	2024-08-07 13:15:00
+205	https://open.spotify.com/track/5Fli1xRi01bvCjsZvKWro0	Houdini	202	68	Torches	Foster The People	830	0	1056	pink	96	2	1	1	happiness	indiepop	indierock	disco	2024-08-07 13:16:00
+206	https://open.spotify.com/track/6F5c58TMEs1byxUstkzVeM	Roar	224	75	PRISM (Deluxe)	Katy Perry	1262	1	930	pink	94	6	0	0	happiness	pop	powerpop	poprock	2024-08-07 13:17:00
+207	https://open.spotify.com/track/55yvzYuvJYG2RUEnMK78tr	About A Girl	167	71	Nirvana	Nirvana	1620	1	1210	red	17	0	1	82	fear	grunge	rock	alternativerock	2024-08-07 13:18:00
+208	https://open.spotify.com/track/1oTo3ijRbaDAtrjJrGAPSw	I Miss You	227	71	blink-182	blink-182	695	0	1472	red	36	9	24	31	happiness	rock	punk	poppunk	2024-08-07 13:19:00
+210	https://open.spotify.com/track/06YV4yr9sdJqSNj4HjZk2s	White Blank Page	254	56	Sigh No More	Mumford & Sons	581	1	690	green	36	9	24	31	happiness	folk	indiefolk	bluegrass	2024-08-07 13:20:00
+212	https://open.spotify.com/track/5FZxsHWIvUsmSK1IAvm2pp	Best of You	256	75	In Your Honor	Foo Fighters	1576	1	1192	red	36	9	24	31	happiness	rock	alternativerock	grunge	2024-08-07 13:21:00
+213	https://open.spotify.com/track/57Xjny5yNzAcsxnusKmAfA	Reptilia	220	74	Room On Fire	The Strokes	641	0	1047	red	36	9	24	31	happiness	indierock	rock	alternativerock	2024-08-07 13:22:00
+214	https://open.spotify.com/track/2wiXEarKt55K8aW8elRqDW	Carmen	249	52	Born To Die - The Paradise Edition	Lana Del Rey	875	0	1081	pink	22	30	27	21	sadness	pop	indiepop	chamberpop	2024-08-07 13:23:00
+215	https://open.spotify.com/track/6cC9RY7MoUx5z3aHjDTNI6	Never Let Me Go	271	58	Ceremonials (Deluxe Edition)	Florence + The Machine	791	0	1112	pink	99	0	1	0	happiness	indiepop	pop	alternativepop	2024-08-07 13:24:00
+216	https://open.spotify.com/track/6QOU3FhUkPeA2RtaXcvgi7	This Is What Makes Us Girls	238	49	Born To Die - The Paradise Edition	Lana Del Rey	868	1	1078	pink	0	0	68	32	anger	pop	indiepop	chillout	2024-08-07 13:25:00
+217	https://open.spotify.com/track/2TjdnqlpwOjhijHCwHCP2d	The Great Gig in the Sky	284	65	The Dark Side of the Moon	Pink Floyd	808	7	792	red	0	0	99	1	anger	progressiverock	classicrock	psychedelicrock	2024-08-07 13:26:00
+218	https://open.spotify.com/track/6NvRxjfYkkT2SpirAlmsjH	No One Knows	279	66	Songs For The Deaf	Queens of the Stone Age	235	3	859	red	73	3	4	21	happiness	rock	stonerrock	alternativerock	2024-08-07 13:27:00
+219	https://open.spotify.com/track/4Yf5bqU3NK4kNOypcrLYwU	Faint	163	70	Meteora	Linkin Park	460	1	681	red	21	29	29	21	sadness	rock	numetal	alternativerock	2024-08-07 13:28:00
+220	https://open.spotify.com/track/10CC5iwOqBEiQ6gL4hvmdG	Firework	228	0	Music Is Universal: PRIDE by Joy Oladokun	Katy Perry	1314	0	961	pink	28	22	25	25	happiness	pop	rock	poprock	2024-08-07 13:29:00
+221	https://open.spotify.com/track/7uv632EkfwYhXoqf8rhYrg	Angel	380	62	Mezzanine	Massive Attack	970	2	1040	purple	8	0	92	0	anger	triphop	chillout	triphop	2024-08-07 13:30:00
+222	https://open.spotify.com/track/5r5cp9IpziiIsR6b93vcnQ	Walking On A Dream	198	78	Walking On A Dream (10th Anniversary Edition)	Empire of the Sun	1208	0	1124	pink	100	0	0	0	happiness	pop	synthpop	electropop	2024-08-07 13:31:00
+224	https://open.spotify.com/track/0c4IEciLCDdXEhhKxj4ThA	Madness	281	68	The 2nd Law	Muse	865	0	843	red	5	75	0	19	sadness	rock	alternativerock	pop	2024-08-07 13:32:00
+225	https://open.spotify.com/track/4lwavw59UjXUPJZtKNdFYp	Alejandro	274	63	The Fame Monster (Deluxe Edition)	Lady Gaga	1259	1	943	pink	15	0	27	59	fear	pop	electropop	dancepop	2024-08-07 13:33:00
+226	https://open.spotify.com/track/02ppMPbg1OtEdHgoPqoqju	Reckoner	290	62	In Rainbows	Radiohead	848	0	854	red	100	0	0	0	happiness	alternativerock	rock	experimental	2024-08-07 13:34:00
+227	https://open.spotify.com/track/5fbQCQt91LsVgXusFS0CCD	Disorder - 2007 Remaster	209	69	Unknown Pleasures (Collector's Edition)	Joy Division	499	0	793	red	99	0	0	0	happiness	postpunk	newwave	postpunk	2024-08-07 13:35:00
+228	https://open.spotify.com/track/2BndJYJQ17UcEeUFJP5JmY	Paradise Circus	298	63	Heligoland	Massive Attack	1480	1	1069	purple	48	35	16	0	happiness	triphop	chillout	downtempo	2024-08-07 13:36:00
+229	https://open.spotify.com/track/1f2V8U1BiWaC9aJWmpOARe	By the Way	217	74	By the Way (Deluxe Edition)	Red Hot Chili Peppers	297	0	1010	red	0	0	0	100	fear	rock	alternativerock	funk	2024-08-07 13:37:00
+230	https://open.spotify.com/track/3nanq5MGiNbZYjoiEhpsLC	Stars	263	43	xx	The xx	1373	1	1077	purple	100	0	0	0	happiness	chillout	indierock	postpunk	2024-08-07 13:38:00
+231	https://open.spotify.com/track/01wsKcJ8ptqUmatpJlEGYj	Ready to Start	256	58	The Suburbs	Arcade Fire	899	2	794	red	36	9	24	31	happiness	indierock	rock	alternativerock	2024-08-07 13:39:00
+232	https://open.spotify.com/track/10Nmj3JCNoMeBQ87uw5j8k	Dani California	282	77	Stadium Arcadium	Red Hot Chili Peppers	308	0	1010	red	36	9	24	31	happiness	rock	alternativerock	funk	2024-08-07 13:40:00
+233	https://open.spotify.com/track/7F02x6EKYIQV3VcTaTm7oN	Hey You	278	67	The Wall	Pink Floyd	557	1	962	red	36	9	24	31	happiness	progressiverock	classicrock	psychedelicrock	2024-08-07 13:41:00
+234	https://open.spotify.com/track/0ZRrJTPXDToRJ2iLo9oLrW	When The Sun Goes Down	202	61	Whatever People Say I Am, That's What I'm Not	Arctic Monkeys	939	0	707	red	0	0	100	0	anger	indierock	rock	alternativerock	2024-08-07 13:42:00
+235	https://open.spotify.com/track/3tlXDvaNrrOmdvG0XVUOcv	Polly	174	58	Nevermind (Remastered)	Nirvana	1620	0	1142	red	22	30	27	21	sadness	grunge	rock	alternativerock	2024-08-07 13:43:00
+236	https://open.spotify.com/track/50FgfudO6MUkdP3XMIf1hh	Winter Winds	220	52	Sigh No More	Mumford & Sons	578	0	690	green	99	0	0	1	happiness	folk	indiefolk	bluegrass	2024-08-07 13:44:00
+237	https://open.spotify.com/track/2lF8jQFhIjpmQa501sYXxR	The Unforgiven	387	65	Metallica	Metallica	1486	0	1009	black	18	0	82	0	anger	metal	thrashmetal	rock	2024-08-07 13:45:00
+238	https://open.spotify.com/track/5uvosCdMlFdTXhoazkTI5R	Light My Fire	430	73	The Doors	The Doors	442	3	1002	red	28	22	25	25	happiness	classicrock	psychedelicrock	rock	2024-08-07 13:46:00
+239	https://open.spotify.com/track/6EPRKhUOdiFSQwGBRBbvsZ	Ace of Spades	167	74	Ace of Spades (Expanded Edition)	Motörhead	1165	9	1355	red	0	0	0	100	fear	hardrock	metal	rock	2024-08-07 13:47:00
+240	https://open.spotify.com/track/2RUhtNBh43RtSg0WBPPq3m	Naive	204	62	Inside In / Inside Out	The Kooks	817	0	688	red	28	22	25	25	happiness	indierock	rock	britpop	2024-08-07 13:48:00
+241	https://open.spotify.com/track/6eN1f9KNmiWEhpE2RhQqB5	Paradise City	406	73	Appetite For Destruction	Guns N' Roses	756	0	533	red	36	9	24	31	happiness	hardrock	rock	classicrock	2024-08-07 13:49:00
+242	https://open.spotify.com/track/0zKs47fghFBtrEpxyUR1Wz	Burn It Down - One More Light Live	254	45	One More Light Live	Linkin Park	601	3	376	red	0	100	0	0	sadness	rock	alternativerock	electronicrock	2024-08-07 13:50:00
+243	https://open.spotify.com/track/1LmN9SSHISbtp9LoaR5ZVJ	Payphone	231	75	Overexposed	Maroon 5, Wiz Khalifa	1275	0	929	pink	10	90	0	0	sadness	pop	poprock	rock	2024-08-07 13:51:00
+244	https://open.spotify.com/track/4EchqUKQ3qAQuRNKmeIpnf	The Kids Aren't Alright	180	78	Americana	The Offspring	945	2	964	red	25	73	0	2	sadness	punk	rock	alternativerock	2024-08-07 13:52:00
+245	https://open.spotify.com/track/0jv5OcbvTUHgO8FgHhya8b	Kiss With A Fist	123	52	Lungs (Deluxe Edition)	Florence + The Machine	859	1	755	red	0	0	100	0	anger	rock	indierock	indiepop	2024-08-07 13:53:00
+246	https://open.spotify.com/track/3S4px9f4lceWdKf0gWciFu	Cheap Thrills	212	71	This Is Acting (Deluxe Version)	Sia	1223	1	1137	pink	100	0	0	0	happiness	pop	synthpop	electropop	2024-08-07 13:54:00
+247	https://open.spotify.com/track/0yQPpUq5BJyqah5m2Q5Stt	Hoppípolla	269	48	Takk...	Sigur Rós	1087	0	734	red	21	29	29	21	sadness	postrock	ambient	chillout	2024-08-07 13:55:00
+248	https://open.spotify.com/track/63T7DJ1AFDD6Bn8VzG6JE8	Paint It, Black	202	79	Aftermath	The Rolling Stones	692	0	471	red	75	25	0	0	happiness	classicrock	rock	psychedelicrock	2024-08-07 13:56:00
+249	https://open.spotify.com/track/3cjvqsvvU80g7WJPMVh8iq	Genesis	255	58	Visions	Grimes	1095	3	1160	pink	28	22	25	25	happiness	dreampop	experimental	electronica	2024-08-07 13:57:00
+250	https://open.spotify.com/track/0Hrd6CSafHHqKptyFppmqH	Undercover Martyn	168	66	Tourist History	Two Door Cinema Club	773	0	696	red	100	0	0	0	happiness	indierock	rock	indiepop	2024-08-07 13:58:00
+251	https://open.spotify.com/track/0DMRKqrpd0QO4RWiEdMib0	You Know I'm No Good	257	71	Back To Black (Deluxe Edition)	Amy Winehouse	614	3	1118	blue	0	1	99	0	anger	soul	jazz	pop	2024-08-07 13:59:00
+252	https://open.spotify.com/track/73CKjW3vsUXRpy3NnX4H7F	Fake Plastic Trees	291	71	The Bends	Radiohead	862	1	843	red	5	95	0	0	sadness	alternativerock	rock	britpop	2024-08-07 14:00:00
+253	https://open.spotify.com/track/1o22EcqsCANhwYdaNOSdwS	Tessellate	181	57	An Awesome Wave	alt-J	799	2	1051	red	41	0	40	19	happiness	indierock	indiepop	experimental	2024-08-07 14:01:00
+254	https://open.spotify.com/track/5CMjjywI0eZMixPeqNd75R	Lose Yourself to Dance (feat. Pharrell Williams)	354	71	Random Access Memories	Daft Punk, Pharrell Williams	1007	0	368	blue	1	3	0	96	fear	funk	disco	pop	2024-08-07 14:02:00
+255	https://open.spotify.com/track/3bC1ahPIYt1btJzSSEyyrF	Whistle	225	79	Wild Ones	Flo Rida	1399	0	938	orange	22	30	27	21	sadness	hiphop	pop	hiphop	2024-08-07 14:03:00
+256	https://open.spotify.com/track/5rP9Weh1uFtlyRGqnzyQnd	Towers	188	54	Bon Iver	Bon Iver	566	2	796	green	11	24	42	23	anger	folk	indiefolk	singersongwriter	2024-08-07 14:04:00
+257	https://open.spotify.com/track/4RL77hMWUq35NYnPLXBpih	Skinny Love	201	74	Birdy	Birdy	577	0	743	green	100	0	0	0	happiness	folk	soundtrack	indiepop	2024-08-07 14:05:00
+258	https://open.spotify.com/track/6sy3LkhNFjJWlaeSMNwQ62	Counting Stars	258	74	Native	OneRepublic	1067	0	887	pink	28	22	25	25	happiness	poprock	rock	pop	2024-08-07 14:06:00
+259	https://open.spotify.com/track/2m1hi0nfMR9vdGC8UcrnwU	All The Small Things	167	80	Enema Of The State	blink-182	947	0	963	red	28	22	25	25	happiness	punk	rock	poppunk	2024-08-07 14:07:00
+261	https://open.spotify.com/track/2a1iMaoWQ5MnvLFBDv4qkf	High and Dry	257	73	The Bends	Radiohead	869	0	841	red	100	0	0	0	happiness	rock	alternativerock	britpop	2024-08-07 14:08:00
+262	https://open.spotify.com/track/76GlO5H5RT6g7y0gev86Nk	Just like Heaven	212	66	Kiss Me, Kiss Me, Kiss Me	The Cure	1446	0	557	pink	97	2	1	0	happiness	newwave	postpunk	rock	2024-08-07 14:09:00
+263	https://open.spotify.com/track/2lwwrWVKdf3LR9lbbhnr6R	Float On	208	72	Good News For People Who Love Bad News	Modest Mouse	831	0	694	red	28	22	25	25	happiness	indierock	rock	alternativerock	2024-08-07 14:10:00
+264	https://open.spotify.com/track/4oXg7xT4ksBxHTx8PcmSXw	15 Step	237	62	In Rainbows	Radiohead	944	0	824	red	57	0	42	0	happiness	alternativerock	rock	experimental	2024-08-07 14:11:00
+265	https://open.spotify.com/track/2sW8fmnISifQTRgnRrQTYW	Roads	304	63	Dummy	Portishead	1409	2	1065	purple	28	22	25	25	happiness	triphop	chillout	triphop	2024-08-07 14:12:00
+266	https://open.spotify.com/track/144adL7pGHEWRwute2wxzZ	Omen	216	59	Invaders Must Die	The Prodigy	869	0	1541	cyan	70	0	0	30	happiness	breakbeat	techno	bigbeat	2024-08-07 14:13:00
+267	https://open.spotify.com/track/1sTsuZTdANkiFd7T34H3nb	Human	245	74	Day & Age (Bonus Tracks)	The Killers	816	0	731	red	0	0	100	0	anger	indierock	rock	pop	2024-08-07 14:14:00
+268	https://open.spotify.com/track/1Jmqubf9kGkWeYQXQKImL5	People Are Strange	130	70	Strange Days	The Doors	451	1	1000	red	0	4	1	95	fear	classicrock	rock	psychedelicrock	2024-08-07 14:15:00
+269	https://open.spotify.com/track/4prEPl61C8qZpeo3IkYSMl	Sleepyhead	175	66	Manners	Passion Pit	831	0	1185	cyan	36	9	24	31	happiness	electropop	indiepop	pop	2024-08-07 14:16:00
+270	https://open.spotify.com/track/0QkWikH5Z3U0f79T9iuF6c	Judas	249	64	Born This Way	Lady Gaga	1296	1	925	pink	1	96	3	0	sadness	pop	electropop	synthpop	2024-08-07 14:17:00
+271	https://open.spotify.com/track/6n8TMVyFKoUmDc4apxceRD	Breaking the Habit	197	65	Meteora	Linkin Park	461	1	680	red	28	22	25	25	happiness	rock	numetal	alternativerock	2024-08-07 14:18:00
+272	https://open.spotify.com/track/3N4DI1vuTSX1tz7fa2NQZw	Rehab	215	75	Back To Black (Deluxe Edition)	Amy Winehouse	614	4	1118	blue	100	0	0	0	happiness	soul	jazz	pop	2024-08-07 14:19:00
+273	https://open.spotify.com/track/1gihuPhrLraKYrJMAEONyc	Feel So Close - Radio Edit	206	81	18 Months	Calvin Harris	1483	1	728	pink	22	30	27	21	sadness	pop	house	electronica	2024-08-07 14:20:00
+274	https://open.spotify.com/track/3zEN0ii6s4DHHBpnTp3RP7	We Are The People	267	67	Walking On A Dream (10th Anniversary Edition)	Empire of the Sun	1290	1	926	pink	99	0	1	0	happiness	synthpop	pop	electro	2024-08-07 14:21:00
+275	https://open.spotify.com/track/4dneV7C1yDt9UtyxrQY375	Boys Don't Cry - Single Version	158	64	Three Imaginary Boys (Deluxe Edition)	The Cure	1446	0	554	pink	36	9	24	31	happiness	newwave	postpunk	rock	2024-08-07 14:22:00
+276	https://open.spotify.com/track/4lXHVnmDO5u62tGJIpTafd	Million Dollar Man	232	49	Born To Die - The Paradise Edition	Lana Del Rey	1298	0	1016	pink	0	98	2	0	sadness	pop	indiepop	triphop	2024-08-07 14:23:00
+277	https://open.spotify.com/track/78lgmZwycJ3nzsdgmPPGNx	Immigrant Song - Remaster	146	77	Led Zeppelin III (Remaster)	Led Zeppelin	719	0	526	red	100	0	0	0	happiness	classicrock	rock	hardrock	2024-08-07 14:24:00
+278	https://open.spotify.com/track/1NpW5kyvO4XrNJ3rnfcNy3	Wild Ones (feat. Sia)	233	78	Wild Ones	Flo Rida, Sia	1393	1	936	pink	0	0	0	100	fear	pop	hiphop	rap	2024-08-07 14:25:00
+279	https://open.spotify.com/track/3K4HG9evC7dg3N0R9cYqk4	One Step Closer	157	75	Hybrid Theory (Bonus Edition)	Linkin Park	733	0	1157	black	28	22	25	25	happiness	numetal	rock	alternativerock	2024-08-07 14:26:00
+280	https://open.spotify.com/track/0dEIca2nhcxDUV8C5QkPYb	Give Life Back to Music	275	64	Random Access Memories	Daft Punk	341	5	647	blue	22	30	27	21	sadness	disco	funk	pop	2024-08-07 14:27:00
+281	https://open.spotify.com/track/0q6LuUqGLUiCPP1cbdwFs3	On Melancholy Hill	234	76	Plastic Beach	Gorillaz	696	9	1042	pink	0	100	0	0	sadness	pop	rock	triphop	2024-08-07 14:28:00
+282	https://open.spotify.com/track/0U0ldCRmgCqhVvD6ksG63j	Nightcall	258	70	Nightcall	Kavinsky	1135	3	490	cyan	0	93	7	0	sadness	electro	synthwave	electronica	2024-08-07 14:29:00
+283	https://open.spotify.com/track/4HXOBjwv2RnLpGG4xWOO6N	Princess of China	239	66	Mylo Xyloto	Coldplay, Rihanna	974	0	839	pink	99	0	1	0	happiness	pop	alternativerock	rock	2024-08-07 14:30:00
+284	https://open.spotify.com/track/3AGOgQzp0YcPH41u9p7dOp	Glad You Came	198	70	The Wanted (Special Edition)	The Wanted	1259	0	921	pink	0	0	99	1	anger	pop	britpop	dancepop	2024-08-07 14:31:00
+286	https://open.spotify.com/track/4rHZZAmHpZrA3iH5zx8frV	Mirrors	484	80	The 20/20 Experience (Deluxe Version)	Justin Timberlake	1380	1	984	pink	19	81	0	0	sadness	pop	rb	soul	2024-08-07 14:32:00
+287	https://open.spotify.com/track/6ToM0uwxtPKo9CMpbPGYvM	Break on Through (To the Other Side)	146	71	The Doors	The Doors	435	0	997	red	0	0	0	100	fear	classicrock	rock	psychedelicrock	2024-08-07 14:33:00
+288	https://open.spotify.com/track/0Z2AIlxh9LRTzV7Qkwgind	One More Night	220	0	Old But Gold	Maroon 5	1200	0	897	pink	100	0	0	0	happiness	pop	rock	poprock	2024-08-07 14:34:00
+289	https://open.spotify.com/track/5YXr4AGfUQpLSxtFSsKUh6	Map of the Problematique	258	58	Black Holes and Revelations	Muse	941	1	823	red	3	0	96	1	anger	rock	alternativerock	progressiverock	2024-08-07 14:35:00
+290	https://open.spotify.com/track/4e9eGQYsOiBcftrWXwsVco	Aerials	235	73	Toxicity	System Of A Down	375	2	511	black	28	22	25	25	happiness	metal	alternativemetal	rock	2024-08-07 14:36:00
+291	https://open.spotify.com/track/5lN1EH25gdiqT1SFALMAq1	Gold on the Ceiling	224	70	El Camino	The Black Keys	1327	0	1333	blue	28	22	25	25	happiness	bluesrock	rock	blues	2024-08-07 14:37:00
+292	https://open.spotify.com/track/2EqlS6tkEnglzr7tkKAAYD	Come Together - Remastered 2009	260	78	Abbey Road (Remastered)	The Beatles	685	0	503	red	36	9	24	31	happiness	classicrock	rock	pop	2024-08-07 14:38:00
+293	https://open.spotify.com/track/2QAiyYiogIG5kkw4s4iePg	Sigh No More	208	48	Sigh No More	Mumford & Sons	580	0	690	green	1	0	99	0	anger	folk	indiefolk	bluegrass	2024-08-07 14:39:00
+294	https://open.spotify.com/track/57BrRMwf9LrcmuOsyGilwr	Crawling	209	72	Hybrid Theory (Bonus Edition)	Linkin Park	455	0	681	black	0	0	0	100	fear	numetal	rock	alternativerock	2024-08-07 14:40:00
+295	https://open.spotify.com/track/35YyxFpE0ZTOoqFx5bADW8	Nude	255	66	In Rainbows	Radiohead	666	2	1007	red	28	22	25	25	happiness	alternativerock	rock	ambient	2024-08-07 14:41:00
+296	https://open.spotify.com/track/6ADSaE87h8Y3lccZlBJdXH	With Or Without You - Remastered	296	79	The Joshua Tree (Super Deluxe)	U2	682	2	511	red	0	100	0	0	sadness	rock	classicrock	pop	2024-08-07 14:42:00
+298	https://open.spotify.com/track/6dU5RxthbuaN31bRbEDlNw	Everlasting Light	204	58	Brothers	The Black Keys	543	1	543	blue	28	22	25	25	happiness	bluesrock	rock	garagerock	2024-08-07 14:43:00
+299	https://open.spotify.com/track/4oy98QoABnGKpvapDkI525	Turning Tables	250	64	21	Adele	1322	0	1102	blue	28	22	25	25	happiness	soul	pop	singersongwriter	2024-08-07 14:44:00
+300	https://open.spotify.com/track/0kYUrLVQOfx21xuXu7OGrT	All These Things That I've Done	302	64	Hot Fuss	The Killers	871	0	712	red	0	1	8	90	fear	rock	indierock	alternativerock	2024-08-07 14:45:00
+301	https://open.spotify.com/track/3l2S2RkGG4lbh7WqmCV3NB	Ride	289	55	Born To Die - The Paradise Edition	Lana Del Rey	881	2	1072	pink	95	0	5	0	happiness	pop	indiepop	soul	2024-08-07 14:46:00
+302	https://open.spotify.com/track/0X5C4WjQNubRysTkHOubz3	Lovesong - 2010 Remaster	210	61	Disintegration (Deluxe Edition)	The Cure	1408	1	625	pink	36	9	24	31	happiness	newwave	postpunk	rock	2024-08-07 14:47:00
+303	https://open.spotify.com/track/3Ty7OTBNSigGEpeW2PqcsC	Glory Box	309	68	Dummy	Portishead	967	0	1034	purple	28	22	25	25	happiness	triphop	chillout	triphop	2024-08-07 14:48:00
+304	https://open.spotify.com/track/4svkPL62HbvyFgf0nHFXAF	Iron Man	355	54	The Ultimate Collection	Black Sabbath	1191	0	657	red	100	0	0	0	happiness	classicrock	hardrock	metal	2024-08-07 14:49:00
+305	https://open.spotify.com/track/2nvC4i2aMo4CzRjRflysah	In My Place	227	71	A Rush of Blood to the Head	Coldplay	862	0	820	red	60	31	0	8	happiness	rock	britpop	alternativerock	2024-08-07 14:50:00
+306	https://open.spotify.com/track/57iDDD9N9tTWe75x6qhStw	Bitter Sweet Symphony	357	79	Urban Hymns (Remastered 2016)	The Verve	929	0	709	pink	48	1	0	51	fear	britpop	rock	alternativerock	2024-08-07 14:51:00
+307	https://open.spotify.com/track/18lR4BzEs7e3qzc0KVkTpU	What I've Done	206	77	Minutes to Midnight	Linkin Park	457	2	682	red	0	0	100	0	anger	rock	alternativerock	numetal	2024-08-07 14:52:00
+308	https://open.spotify.com/track/1TKTiKp3zbNgrBH2IwSwIx	Us and Them	469	64	The Dark Side of the Moon	Pink Floyd	808	5	792	red	36	9	24	31	happiness	progressiverock	classicrock	rock	2024-08-07 14:53:00
+309	https://open.spotify.com/track/3agtg0x11wPvLIWkYR39nZ	Somewhere I Belong	214	64	Meteora	Linkin Park	733	0	1159	red	21	29	29	21	sadness	rock	numetal	alternativerock	2024-08-07 14:54:00
+310	https://open.spotify.com/track/0YJ9FWWHn9EfnN0lHwbzvV	Jigsaw Falling Into Place	249	64	In Rainbows	Radiohead	943	1	825	red	17	27	35	21	anger	alternativerock	rock	experimental	2024-08-07 14:55:00
+311	https://open.spotify.com/track/5hO5U3Djps5hAUYHYlu56m	I’m Not the Only One - Acoustic Cover	182	6	Music for the Moment: Classic for Passion	Sam Smith, Dale Burbeck	1355	2	1172	blue	0	100	0	0	sadness	soul	pop	rb	2024-08-07 14:56:00
+312	https://open.spotify.com/track/0dqGfCMAGyDgpUAgLNOjWd	Fade To Black (Remastered)	417	63	Ride The Lightning (Deluxe Remaster)	Metallica	1490	1	996	black	0	0	100	0	anger	metal	thrashmetal	rock	2024-08-07 14:57:00
+313	https://open.spotify.com/track/4G21jWo0Cm6lOIUNnZ2mUI	Such Great Heights - Remastered	267	65	Give Up (Deluxe 10th Anniversary Edition)	The Postal Service	828	1	1188	pink	17	0	26	57	fear	indiepop	electronica	indierock	2024-08-07 14:58:00
+314	https://open.spotify.com/track/2iuZJX9X9P0GKaE93xcPjk	Sugar	235	81	V	Maroon 5	1342	0	882	pink	100	0	0	0	happiness	pop	birthday	disco	2024-08-07 14:59:00
+315	https://open.spotify.com/track/33yAEqzKXexYM3WlOYtTfQ	D.A.N.C.E	242	66	Justice	Justice	1180	0	469	cyan	100	0	0	0	happiness	electro	electronica	house	2024-08-07 15:00:00
+316	https://open.spotify.com/track/7Hqig8kp32q2Ire3ECQvWM	Paparazzi	208	67	The Fame	Lady Gaga	1260	0	945	pink	1	0	98	0	anger	pop	electropop	dancepop	2024-08-07 15:01:00
+317	https://open.spotify.com/track/0GegHVxeozw3rdjte45Bfx	White Winter Hymnal	147	63	Fleet Foxes	Fleet Foxes	655	0	712	green	28	22	25	25	happiness	folk	indiefolk	indierock	2024-08-07 15:02:00
+318	https://open.spotify.com/track/2ENexcMEMsYk0rVJigVD3i	Only Girl (In The World)	235	74	Loud (Japan Version)	Rihanna	1311	0	935	pink	96	2	0	2	happiness	pop	electropop	dancepop	2024-08-07 15:03:00
+319	https://open.spotify.com/track/4BP3uh0hFLFRb5cjsgLqDh	Fortunate Son	141	82	Willy And The Poor Boys	Creedence Clearwater Revival	709	5	388	red	96	0	4	0	happiness	classicrock	rock	southernrock	2024-08-07 15:04:00
+320	https://open.spotify.com/track/51YZAJhOwIC5Gg3jMbAmhZ	For Whom The Bell Tolls (Remastered)	310	67	Ride The Lightning (Deluxe Remaster)	Metallica	1504	0	986	black	88	0	12	0	happiness	thrashmetal	metal	rock	2024-08-07 15:05:00
+321	https://open.spotify.com/track/1W5XugQJGhnSATMI5n002M	Idioteque	309	59	Kid A	Radiohead	996	8	1012	red	36	9	24	31	happiness	experimental	alternativerock	rock	2024-08-07 15:06:00
+322	https://open.spotify.com/track/7cpHPzPgqKor6gv6nTkJ4R	Without You	229	49	Born To Die - The Paradise Edition	Lana Del Rey	880	0	1059	pink	22	30	27	21	sadness	pop	indiepop	soul	2024-08-07 15:07:00
+323	https://open.spotify.com/track/7JIuqL4ZqkpfGKQhYlrirs	The Only Exception	268	71	Brand New Eyes	Paramore	497	1	669	red	28	22	25	25	happiness	rock	acousticrock	pop	2024-08-07 15:08:00
+324	https://open.spotify.com/track/2vwlzO0Qp8kfEtzTsCXfyE	Wrecking Ball	221	76	Bangerz (Deluxe Version)	Miley Cyrus	1275	0	1021	pink	28	22	25	25	happiness	pop	chillout	world	2024-08-07 15:09:00
+325	https://open.spotify.com/track/7DfFc7a6Rwfi3YQMRbDMau	Thinkin Bout You	201	71	channel ORANGE	Frank Ocean	1176	3	849	blue	100	0	0	0	happiness	soul	rb	neosoul	2024-08-07 15:10:00
+326	https://open.spotify.com/track/3DamFFqW32WihKkTVlwTYQ	Fireflies	228	79	Ocean Eyes	Owl City	1269	0	947	pink	2	1	0	97	fear	pop	electronica	synthpop	2024-08-07 15:11:00
+327	https://open.spotify.com/track/7iN1s7xHE4ifF5povM6A48	Let It Be - Remastered 2009	243	77	Let It Be (Remastered)	The Beatles	650	2	511	red	36	9	24	31	happiness	classicrock	rock	pop	2024-08-07 15:12:00
+328	https://open.spotify.com/track/1C2QJNTmsTxCDBuIgai8QV	Resistance	347	63	The Resistance	Muse	706	1	911	red	36	9	24	31	happiness	alternativerock	rock	progressiverock	2024-08-07 15:13:00
+329	https://open.spotify.com/track/3YRCqOhFifThpSRFJ1VWFM	November Rain	536	79	Use Your Illusion I	Guns N' Roses	758	0	512	red	0	100	0	0	sadness	rock	hardrock	classicrock	2024-08-07 15:14:00
+330	https://open.spotify.com/track/5i7fZq3chLyCHo3VeB6goD	First of the Year (Equinox)	262	66	More Monsters and Sprites EP	Skrillex	1773	1	1006	yellow	21	28	31	20	anger	dubstep	electro	electronica	2024-08-07 15:15:00
+331	https://open.spotify.com/track/6uEvFCaOqXyEidoO8BZbyh	Du hast	234	67	Sehnsucht	Rammstein	217	0	650	black	36	9	24	31	happiness	industrialmetal	metal	industrial	2024-08-07 15:16:00
+332	https://open.spotify.com/track/7hm4HTk9encxT0LYC0J6oI	Someday	183	65	Is This It	The Strokes	1359	0	1327	red	99	0	0	1	happiness	indierock	rock	alternativerock	2024-08-07 15:17:00
+333	https://open.spotify.com/track/2QeutlLcJf2V1cMUUsDFT1	Lotus Flower	300	57	The King Of Limbs	Radiohead	996	1	1013	red	0	0	0	100	fear	alternativerock	experimental	rock	2024-08-07 15:18:00
+334	https://open.spotify.com/track/0VwNdo84DaVYLIkbVO86ND	We Are Never Ever Getting Back Together	193	76	Red (Big Machine Radio Release Special)	Taylor Swift	1196	1	1608	pink	0	0	100	0	anger	pop	country	countrypop	2024-08-07 15:19:00
+335	https://open.spotify.com/track/5jzKL4BDMClWqRguW5qZvh	Teenage Dream	228	69	Teenage Dream	Katy Perry	1292	2	917	pink	28	22	25	25	happiness	pop	poprock	electropop	2024-08-07 15:20:00
+336	https://open.spotify.com/track/4Hff1IjRbLGeLgFgxvHflk	DARE	245	74	Demon Days	Gorillaz	991	6	821	red	100	0	0	0	happiness	rock	pop	hiphop	2024-08-07 15:21:00
+337	https://open.spotify.com/track/0R8P9KfGJCDULmlEoBagcO	Trouble	273	72	Parachutes	Coldplay	850	0	813	red	98	1	0	1	happiness	rock	britpop	alternativerock	2024-08-07 15:22:00
+338	https://open.spotify.com/track/2GWIxrRloZjHbbznvQnnyu	Breathe Me	275	0	What A Time	Sia	975	0	1003	purple	15	49	19	17	sadness	chillout	downtempo	singersongwriter	2024-08-07 15:23:00
+339	https://open.spotify.com/track/1j6lrR4BzRGKwvAPfrIcbf	Invaders Must Die	295	55	Invaders Must Die	The Prodigy	849	1	1538	cyan	2	98	0	0	sadness	bigbeat	electro	techno	2024-08-07 15:24:00
+340	https://open.spotify.com/track/1wAqhAF1dynDjMy7m5CSSE	New Slang	231	71	Oh, Inverted World	The Shins	783	0	874	red	0	0	0	100	fear	indierock	soundtrack	indiepop	2024-08-07 15:25:00
+341	https://open.spotify.com/track/73jf0RjsUqOPDoKuKhawbq	Heroes - Live	418	42	A Reality Tour	David Bowie	1278	0	566	red	28	22	25	25	happiness	classicrock	rock	glamrock	2024-08-07 15:26:00
+342	https://open.spotify.com/track/5qgBvugGSAnKWCpWAiwusi	Lullaby	248	33	Greatest Hits	The Cure	1409	1	615	pink	97	2	1	0	happiness	newwave	postpunk	rock	2024-08-07 15:27:00
+343	https://open.spotify.com/track/3GS8qG28p2RF6M7S5rFdx5	Howl	214	50	Lungs (Deluxe Edition)	Florence + The Machine	833	0	1016	red	94	0	6	0	happiness	rock	indiepop	indierock	2024-08-07 15:28:00
+344	https://open.spotify.com/track/51TG9W3y9qyO8BY5RXKgnZ	Symphony Of Destruction	247	72	Countdown To Extinction	Megadeth	1497	4	973	black	100	0	0	0	happiness	thrashmetal	metal	speedmetal	2024-08-07 15:29:00
+346	https://open.spotify.com/track/1ZqHjApl3pfzwjweTfMi0g	Violet Hill	223	62	Viva La Vida or Death and All His Friends	Coldplay	924	1	651	red	2	0	18	80	fear	rock	britpop	alternativerock	2024-08-07 15:30:00
+347	https://open.spotify.com/track/6EdSN1iGtLPhcz43QDRkdK	Help!	138	48	Love	The Beatles	662	0	438	red	71	0	0	29	happiness	classicrock	rock	pop	2024-08-07 15:31:00
+348	https://open.spotify.com/track/6H3kDe7CGoWYBabAeVWGiD	Gimme Shelter	271	76	Let It Bleed	The Rolling Stones	646	0	497	red	6	0	94	0	anger	classicrock	rock	bluesrock	2024-08-07 15:32:00
+349	https://open.spotify.com/track/1Vej0qeQ3ioKwpI6FUbRv1	Papercut	185	72	Hybrid Theory (Bonus Edition)	Linkin Park	459	2	680	black	17	18	42	23	anger	numetal	rock	alternativerock	2024-08-07 15:33:00
+350	https://open.spotify.com/track/5fVZC9GiM4e8vu99W0Xf6J	How to Save a Life	263	81	How To Save A Life	The Fray	105	1	639	red	100	0	0	0	happiness	rock	pianorock	alternativerock	2024-08-07 15:34:00
+351	https://open.spotify.com/track/1L94M3KIu7QluZe63g64rv	Alive	341	75	Ten	Pearl Jam	1617	0	1210	red	100	0	0	0	happiness	grunge	rock	alternativerock	2024-08-07 15:35:00
+352	https://open.spotify.com/track/72K0gi3DyEuaW0kPCw0lrO	Happy - Live	201	42	Happy (Live)	Pharrell Williams	1288	0	866	pink	0	0	100	0	anger	pop	soul	soundtrack	2024-08-07 15:36:00
+353	https://open.spotify.com/track/4w3R0GZ2rScJMKlgPJzHRq	Sonne	272	60	Mutter	Rammstein	223	2	658	black	21	28	31	20	anger	industrialmetal	metal	industrial	2024-08-07 15:37:00
+354	https://open.spotify.com/track/4vpeKl0vMGdAXpZiQB2Dtd	White Rabbit	151	69	Surrealistic Pillow	Jefferson Airplane	456	0	1012	red	28	22	25	25	happiness	classicrock	psychedelicrock	rock	2024-08-07 15:38:00
+355	https://open.spotify.com/track/6RpuNjTsUQo7eByN3kWvYx	Untrust Us	186	55	Crystal Castles	Crystal Castles	351	0	325	cyan	0	0	100	0	anger	electro	bit	electronica	2024-08-07 15:39:00
+356	https://open.spotify.com/track/5jzma6gCzYtKB1DbEwFZKH	London Calling - Remastered	200	73	London Calling (Remastered)	The Clash	1355	1	484	red	36	9	24	31	happiness	punk	rock	classicrock	2024-08-07 15:40:00
+357	https://open.spotify.com/track/1Ug98CRiQYu7wiSym4uLY4	Sad But True	325	64	Metallica	Metallica	1490	2	1007	black	12	24	33	32	anger	metal	thrashmetal	rock	2024-08-07 15:41:00
+358	https://open.spotify.com/track/3BQHpFgAp4l80e1XslIjNI	Yesterday - Remastered 2009	126	76	Help! (Remastered)	The Beatles	647	0	524	red	100	0	0	0	happiness	classicrock	rock	pop	2024-08-07 15:42:00
+359	https://open.spotify.com/track/5GorCbAP4aL0EJ16frG2hd	Boulevard of Broken Dreams	262	75	Greatest Hits: God's Favorite Band	Green Day	967	0	943	red	30	0	8	62	fear	rock	punk	alternativerock	2024-08-07 15:43:00
+360	https://open.spotify.com/track/0ll8uFnc0nANY35E0Lfxvg	Somewhere Only We Know	236	70	Hopes And Fears	Keane	98	0	633	pink	98	0	1	1	happiness	britpop	rock	pop	2024-08-07 15:44:00
+361	https://open.spotify.com/track/5gRcv46AMTrosmTOqrOV3Q	Dumb	152	68	In Utero - 20th Anniversary Remaster	Nirvana	1658	2	1150	red	36	9	24	31	happiness	grunge	rock	alternativerock	2024-08-07 15:45:00
+362	https://open.spotify.com/track/0EYOdF5FCkgOJJla8DI2Md	B.Y.O.B.	255	75	Mezmerize	System Of A Down	381	0	517	black	36	9	24	31	happiness	alternativemetal	metal	rock	2024-08-07 15:46:00
+363	https://open.spotify.com/track/0hCB0YR03f6AmQaHbwWDe8	Whole Lotta Love - 1990 Remaster	334	77	Led Zeppelin II (1994 Remaster)	Led Zeppelin	727	1	520	red	0	95	0	5	sadness	classicrock	rock	hardrock	2024-08-07 15:47:00
+364	https://open.spotify.com/track/3AhXZa8sUQht0UEdBJgpGc	Like a Rolling Stone	370	74	Highway 61 Revisited	Bob Dylan	696	0	750	green	75	0	24	0	happiness	folk	classicrock	rock	2024-08-07 15:48:00
+365	https://open.spotify.com/track/1YrnDTqvcnUKxAIeXyaEmU	How Soon Is Now? - 2011 Remaster	408	70	Hatful of Hollow	The Smiths	1434	1	543	pink	99	0	0	0	happiness	newwave	rock	postpunk	2024-08-07 15:49:00
+366	https://open.spotify.com/track/4KGyQfes7t5BiaoBvs380e	Fake Tales Of San Francisco	178	51	Whatever People Say I Am, That's What I'm Not	Arctic Monkeys	945	3	692	red	36	9	24	31	happiness	indierock	rock	alternativerock	2024-08-07 15:50:00
+367	https://open.spotify.com/track/56pHllZT7QOacB0bP56ofx	Chasing Pavements	211	68	19	Adele	1258	0	839	blue	36	9	24	31	happiness	soul	pop	singersongwriter	2024-08-07 15:51:00
+368	https://open.spotify.com/track/5g7rJvWYVrloJZwKiShqlS	Dirty Paws	278	70	My Head Is An Animal	Of Monsters and Men	613	0	660	green	19	27	34	20	anger	folk	indierock	indiefolk	2024-08-07 15:52:00
+369	https://open.spotify.com/track/7BqBn9nzAq8spo5e7cZ0dJ	Just the Way You Are	221	82	Doo-Wops & Hooligans	Bruno Mars	1377	1	981	pink	28	22	25	25	happiness	pop	rb	singersongwriter	2024-08-07 15:53:00
+370	https://open.spotify.com/track/7yD1uhq8xqCSdHLSkQ6sYL	Drumming Song	223	47	Lungs (Deluxe Edition)	Florence + The Machine	832	0	1015	red	73	22	4	1	happiness	rock	indierock	indiepop	2024-08-07 15:54:00
+371	https://open.spotify.com/track/5Xak5fmy089t0FYmh3VJiY	Black	343	74	Ten	Pearl Jam	1619	0	1155	red	100	0	0	0	happiness	grunge	rock	alternativerock	2024-08-07 15:55:00
+372	https://open.spotify.com/track/2YacpExEbX9tF8IbFlFOo4	Heartbeats	232	54	Deep Cuts	The Knife	1149	0	500	pink	2	98	0	0	sadness	synthpop	electro	electronica	2024-08-07 15:56:00
+373	https://open.spotify.com/track/5sFDReWLrZHLFZFjHsjUTS	Would?	207	71	Dirt	Alice In Chains	1622	0	1209	red	90	0	10	0	happiness	grunge	rock	alternativerock	2024-08-07 15:57:00
+375	https://open.spotify.com/track/6Z8R6UsFuGXGtiIxiD8ISb	Safe And Sound	193	81	In A Tidal Wave Of Mystery (Deluxe Edition)	Capital Cities	1220	1	1129	pink	21	29	29	21	sadness	pop	indiepop	synthpop	2024-08-07 15:58:00
+376	https://open.spotify.com/track/6dGnYIeXmHdcikdzNNDMm2	Here Comes The Sun - Remastered 2009	186	83	Abbey Road (Remastered)	The Beatles	680	0	491	red	90	0	10	0	happiness	classicrock	rock	pop	2024-08-07 15:59:00
+378	https://open.spotify.com/track/429MqIq5nGH32feyRZHunv	Plug in Baby	218	53	Origin of Symmetry	Muse	897	2	844	red	0	95	0	5	sadness	alternativerock	rock	progressiverock	2024-08-07 16:00:00
+379	https://open.spotify.com/track/77Ft1RJngppZlq59B6uP0z	Lose Yourself	321	65	SHADYXV	Eminem	406	1	1594	orange	0	100	0	0	sadness	rap	hiphop	hiphop	2024-08-07 16:01:00
+380	https://open.spotify.com/track/2zDis33dp7xVuNxmfUBG1J	Roll Away Your Stone	264	49	Sigh No More	Mumford & Sons	647	1	665	green	28	22	25	25	happiness	folk	folkrock	bluegrass	2024-08-07 16:02:00
+381	https://open.spotify.com/track/2Fxmhks0bxGSBdJ92vM42m	bad guy	194	87	WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?	Billie Eilish	1213	0	1101	pink	12	25	40	22	anger	pop	electropop	indiepop	2024-08-07 16:03:00
+382	https://open.spotify.com/track/6CpbyPJoCxYqMupczd8f3b	Sorry	201	0	Home Workout Anthems	Justin Bieber	1575	0	1395	pink	0	0	100	0	anger	pop	dancehall	tropicalhouse	2024-08-07 16:04:00
+383	https://open.spotify.com/track/05uGBKRCuePsf43Hfm0JwX	Brain Damage	227	65	The Dark Side of the Moon	Pink Floyd	553	1	963	red	36	9	24	31	happiness	progressiverock	classicrock	psychedelicrock	2024-08-07 16:05:00
+384	https://open.spotify.com/track/3u1Er1rkjn1oSz1xdZH3ZD	Call It What You Want	239	63	Torches	Foster The People	827	0	1044	pink	65	0	35	0	happiness	indiepop	indierock	pop	2024-08-07 16:06:00
+385	https://open.spotify.com/track/2VEZx7NWsZ1D0eJ4uv5Fym	Digital Love	301	67	Discovery	Daft Punk	1537	3	772	cyan	36	9	24	31	happiness	house	electronica	techno	2024-08-07 16:07:00
+386	https://open.spotify.com/track/57JVGBtBLCfHw2muk5416J	Another One Bites The Dust - Remastered 2011	215	75	The Game (Deluxe Remastered Version)	Queen	720	1	487	red	0	14	31	55	fear	classicrock	rock	glamrock	2024-08-07 16:08:00
+387	https://open.spotify.com/track/4OkPamOn5GofkOQu64Z4eR	Teddy Picker	161	57	Favourite Worst Nightmare (Standard Version)	Arctic Monkeys	945	1	698	red	20	27	33	20	anger	indierock	rock	alternativerock	2024-08-07 16:09:00
+388	https://open.spotify.com/track/1NeLwFETswx8Fzxl2AFl91	Something About Us	233	70	Discovery	Daft Punk	1549	1	770	purple	36	9	24	31	happiness	chillout	electronica	house	2024-08-07 16:10:00
+389	https://open.spotify.com/track/3I4wuL82QeU3IR518TuV33	Only If For A Night	298	46	Ceremonials (Deluxe Edition)	Florence + The Machine	812	1	1071	pink	0	0	0	100	fear	indiepop	pop	uk	2024-08-07 16:11:00
+390	https://open.spotify.com/track/0n4bITAu0Y0nigrz3MFJMb	Blurred Lines	264	76	Blurred Lines (Deluxe)	Robin Thicke, T.I., Pharrell Williams	1378	2	967	pink	0	0	100	0	anger	pop	rb	soul	2024-08-07 16:12:00
+391	https://open.spotify.com/track/4lGb7vjGqK8OZhXRozj0Go	Calgary	250	49	Bon Iver	Bon Iver	544	0	733	green	0	100	0	0	sadness	folk	indiefolk	singersongwriter	2024-08-07 16:13:00
+392	https://open.spotify.com/track/6ZOBP3NvffbU4SZcrnt1k6	Kryptonite	234	79	The Better Life	3 Doors Down	774	3	1165	red	4	92	1	2	sadness	rock	alternativerock	hardrock	2024-08-07 16:14:00
+393	https://open.spotify.com/track/4fPBB44eDH71YohayI4eKV	You Only Live Once	189	70	First Impressions Of Earth	The Strokes	646	0	1083	red	0	0	0	100	fear	indierock	rock	alternativerock	2024-08-07 16:15:00
+395	https://open.spotify.com/track/3NLrRZoMF0Lx6zTlYqeIo4	Here Without You	239	75	Away From The Sun	3 Doors Down	869	0	828	red	11	0	33	56	fear	rock	alternativerock	hardrock	2024-08-07 16:16:00
+396	https://open.spotify.com/track/3xqxETvPg43KWP0HOGiOmu	Something Good	217	55	An Awesome Wave	alt-J	822	0	563	red	21	29	29	21	sadness	indierock	artrock	indiepop	2024-08-07 16:17:00
+398	https://open.spotify.com/track/45DElIx0dXqUH4A88yQFdE	Go With The Flow	187	59	Songs For The Deaf	Queens of the Stone Age	235	1	860	red	70	0	0	30	happiness	rock	stonerrock	alternativerock	2024-08-07 16:19:00
+399	https://open.spotify.com/track/3qT4bUD1MaWpGrTwcvguhb	Black Dog - Remaster	295	73	Led Zeppelin IV (Deluxe Edition)	Led Zeppelin	711	1	536	red	74	9	7	10	happiness	classicrock	rock	hardrock	2024-08-07 16:20:00
+400	https://open.spotify.com/track/78XFPcFYN8YFOHjtVwnPsl	Unholy Confessions	284	63	Waking The Fallen	Avenged Sevenfold	423	1	616	black	21	28	31	20	anger	metalcore	metal	hardcore	2024-08-07 16:21:00
+401	https://open.spotify.com/track/5MxNLUsfh7uzROypsoO5qe	Dream On	267	78	Aerosmith	Aerosmith	690	0	531	red	96	0	4	0	happiness	classicrock	rock	hardrock	2024-08-07 16:22:00
+402	https://open.spotify.com/track/0xMd5bcWTbyXS7wPrBtZA6	Burn	231	67	Halcyon Days	Ellie Goulding	1283	0	1000	pink	100	0	0	0	happiness	pop	electropop	chillout	2024-08-07 16:23:00
+403	https://open.spotify.com/track/40riOy7x9W7GXjyGp4pjAv	Hotel California - 2013 Remaster	391	83	Hotel California (2013 Remaster)	Eagles	675	0	469	red	100	0	0	0	happiness	classicrock	rock	softrock	2024-08-07 16:24:00
+404	https://open.spotify.com/track/1Bq65xKgu0kjSUMUlfWyPl	Transmission - 2020 Digital Remaster	218	56	Transmission	Joy Division	499	0	794	red	28	22	25	25	happiness	postpunk	newwave	rock	2024-08-07 16:25:00
+405	https://open.spotify.com/track/1xShPgQbOUa98avWJQFDBY	Personal Jesus - Original Single Version	225	63	Personal Jesus	Depeche Mode, Francois Kevorkian	1458	1	586	pink	36	9	24	31	happiness	newwave	synthpop	synthpop	2024-08-07 16:26:00
+406	https://open.spotify.com/track/2UKYMN7VnsQo40n0qCt6Sa	Porcelain	241	57	Play & Play: B Sides	Moby	1081	1	752	purple	100	0	0	0	happiness	chillout	ambient	electronica	2024-08-07 16:27:00
+407	https://open.spotify.com/track/1yqMgZNrevsWMLWfO2PRp5	Charlie Brown	285	67	Mylo Xyloto	Coldplay	884	0	850	red	0	100	0	0	sadness	alternativerock	rock	britpop	2024-08-07 16:28:00
+409	https://open.spotify.com/track/4lIxdJw6W3Fg4vUIYCB0S5	Style	231	67	1989	Taylor Swift	1287	0	930	pink	12	41	4	43	fear	pop	synthpop	poprock	2024-08-07 16:29:00
+410	https://open.spotify.com/track/37ZJ0p5Jm13JPevGcx4SkF	Livin' On A Prayer	249	83	Slippery When Wet	Bon Jovi	737	1	508	red	36	9	24	31	happiness	rock	classicrock	hardrock	2024-08-07 16:30:00
+411	https://open.spotify.com/track/4cawaZVzboa3UYqgR4kalj	Minnesota, WI	232	49	Bon Iver	Bon Iver	549	0	730	green	11	24	42	23	anger	folk	indiefolk	singersongwriter	2024-08-07 16:31:00
+412	https://open.spotify.com/track/1Ow9ZsMYJ1XmaXmUeKYJGT	Baptism	251	49	(II)	Crystal Castles	363	0	321	grey	0	46	0	54	fear	bit	newrave	electronica	2024-08-07 16:32:00
+414	https://open.spotify.com/track/0N3W5peJUQtI4eyR6GJT5O	King Kunta	235	74	To Pimp A Butterfly	Kendrick Lamar	932	0	353	orange	73	0	27	0	happiness	hiphop	funk	hiphop	2024-08-07 16:33:00
+415	https://open.spotify.com/track/0M955bMOoilikPXwKLYpoi	I Hate Everything About You	231	72	Three Days Grace	Three Days Grace	761	0	1180	red	100	0	0	0	happiness	rock	alternativerock	hardrock	2024-08-07 16:34:00
+416	https://open.spotify.com/track/0z1o5L7HJx562xZSATcIpY	Exit Music (For A Film)	267	68	OK Computer	Radiohead	862	0	844	red	53	0	0	47	happiness	alternativerock	rock	britpop	2024-08-07 16:35:00
+417	https://open.spotify.com/track/2LEF1A8DOZ9wRYikWgVlZ8	Good Feeling	248	77	Wild Ones	Flo Rida	1400	0	936	orange	22	30	27	21	sadness	hiphop	pop	hiphop	2024-08-07 16:36:00
+418	https://open.spotify.com/track/3Rleu2vd9qHGjRJdcFtPbC	Dancing Shoes	141	49	Whatever People Say I Am, That's What I'm Not	Arctic Monkeys	946	1	692	red	67	33	0	0	happiness	indierock	rock	alternativerock	2024-08-07 16:37:00
+419	https://open.spotify.com/track/2SiXAy7TuUkycRVbbWDEpo	You Shook Me All Night Long	210	80	Back In Black	AC/DC	740	0	555	red	99	0	0	1	happiness	hardrock	rock	classicrock	2024-08-07 16:38:00
+420	https://open.spotify.com/track/5rTIpPWeO0IL4HWlGWrz5G	Brianstorm	170	57	Favourite Worst Nightmare (Standard Version)	Arctic Monkeys	940	0	706	red	22	30	27	21	sadness	indierock	rock	alternativerock	2024-08-07 16:39:00
+421	https://open.spotify.com/track/2idmlkd8oUaQvYEtINpLBX	Heads Will Roll - A-Trak Remix	384	61	Heads Will Roll	Yeah Yeah Yeahs, A-Trak	833	0	739	red	100	0	0	0	happiness	rock	indierock	pop	2024-08-07 16:40:00
+422	https://open.spotify.com/track/2YxXuCdbUpil3P7tRjhW1t	Banquet	197	62	Silent Alarm (U.S. Version)	Bloc Party	945	4	701	red	0	96	3	1	sadness	indierock	rock	britpop	2024-08-07 16:41:00
+423	https://open.spotify.com/track/0mP897I93DZwdgtjkSriwj	For Emma	221	58	For Emma, Forever Ago	Bon Iver	574	0	700	green	0	100	0	0	sadness	folk	singersongwriter	indiefolk	2024-08-07 16:42:00
+424	https://open.spotify.com/track/2nMeu6UenVvwUktBCpLMK9	Young And Beautiful	236	77	Young And Beautiful	Lana Del Rey	749	0	845	purple	0	0	100	0	anger	soundtrack	pop	indiepop	2024-08-07 16:43:00
+425	https://open.spotify.com/track/1E5HgxGmPFETzZp6g929hu	Chained	168	48	Coexist	The xx	892	0	1147	red	95	4	0	1	happiness	rock	indierock	postpunk	2024-08-07 16:44:00
+426	https://open.spotify.com/track/0grFc6klR3hxoHLcgCYsF4	Howlin' for You	192	67	Brothers	The Black Keys	556	0	556	blue	28	22	25	25	happiness	bluesrock	rock	indierock	2024-08-07 16:45:00
+427	https://open.spotify.com/track/7fBv7CLKzipRk6EC6TWHOB	The Hills	242	85	Beauty Behind The Madness	The Weeknd	1429	5	1010	blue	5	12	52	32	anger	rb	dubstep	trap	2024-08-07 16:46:00
+429	https://open.spotify.com/track/4JvclO8lNugobD1afavcYS	Nantes	230	62	The Flying Club Cup	Beirut	568	0	714	green	0	22	77	0	anger	folk	indiefolk	singersongwriter	2024-08-07 16:47:00
+430	https://open.spotify.com/track/6i0V12jOa3mr6uu4WYhUBr	Heathens	196	82	Heathens	Twenty One Pilots	1214	0	625	purple	17	27	35	21	anger	soundtrack	pop	rock	2024-08-07 16:48:00
+431	https://open.spotify.com/track/5FgPwJ7Nh2FVmIXviKl2VF	Make You Feel My Love	212	72	19	Adele	1336	0	1151	blue	36	9	24	31	happiness	soul	pop	singersongwriter	2024-08-07 16:49:00
+433	https://open.spotify.com/track/2fuYa3Lx06QQJAm0MjztKr	Let Down	300	61	OK Computer	Radiohead	883	0	852	red	100	0	0	0	happiness	alternativerock	rock	indierock	2024-08-07 16:50:00
+434	https://open.spotify.com/track/0kz4nEVFUNcYXLgzOKQnWh	Lump Sum	201	53	For Emma, Forever Ago	Bon Iver	600	0	834	green	28	22	25	25	happiness	folk	singersongwriter	indiefolk	2024-08-07 16:51:00
+435	https://open.spotify.com/track/48X4D1FYOShPz2VF3YdfCF	House Of Cards	328	63	In Rainbows	Radiohead	654	1	1036	red	99	0	1	0	happiness	alternativerock	rock	indierock	2024-08-07 16:52:00
+436	https://open.spotify.com/track/3H3cOQ6LBLSvmcaV7QkZEu	Aerodynamic	213	62	Discovery	Daft Punk	1546	1	771	cyan	5	73	22	0	sadness	house	electronica	techno	2024-08-07 16:53:00
+437	https://open.spotify.com/track/1Ic9pKxGSJGM0LKeqf6lGe	All Apologies	233	69	In Utero - 20th Anniversary Remaster	Nirvana	1624	4	1171	red	28	22	25	25	happiness	grunge	rock	alternativerock	2024-08-07 16:54:00
+438	https://open.spotify.com/track/7e89621JPkKaeDSTQ3avtg	Sweet Home Alabama	284	82	Second Helping	Lynyrd Skynyrd	710	4	385	red	97	0	3	0	happiness	classicrock	southernrock	rock	2024-08-07 16:55:00
+439	https://open.spotify.com/track/4pWIwnnqx8k01fuF95UMIg	Bodysnatchers	242	60	In Rainbows	Radiohead	943	0	825	red	28	22	25	25	happiness	rock	alternativerock	experimental	2024-08-07 16:56:00
+440	https://open.spotify.com/track/0sxYYT48UPkmrDx8p4Hnrl	Run to the Hills - 2015 Remaster	234	60	The Number of the Beast (2015 - Remaster)	Iron Maiden	1204	0	347	black	27	25	27	22	happiness	metal	nwobhm	rock	2024-08-07 16:57:00
+441	https://open.spotify.com/track/4Y2glvLjQGOb4dXnwm1hQf	Witchcraft	253	62	Immersion	Pendulum	1609	1	1501	cyan	36	9	24	31	happiness	drumandbass	rock	electronica	2024-08-07 16:58:00
+442	https://open.spotify.com/track/3kMrazSvILsgcwtidZd1Qd	Bulletproof	206	72	La Roux	La Roux	1150	5	1108	cyan	28	22	25	25	happiness	electropop	synthpop	pop	2024-08-07 16:59:00
+443	https://open.spotify.com/track/3G6hD9B2ZHOsgf4WfNu7X1	Team	193	73	Pure Heroine	Lorde	1180	1	1183	pink	58	42	0	0	happiness	pop	indiepop	synthpop	2024-08-07 17:00:00
+444	https://open.spotify.com/track/3h5zik31hTTat9jmpCZZNC	1979	264	54	(Rotten Apples) The Smashing Pumpkins Greatest Hits	The Smashing Pumpkins	619	0	1034	red	36	9	24	31	happiness	alternativerock	rock	grunge	2024-08-07 17:01:00
+445	https://open.spotify.com/track/53QF56cjZA9RTuuMZDrSA6	I Won't Give Up	240	72	Love Is a Four Letter Word (Deluxe Edition)	Jason Mraz	1249	0	1054	pink	0	0	0	100	fear	pop	singersongwriter	poprock	2024-08-07 17:02:00
+446	https://open.spotify.com/track/5Yj4AP0JGQWierBFKdKVyS	Feeling Good	199	51	Origin of Symmetry	Muse	856	0	845	red	16	0	26	58	fear	rock	alternativerock	progressiverock	2024-08-07 17:03:00
+447	https://open.spotify.com/track/7ySUcLPVX7KudhnmNcgY2D	S&M	244	75	Loud (Japan Version)	Rihanna	1313	0	930	pink	28	22	25	25	happiness	pop	electropop	rb	2024-08-07 17:04:00
+448	https://open.spotify.com/track/1Ud6moTC0KyXMq1Oxfien0	Sympathy For The Devil - 50th Anniversary Edition	378	75	Beggars Banquet (50th Anniversary Edition)	The Rolling Stones	644	0	496	red	0	4	1	95	fear	classicrock	rock	bluesrock	2024-08-07 17:05:00
+449	https://open.spotify.com/track/1JdKrFyoU05abww0Zv0ayQ	That's What You Get	220	67	Riot!	Paramore	628	0	1511	red	28	22	25	25	happiness	rock	poppunk	alternativerock	2024-08-07 17:06:00
+450	https://open.spotify.com/track/1CYjpgyUsldJuXcf57Yg4s	I Gave You All	260	48	Sigh No More	Mumford & Sons	578	0	703	green	28	22	25	25	happiness	folk	indiefolk	bluegrass	2024-08-07 17:07:00
+451	https://open.spotify.com/track/7KXjTSCq5nL1LoYtL7XAwS	HUMBLE.	177	82	DAMN.	Kendrick Lamar	416	3	1323	orange	0	0	0	100	fear	rap	hiphop	hiphop	2024-08-07 17:08:00
+452	https://open.spotify.com/track/7MOQrtXMNImAq5TrPZzC0w	Gunslinger	252	59	Avenged Sevenfold	Avenged Sevenfold	874	1	1356	black	100	0	0	0	happiness	metal	hardrock	metalcore	2024-08-07 17:09:00
+453	https://open.spotify.com/track/0CK1TCrmSI6nzLDJPOHGhN	She Will Be Loved	258	0	What A Time	Maroon 5	1069	0	873	pink	28	22	25	25	happiness	pop	rock	poprock	2024-08-07 17:10:00
+454	https://open.spotify.com/track/6L89mwZXSOwYl76YXfX13s	Basket Case	182	80	Dookie	Green Day	947	2	965	red	28	22	25	25	happiness	punk	rock	alternativerock	2024-08-07 17:11:00
+455	https://open.spotify.com/track/5ChkMS8OtdzJeqyybCc9R5	Billie Jean	294	84	Thriller 25 Super Deluxe Edition	Michael Jackson	1233	0	853	pink	96	4	0	0	happiness	pop	disco	funk	2024-08-07 17:12:00
+457	https://open.spotify.com/track/54flyrjcdnQdco7300avMJ	We Will Rock You - Remastered	122	70	News Of The World (Deluxe Remastered Version)	Queen	644	1	504	red	19	81	0	0	sadness	rock	classicrock	hardrock	2024-08-07 17:13:00
+458	https://open.spotify.com/track/14xj58ZexBaEaHARb11Cqs	Lucky	259	58	OK Computer	Radiohead	650	0	1022	red	100	0	0	0	happiness	alternativerock	rock	britpop	2024-08-07 17:14:00
+459	https://open.spotify.com/track/0xOeB16JDbBJBJKSdHbElT	Rebellion (Lies)	311	64	Funeral	Arcade Fire	651	1	1101	red	2	0	98	0	anger	indierock	rock	alternativerock	2024-08-07 17:15:00
+460	https://open.spotify.com/track/73OIUNKRi2y24Cu9cOLrzM	On the Run	225	60	The Dark Side of the Moon	Pink Floyd	807	1	793	red	28	22	25	25	happiness	progressiverock	classicrock	rock	2024-08-07 17:16:00
+461	https://open.spotify.com/track/14XWXWv5FoCbFzLksawpEe	Riders on the Storm	435	74	L.A. Woman	The Doors	435	2	997	red	0	0	0	100	fear	classicrock	rock	psychedelicrock	2024-08-07 17:17:00
+462	https://open.spotify.com/track/7hqlHZIXhwAzpWQxm9KzBd	Derezzed	104	50	TRON: Legacy - The Complete Edition (Original Motion Picture Soundtrack)	Daft Punk	1367	1	293	purple	28	0	5	67	fear	soundtrack	techno	electronica	2024-08-07 17:18:00
+464	https://open.spotify.com/track/4wSWZjWH7a5eVxskGxO13w	The View From The Afternoon	223	49	Whatever People Say I Am, That's What I'm Not	Arctic Monkeys	1328	0	1330	red	2	2	0	96	fear	indierock	rock	alternativerock	2024-08-07 17:19:00
+465	https://open.spotify.com/track/4uGIJG1jYFonGc4LGp5uQL	Somebody to Love	175	72	Surrealistic Pillow	Jefferson Airplane	445	0	1002	red	1	1	0	97	fear	classicrock	psychedelicrock	rock	2024-08-07 17:20:00
+467	https://open.spotify.com/track/2y4lAQpi5VTNLu2ldeTdUH	We Can't Stop	231	78	Bangerz (Deluxe Version)	Miley Cyrus	1275	0	950	pink	28	22	25	25	happiness	pop	electropop	rb	2024-08-07 17:21:00
+468	https://open.spotify.com/track/4dVbhS6OiYvFikshyaQaCN	My Hero	260	70	The Colour And The Shape	Foo Fighters	1576	1	1191	red	0	0	100	0	anger	rock	alternativerock	grunge	2024-08-07 17:22:00
+469	https://open.spotify.com/track/3avYqdwHKEq8beXbeWCKqJ	Last Friday Night (T.G.I.F.)	231	70	Teenage Dream	Katy Perry	1320	0	914	pink	28	22	25	25	happiness	pop	poprock	dancepop	2024-08-07 17:23:00
+470	https://open.spotify.com/track/2tJulUYLDKOg9XrtVkMgcJ	Grenade	223	77	Doo-Wops & Hooligans	Bruno Mars	1377	0	991	pink	100	0	0	0	happiness	pop	rb	soul	2024-08-07 17:24:00
+471	https://open.spotify.com/track/6QewNVIDKdSl8Y3ycuHIei	Even Flow	293	75	Ten	Pearl Jam	1625	1	1188	red	36	9	24	31	happiness	grunge	rock	alternativerock	2024-08-07 17:25:00
+472	https://open.spotify.com/track/0oks4FnzhNp5QPTZtoet7c	Giorgio by Moroder	545	66	Random Access Memories	Daft Punk	344	0	658	blue	20	27	33	20	anger	disco	funk	house	2024-08-07 17:26:00
+473	https://open.spotify.com/track/3DpuYpzkvUWXbmzCm6pfzR	Burn the Witch	221	57	A Moon Shaped Pool	Radiohead	744	0	1037	pink	30	70	0	0	sadness	chamberpop	artrock	artpop	2024-08-07 17:27:00
+474	https://open.spotify.com/track/2gscB6kDOmrv1P6qs2KXE3	Wait and Bleed	148	70	Slipknot (10th Anniversary Edition)	Slipknot	352	0	505	black	28	22	25	25	happiness	metal	numetal	rock	2024-08-07 17:28:00
+475	https://open.spotify.com/track/7sqii6BhIDpJChYpU3WjwS	Kiara	230	51	Black Sands	Bonobo	1440	0	1067	purple	100	0	0	0	happiness	chillout	downtempo	triphop	2024-08-07 17:29:00
+476	https://open.spotify.com/track/4wajJ1o7jWIg62YqpkHC7S	Weird Fishes/ Arpeggi	318	68	In Rainbows	Radiohead	665	0	1008	red	2	1	0	97	fear	alternativerock	rock	experimental	2024-08-07 17:30:00
+477	https://open.spotify.com/track/6M6UoxIPn4NOWW0x7JPRfv	Young Folks	279	66	Writer's Block	Peter Bjorn and John	873	0	1046	pink	88	0	0	11	happiness	indiepop	pop	indierock	2024-08-07 17:31:00
+478	https://open.spotify.com/track/1tDWVeCR9oWGX8d5J9rswk	Eclipse	130	61	The Dark Side of the Moon	Pink Floyd	551	2	966	red	28	22	25	25	happiness	progressiverock	classicrock	rock	2024-08-07 17:32:00
+479	https://open.spotify.com/track/3khbaRkdMXpwxd6Ege88gj	Awake My Soul	256	57	Sigh No More	Mumford & Sons	579	0	689	green	0	100	0	0	sadness	folk	indiefolk	bluegrass	2024-08-07 17:33:00
+480	https://open.spotify.com/track/2QwObYJWyJTiozvs0RI7CF	Street Spirit (Fade Out)	254	64	The Bends	Radiohead	653	0	1017	red	0	78	0	22	sadness	rock	alternativerock	britpop	2024-08-07 17:34:00
+481	https://open.spotify.com/track/7clUVcSOtkNWa58Gw5RfD4	Speed of Sound	288	69	X&Y	Coldplay	887	0	813	red	0	0	100	0	anger	rock	britpop	alternativerock	2024-08-07 17:35:00
+482	https://open.spotify.com/track/43dcCpx19I0R4zLr4KH1UC	One And Only	348	64	21	Adele	1256	1	837	blue	28	22	25	25	happiness	soul	pop	singersongwriter	2024-08-07 17:36:00
+484	https://open.spotify.com/track/5OQsiBsky2k2kDKy2bX2eT	Learn to Fly	235	74	There Is Nothing Left To Lose	Foo Fighters	1576	1	1198	red	36	9	24	31	happiness	rock	alternativerock	grunge	2024-08-07 17:37:00
+485	https://open.spotify.com/track/15VRO9CQwMpbqUYA7e6Hwg	The Man Who Sold The World	261	74	MTV Unplugged In New York	Nirvana	1618	1	1153	red	100	0	0	0	happiness	grunge	rock	alternativerock	2024-08-07 17:38:00
+486	https://open.spotify.com/track/3pRaLNL3b8x5uBOcsgvdqM	Hallelujah	414	71	Grace	Jeff Buckley	799	1	855	red	94	0	6	0	happiness	singersongwriter	rock	folk	2024-08-07 17:39:00
+487	https://open.spotify.com/track/4kAgnAL4WKx7YqnlL2fvMh	Smile Like You Mean It	234	57	Hot Fuss	The Killers	861	2	714	red	98	0	2	0	happiness	rock	indierock	alternativerock	2024-08-07 17:40:00
+490	https://open.spotify.com/track/5PtEpuVX03k9bOUwilL5EO	Punching In A Dream	238	62	Passive Me, Aggressive You	The Naked And Famous	1130	8	1161	pink	22	30	27	21	sadness	indiepop	electropop	electronica	2024-08-07 17:41:00
+491	https://open.spotify.com/track/22L7bfCiAkJo5xGSQgmiIO	All Of The Lights	300	76	My Beautiful Dark Twisted Fantasy	Kanye West	407	0	1597	orange	14	85	0	2	sadness	hiphop	hiphop	rap	2024-08-07 17:42:00
+492	https://open.spotify.com/track/4iEOVEULZRvmzYSZY2ViKN	Left Hand Free	174	69	This Is All Yours	alt-J	818	0	614	red	17	27	35	21	anger	indierock	rock	pop	2024-08-07 17:43:00
+493	https://open.spotify.com/track/36ux3YuUsGTWPT8fXclS45	E.T.	230	66	Katy Perry - Teenage Dream: The Complete Confection	Katy Perry, Kanye West	1202	0	1120	pink	5	0	63	33	anger	pop	electropop	poprock	2024-08-07 17:44:00
+494	https://open.spotify.com/track/2N5zMZX7YeL1tico8oQxa9	Crazy	182	72	St. Elsewhere	Gnarls Barkley	1007	0	406	blue	19	81	0	0	sadness	soul	funk	hiphop	2024-08-07 17:45:00
+495	https://open.spotify.com/track/67YVlUqnwkjxyy0zKmN2re	Watercolour - Radio Edit	208	5	Rock Energy	Pendulum	1605	0	1500	cyan	100	0	0	0	happiness	drumandbass	rock	breakbeat	2024-08-07 17:46:00
+496	https://open.spotify.com/track/0j1VVFif10Ib9s3U59adli	Iron	187	60	Iron	Woodkid	1016	2	1214	pink	35	8	0	57	fear	experimental	chamberpop	indiefolk	2024-08-07 17:47:00
+497	https://open.spotify.com/track/6u0x5ad9ewHvs3z6u9Oe3c	Under Cover of Darkness	236	67	Angles	The Strokes	636	0	1039	red	100	0	0	0	happiness	indierock	alternativerock	rock	2024-08-07 17:48:00
+498	https://open.spotify.com/track/40Gp0YR5kj8vT7Z55YzTFM	Fiction	176	55	Coexist	The xx	1336	0	1238	pink	100	0	0	0	happiness	shoegaze	indierock	rock	2024-08-07 17:49:00
+499	https://open.spotify.com/track/4cTD99OSLy19Uh2exKRQNa	Blindsided	329	54	For Emma, Forever Ago	Bon Iver	616	1	812	green	100	0	0	0	happiness	folk	singersongwriter	chillout	2024-08-07 17:50:00
+500	https://open.spotify.com/track/1SlMYQmLe0yNEvBIfaPTAW	Ich will	217	58	Mutter	Rammstein	221	1	655	black	36	9	24	31	happiness	industrialmetal	metal	industrial	2024-08-07 17:51:00
+501	https://open.spotify.com/track/0pNeVovbiZHkulpGeOx1Gj	Something - Remastered 2009	182	71	Abbey Road (Remastered)	The Beatles	676	0	499	red	100	0	0	0	happiness	classicrock	rock	pop	2024-08-07 17:52:00
+502	https://open.spotify.com/track/7c378mlmubSu7NGkLFa4sN	Airbag	288	59	OK Computer	Radiohead	651	0	1037	red	36	9	24	31	happiness	alternativerock	rock	experimental	2024-08-07 17:53:00
+503	https://open.spotify.com/track/6BVBkKpZK09NmifUMZqj1z	Every Other Freckle	216	54	This Is All Yours	alt-J	821	1	600	red	2	0	98	0	anger	indierock	alternativerock	pop	2024-08-07 17:54:00
+504	https://open.spotify.com/track/0oirMI8pqPHJiJFTX1LhKh	Michicant	226	50	Bon Iver	Bon Iver	564	0	736	green	11	24	42	23	anger	folk	singersongwriter	indiefolk	2024-08-07 17:55:00
+505	https://open.spotify.com/track/0wwPcA6wtMf6HUMpIRdeP7	Hotline Bling	267	77	Views	Drake	1136	2	967	orange	0	0	100	0	anger	hiphop	memerap	pop	2024-08-07 17:56:00
+506	https://open.spotify.com/track/24LS4lQShWyixJ0ZrJXfJ5	Sweet Nothing (feat. Florence Welch)	213	72	18 Months	Calvin Harris, Florence Welch	1298	0	929	pink	21	29	29	21	sadness	pop	electropop	electro	2024-08-07 17:57:00
+507	https://open.spotify.com/track/7Dyq1bhhjknLKEGg4k5NLr	Hold It Against Me	229	60	Femme Fatale (Deluxe Version)	Britney Spears	1261	0	924	pink	100	0	0	0	happiness	pop	dubstep	electropop	2024-08-07 17:58:00
+508	https://open.spotify.com/track/1vWGa8yC21ZELs9dAhiC2Q	Starry Eyed	177	43	Lights	Ellie Goulding	1290	0	926	pink	28	22	25	25	happiness	pop	electropop	indiepop	2024-08-07 17:59:00
+509	https://open.spotify.com/track/3SUusuA9jH1v6PVwtYMbdv	Last Nite	193	66	Is This It	The Strokes	1359	1	1333	red	36	9	24	31	happiness	indierock	rock	alternativerock	2024-08-07 18:00:00
+510	https://open.spotify.com/track/1Ab3hhOw1TJWDgO10vlxNZ	The Trooper - 2015 Remaster	253	61	Piece of Mind (2015 - Remaster)	Iron Maiden	1208	1	344	black	100	0	0	0	happiness	metal	nwobhm	rock	2024-08-07 18:01:00
+511	https://open.spotify.com/track/3asFGFY3uLjMDmML1p0tYm	Savior	242	68	Appeal To Reason	Rise Against	636	2	1624	red	28	22	25	25	happiness	melodichardcore	punk	hardcore	2024-08-07 18:02:00
+512	https://open.spotify.com/track/2OErSh4oVVAUll0vHxdr6p	Bigmouth Strikes Again - 2011 Remaster	193	66	The Queen Is Dead	The Smiths	1432	1	543	pink	97	0	0	3	happiness	newwave	rock	postpunk	2024-08-07 18:03:00
+513	https://open.spotify.com/track/3lnF83kG6ePhTSWRoW62dO	Bloodbuzz Ohio	276	48	High Violet	The National	808	0	678	red	100	0	0	0	happiness	indierock	rock	postpunk	2024-08-07 18:04:00
+514	https://open.spotify.com/track/04aAxqtGp5pv12UXAg4pkq	Centuries	228	81	American Beauty/American Psycho	Fall Out Boy	689	0	1495	red	0	0	0	100	fear	rock	poppunk	pop	2024-08-07 18:05:00
+515	https://open.spotify.com/track/21sa0bWFqOFEYPtahlt4Lt	Crying Lightning	225	53	Humbug	Arctic Monkeys	916	0	775	red	100	0	0	0	happiness	indierock	rock	alternativerock	2024-08-07 18:06:00
+516	https://open.spotify.com/track/6FBPOJLxUZEair6x4kLDhf	Any Colour You Like	206	61	The Dark Side of the Moon	Pink Floyd	485	4	767	red	28	22	25	25	happiness	progressiverock	classicrock	psychedelicrock	2024-08-07 18:07:00
+517	https://open.spotify.com/track/1VuBmEauSZywQVtqbxNqka	Beautiful Day	246	65	All That You Can't Leave Behind	U2	1030	1	879	red	100	0	0	0	happiness	rock	pop	classicrock	2024-08-07 18:08:00
+518	https://open.spotify.com/track/7wz8LNfmGZ3C0PwKW9LdDg	Battery (Remastered)	312	58	Master of Puppets (Remastered Deluxe Box Set)	Metallica	913	0	1775	black	0	0	0	100	fear	thrashmetal	metal	rock	2024-08-07 18:09:00
+519	https://open.spotify.com/track/4xh7W7tlNMIczFhupCPniY	Go Your Own Way - 2004 Remaster	224	74	Rumours (Super Deluxe)	Fleetwood Mac	680	0	443	red	36	9	24	31	happiness	classicrock	rock	pop	2024-08-07 18:10:00
+520	https://open.spotify.com/track/0M3adYbGtyRHACP86dey1H	Throne	192	73	That's The Spirit	Bring Me The Horizon	382	0	386	black	0	0	0	100	fear	metalcore	metal	rock	2024-08-07 18:11:00
+521	https://open.spotify.com/track/7k5Yq1u7BjrhlmX13cyf0m	Spectrum	312	43	Ceremonials (Deluxe Edition)	Florence + The Machine	801	0	1140	pink	28	22	25	25	happiness	indiepop	pop	alternativerock	2024-08-07 18:12:00
+522	https://open.spotify.com/track/5a4MgIUSf9K8wXLSm6xPEx	High Hopes	511	59	The Division Bell	Pink Floyd	555	1	963	red	42	0	58	1	anger	progressiverock	psychedelicrock	classicrock	2024-08-07 18:13:00
+523	https://open.spotify.com/track/6QgjcU0zLnzq5OrUoSZ3OK	Feel It Still	163	78	Woodstock	Portugal. The Man	1102	0	1294	pink	0	100	0	0	sadness	psychedelicpop	funk	pop	2024-08-07 18:14:00
+524	https://open.spotify.com/track/4vp2J1l5RD4gMZwGFLfRAu	I Gotta Feeling	289	74	THE E.N.D. (THE ENERGY NEVER DIES)	Black Eyed Peas	1396	0	949	pink	100	0	0	0	happiness	pop	hiphop	hiphop	2024-08-07 18:15:00
+525	https://open.spotify.com/track/36c4JohayB9qd64eidQMBi	Doin' it Right (feat. Panda Bear)	251	64	Random Access Memories	Daft Punk, Panda Bear	1173	0	1103	cyan	0	0	0	100	fear	electropop	pop	funk	2024-08-07 18:16:00
+526	https://open.spotify.com/track/3ZffCQKLFLUvYM59XKLbVm	Wake Me up When September Ends	286	76	American Idiot	Green Day	971	0	933	red	72	0	27	0	happiness	rock	punk	poppunk	2024-08-07 18:17:00
+527	https://open.spotify.com/track/4ivBdCI1s9f6yDWFUvBtZo	Tennis Court	199	65	Pure Heroine (Extended)	Lorde	822	1	1188	pink	0	0	100	0	anger	pop	indietronica	indiepop	2024-08-07 18:18:00
+528	https://open.spotify.com/track/5GjPQ0eI7AgmOnADn1EO6Q	Eleanor Rigby - Remastered 2009	127	69	Revolver (Remastered)	The Beatles	649	0	512	red	9	64	0	27	sadness	classicrock	rock	pop	2024-08-07 18:19:00
+529	https://open.spotify.com/track/2UE4m8egf0aREmOi47sDOk	Next Girl	198	51	Brothers	The Black Keys	1344	0	1364	blue	28	22	25	25	happiness	bluesrock	rock	garagerock	2024-08-07 18:20:00
+530	https://open.spotify.com/track/5Z3zRrMIJk7CVpfcLsM9wD	King	215	62	Communion (Deluxe)	Years & Years	1216	0	1122	pink	21	28	31	20	anger	pop	electropop	electronica	2024-08-07 18:21:00
+531	https://open.spotify.com/track/5R34yWuK4EWjy3l6IAfMFJ	I Can Talk	177	52	Tourist History	Two Door Cinema Club	770	0	659	red	70	2	11	16	happiness	indierock	rock	electropop	2024-08-07 18:22:00
+532	https://open.spotify.com/track/4OSbctVD37ycS0H3rwRm72	Prayer Of The Refugee	199	66	The Sufferer & The Witness	Rise Against	636	1	1624	red	36	9	24	31	happiness	rock	melodichardcore	punk	2024-08-07 18:23:00
+533	https://open.spotify.com/track/72Z17vmmeQKAg8bptWvpVG	Space Oddity - 2015 Remaster	318	72	David Bowie (aka Space Oddity) [2015 Remaster]	David Bowie	1274	1	555	red	36	9	24	31	happiness	classicrock	rock	glamrock	2024-08-07 18:24:00
+534	https://open.spotify.com/track/7MDfN1ldfTMtuXXdVz2Pzc	Tears Dry On Their Own	186	69	Back To Black (Deluxe Edition)	Amy Winehouse	607	2	1118	blue	0	0	100	0	anger	soul	jazz	pop	2024-08-07 18:25:00
+535	https://open.spotify.com/track/0ful4PHfTIxzXiZSZsXQ0H	Oxford Comma	196	58	Vampire Weekend	Vampire Weekend	830	0	1085	red	28	22	25	25	happiness	indierock	indiepop	rock	2024-08-07 18:26:00
+536	https://open.spotify.com/track/15BQ7vEDv2LJuh8TxWIhtd	The Passenger	283	73	Lust For Life	Iggy Pop	1358	3	493	red	36	9	24	31	happiness	rock	punk	classicrock	2024-08-07 18:27:00
+537	https://open.spotify.com/track/6wqJeItl3Vc3az4ZicSQAB	Before I Forget	279	75	Vol. 3: The Subliminal Verses	Slipknot	351	0	506	black	100	0	0	0	happiness	metal	numetal	rock	2024-08-07 18:28:00
+538	https://open.spotify.com/track/0hDQV9X1Da5JrwhK8gu86p	Maps	220	68	Fever To Tell (Deluxe Remastered)	Yeah Yeah Yeahs	663	0	1097	red	100	0	0	0	happiness	indierock	rock	alternativerock	2024-08-07 18:29:00
+539	https://open.spotify.com/track/7gHs73wELdeycvS48JfIos	Faded	213	73	Faded	Alan Walker	237	6	418	pink	6	10	50	33	anger	edm	pop	house	2024-08-07 18:30:00
+541	https://open.spotify.com/track/7nm6DlSzzJTH1rk2e6EgJz	Lovesong	316	56	21	Adele	1324	0	1112	blue	28	22	25	25	happiness	soul	pop	singersongwriter	2024-08-07 18:31:00
+542	https://open.spotify.com/track/62nQ8UZVqR2RMvkJHkcO2o	Jeremy	318	72	Ten	Pearl Jam	1625	1	1186	red	100	0	0	0	happiness	grunge	rock	alternativerock	2024-08-07 18:32:00
+543	https://open.spotify.com/track/5VVWgWH8HFLAtM8lbttvn9	Stockholm Syndrome	297	60	Absolution	Muse	707	3	912	red	17	83	0	0	sadness	alternativerock	rock	progressiverock	2024-08-07 18:33:00
+544	https://open.spotify.com/track/6KR9NaynH8bF9w727wKQBL	New Born	363	47	Origin of Symmetry	Muse	707	2	912	red	36	9	24	31	happiness	alternativerock	rock	progressiverock	2024-08-07 18:34:00
+545	https://open.spotify.com/track/7nhItJUpHMXJURhZNyXHJs	Babel	209	54	Babel (Deluxe Version)	Mumford & Sons	580	0	685	green	14	26	39	22	anger	folk	rock	indiefolk	2024-08-07 18:35:00
+547	https://open.spotify.com/track/4ZuC5MfGjRQs3pZtPxqMYP	Shadowplay - 2007 Remaster	234	58	Unknown Pleasures (Collector's Edition)	Joy Division	1382	0	618	red	11	66	23	0	sadness	postpunk	newwave	postpunk	2024-08-07 18:36:00
+548	https://open.spotify.com/track/38iU2jg98IZZEIJPrP7aWD	Till the World Ends	238	67	Femme Fatale (Deluxe Version)	Britney Spears	1262	0	942	pink	28	22	25	25	happiness	pop	dancepop	electropop	2024-08-07 18:37:00
+549	https://open.spotify.com/track/5mJGLBNJM0GULqAoL5mb9C	Breed	184	60	Nevermind (Remastered)	Nirvana	1630	1	1189	red	36	9	24	31	happiness	grunge	rock	alternativerock	2024-08-07 18:38:00
+550	https://open.spotify.com/track/1nZzRJbFvCEct3uzu04ZoL	Part Of Me	216	73	Katy Perry - Teenage Dream: The Complete Confection	Katy Perry	1327	0	896	pink	28	22	25	25	happiness	pop	poprock	electropop	2024-08-07 18:39:00
+551	https://open.spotify.com/track/3aA5fk4c6a7e5HM4rJqkSF	Matilda	228	53	An Awesome Wave	alt-J	821	0	564	red	21	29	30	20	anger	indierock	folk	artrock	2024-08-07 18:40:00
+552	https://open.spotify.com/track/3UygY7qW2cvG9Llkay6i1i	Going Under	215	71	Fallen	Evanescence	1596	8	635	red	22	30	27	21	sadness	rock	gothicrock	metal	2024-08-07 18:41:00
+553	https://open.spotify.com/track/4fzsfWzRhPawzqhX8Qt9F3	Stronger	312	81	Graduation	Kanye West	406	1	1548	orange	36	9	24	31	happiness	hiphop	rap	hiphop	2024-08-07 18:42:00
+554	https://open.spotify.com/track/5yc59J3MR3tVDPTOgwgRI5	Soul Meets Body	229	61	Plans	Death Cab for Cutie	801	0	699	red	1	0	99	0	anger	indierock	rock	indiepop	2024-08-07 18:43:00
+555	https://open.spotify.com/track/3uVsdnIglL7aTjm8X08J0M	He Won't Go	278	54	21	Adele	1071	1	442	blue	28	22	25	25	happiness	soul	pop	blues	2024-08-07 18:44:00
+556	https://open.spotify.com/track/2E8b9rCHCWNr0CrZSTVJCT	Lucky Ones	225	46	Born To Die - The Paradise Edition	Lana Del Rey	774	3	1063	pink	11	24	42	23	anger	pop	indiepop	chamberpop	2024-08-07 18:45:00
+557	https://open.spotify.com/track/0UFDKFqW2oGspYeYqo9wjA	Bleed It Out	166	73	Minutes to Midnight	Linkin Park	461	0	681	red	36	9	24	31	happiness	rock	numetal	alternativerock	2024-08-07 18:46:00
+558	https://open.spotify.com/track/3tRv4ZYZimrL27flnjgeR6	Every You Every Me	214	67	Without You I'm Nothing	Placebo	642	2	1033	red	0	0	1	99	fear	rock	alternativerock	britpop	2024-08-07 18:47:00
+559	https://open.spotify.com/track/7GqWnsKhMtEW0nzki5o0d8	Killer Queen - Remastered 2011	180	66	Sheer Heart Attack (Deluxe Remastered Version)	Queen	719	3	492	red	93	0	6	1	happiness	classicrock	rock	glamrock	2024-08-07 18:48:00
+560	https://open.spotify.com/track/696cNqpF2NwRLzC7KqCurz	Lolita	220	51	Born To Die - The Paradise Edition	Lana Del Rey	883	0	1072	pink	0	100	0	0	sadness	pop	indiepop	alternativepop	2024-08-07 18:49:00
+561	https://open.spotify.com/track/40rvBMQizxkIqnjPdEWY1v	Down with the Sickness	279	76	The Sickness	Disturbed	371	0	555	black	79	21	0	0	happiness	metal	numetal	hardrock	2024-08-07 18:50:00
+562	https://open.spotify.com/track/4HlFJV71xXKIGcU3kRyttv	Hey, Soul Sister	217	83	Save Me, San Francisco (Golden Gate Edition)	Train	1078	0	867	pink	31	0	17	52	fear	pop	rock	alternativerock	2024-08-07 18:51:00
+563	https://open.spotify.com/track/4JehYebiI9JE8sR8MisGVb	Halo	262	77	I AM...SASHA FIERCE	Beyoncé	1273	1	860	pink	36	9	24	31	happiness	pop	soul	rb	2024-08-07 18:52:00
+565	https://open.spotify.com/track/5rfT032kGmLvbxZzfHlu5D	In the Aeroplane Over the Sea	202	65	In the Aeroplane Over the Sea	Neutral Milk Hotel	610	0	663	red	0	0	0	100	fear	indierock	folk	lofi	2024-08-07 18:53:00
+566	https://open.spotify.com/track/2iwGE4y7yF8qzKc5WZ2Z8R	Smack My Bitch Up	343	50	The Fat of the Land	The Prodigy	846	1	1539	cyan	21	28	31	20	anger	techno	electronica	industrial	2024-08-07 18:54:00
+567	https://open.spotify.com/track/2aoo2jlRnM3A0NyLQqMN2f	All Along the Watchtower	241	78	Electric Ladyland	Jimi Hendrix	692	0	477	red	24	27	28	21	anger	classicrock	rock	psychedelicrock	2024-08-07 18:55:00
+568	https://open.spotify.com/track/651koV4RRMMX6NDbW1ElwP	On A Plain	194	55	Nevermind (Remastered)	Nirvana	1628	1	1193	red	28	22	25	25	happiness	grunge	rock	alternativerock	2024-08-07 18:56:00
+569	https://open.spotify.com/track/7rpwDHQLHR8tfhmJEiuNks	This Is The Life	186	0	Throwback Summer Hits	Amy Macdonald	999	0	856	pink	36	9	24	31	happiness	pop	folk	singersongwriter	2024-08-07 18:57:00
+570	https://open.spotify.com/track/0sp00HSXkQyqTa6QqM0O8V	Leave Out All The Rest	209	68	Minutes to Midnight	Linkin Park	877	0	844	red	0	0	0	100	fear	rock	alternativerock	numetal	2024-08-07 18:58:00
+571	https://open.spotify.com/track/2rtGaCAeYtmcIvuZsvgTf6	How to Disappear Completely	356	63	Kid A	Radiohead	655	0	1018	red	20	27	33	20	anger	alternativerock	rock	experimental	2024-08-07 18:59:00
+572	https://open.spotify.com/track/7E66uxFz2NtHWAyiGXotha	Two Weeks	248	51	LP1	FKA twigs	508	0	955	purple	20	27	33	20	anger	triphop	experimental	triphop	2024-08-07 19:00:00
+573	https://open.spotify.com/track/5Ddlk6C2JVxb1SReZ6O1wk	Drain You	224	62	Nevermind (Remastered)	Nirvana	1633	1	1188	red	15	0	85	0	anger	grunge	rock	alternativerock	2024-08-07 19:01:00
+575	https://open.spotify.com/track/2K9aNlFNoh2UVY7K7iPMnS	The Wolves (Act I and II)	322	55	For Emma, Forever Ago	Bon Iver	559	0	745	green	0	0	1	99	fear	folk	singersongwriter	indiefolk	2024-08-07 19:03:00
+576	https://open.spotify.com/track/2EoOZnxNgtmZaD8uUmz2nD	Black Hole Sun	319	76	Superunknown (Deluxe Edition)	Soundgarden	1625	0	1183	red	36	9	24	31	happiness	grunge	rock	alternativerock	2024-08-07 19:04:00
+577	https://open.spotify.com/track/3RptaQ5Xb8WvtpItZ2f9Hi	Snuff	276	67	All Hope Is Gone	Slipknot	1239	1	1453	black	0	0	0	100	fear	metal	numetal	rock	2024-08-07 19:05:00
+578	https://open.spotify.com/track/2KH16WveTQWT6KOG9Rg6e2	Eye of the Tiger	246	76	Rocky IV	Survivor	769	0	444	red	28	22	25	25	happiness	rock	classicrock	soundtrack	2024-08-07 19:06:00
+579	https://open.spotify.com/track/2NfxtzCIrpCmJX5Z2KMdD5	Myth	259	61	Bloom	Beach House	776	0	713	pink	21	28	31	20	anger	dreampop	indierock	indiepop	2024-08-07 19:07:00
+580	https://open.spotify.com/track/19QzuPTNZHJ2SEu5LCQTGI	Hometown Glory	271	57	19	Adele	1322	0	1101	blue	21	28	31	20	anger	soul	pop	singersongwriter	2024-08-07 19:08:00
+581	https://open.spotify.com/track/5NeIONQWJ25uPylJBJiO4c	Through Glass	283	71	Come What(ever) May [10th Anniversary Edition]	Stone Sour	753	0	1166	red	36	9	24	31	happiness	rock	alternativerock	hardrock	2024-08-07 19:09:00
+582	https://open.spotify.com/track/1QEEqeFIZktqIpPI4jSVSF	More Than a Feeling	285	79	Boston	Boston	692	4	503	red	17	0	83	0	anger	classicrock	rock	hardrock	2024-08-07 19:10:00
+583	https://open.spotify.com/track/6Hmj7SrLRbreLVfVS7mV1S	Wake Up	335	65	Funeral	Arcade Fire	863	5	687	red	38	12	28	22	happiness	indierock	rock	alternativerock	2024-08-07 19:11:00
+584	https://open.spotify.com/track/6hu1f1cXSw7OAqhpSQ2zDy	Dazed and Confused - 1990 Remaster	386	62	Led Zeppelin	Led Zeppelin	716	0	531	red	0	85	1	13	sadness	classicrock	rock	hardrock	2024-08-07 19:12:00
+585	https://open.spotify.com/track/4IvZLDtwBHmBmwgDIUbuwa	Here Comes Your Man	201	69	Doolittle	Pixies	928	0	759	red	0	0	0	100	fear	rock	alternativerock	indierock	2024-08-07 19:13:00
+586	https://open.spotify.com/track/7DdXf9x75iEVCHWfoRwRuR	Fitzpleasure	219	60	An Awesome Wave	alt-J	792	1	621	red	21	29	30	20	anger	indierock	indiepop	artrock	2024-08-07 19:14:00
+587	https://open.spotify.com/track/0iTpQYzJnYgh7kIxyq8A2O	Two Weeks	243	71	Veckatimest	Grizzly Bear	790	0	657	red	6	0	94	0	anger	indierock	folk	pop	2024-08-07 19:15:00
+588	https://open.spotify.com/track/7hanhZrUArC9qUerln4jh1	Fake Empire	205	49	Boxer	The National	671	0	1101	red	28	22	25	25	happiness	indierock	rock	indiepop	2024-08-07 19:16:00
+589	https://open.spotify.com/track/4T1iiabe7G0UjWQJCY6NE2	Videotape	280	57	In Rainbows	Radiohead	665	3	1007	red	1	0	0	99	fear	rock	alternativerock	experimental	2024-08-07 19:17:00
+591	https://open.spotify.com/track/4Sfa7hdVkqlM8UW5LsSY3F	Take a Walk	264	71	Gossamer	Passion Pit	868	4	1079	pink	21	28	31	20	anger	indiepop	pop	electropop	2024-08-07 19:18:00
+592	https://open.spotify.com/track/2pxpJ9lmbqPEIk3M7ezLR0	Wonderful Life	254	55	Happiness - Deluxe Edition	Hurts	1249	1	1141	pink	63	36	1	0	happiness	synthpop	pop	newwave	2024-08-07 19:19:00
+593	https://open.spotify.com/track/69uxyAqqPIsUyTO8txoP2M	Adventure of a Lifetime	264	75	A Head Full of Dreams	Coldplay	1231	0	861	pink	7	13	49	31	anger	pop	rock	disco	2024-08-07 19:20:00
+594	https://open.spotify.com/track/60ZGteAEtPCnGE6zevgUcd	Mountain Sound	211	62	My Head Is An Animal	Of Monsters and Men	584	0	674	green	20	27	33	20	anger	folk	indierock	folkrock	2024-08-07 19:21:00
+595	https://open.spotify.com/track/7ABE6G4uQxbNtYgVrpBBPA	Close to Me - 2006 Remaster	203	61	The Head on the Door	The Cure	1407	2	625	pink	28	22	25	25	happiness	newwave	postpunk	rock	2024-08-07 19:22:00
+596	https://open.spotify.com/track/68BTFws92cRztMS1oQ7Ewj	All You Need Is Love - Remastered 2009	230	66	Magical Mystery Tour (Remastered)	The Beatles	658	0	437	red	100	0	0	0	happiness	classicrock	rock	pop	2024-08-07 19:23:00
+597	https://open.spotify.com/track/6gCVA6ja6g0foIsWv0RuSZ	ATWA	176	66	Toxicity	System Of A Down	377	2	513	black	0	2	81	16	anger	alternativemetal	metal	rock	2024-08-07 19:24:00
+598	https://open.spotify.com/track/3RAFcUBrCNaboRXoP3S5t1	Psychosocial	284	72	All Hope Is Gone (10th Anniversary)	Slipknot	344	1	511	black	21	28	31	20	anger	metal	numetal	alternativemetal	2024-08-07 19:25:00
+599	https://open.spotify.com/track/6h2q5GhVc9itEB6NqOEMd4	Eyes Wide Open	191	47	Making Mirrors	Gotye	1110	0	1005	cyan	100	0	0	0	happiness	indieelectropop	indiepop	indierock	2024-08-07 19:26:00
+600	https://open.spotify.com/track/139RwLyp7r8F9ojvhGF5lC	The Number of the Beast - 2015 Remaster	291	56	The Number of the Beast (2015 - Remaster)	Iron Maiden	1200	1	347	black	0	100	0	0	sadness	metal	nwobhm	hardrock	2024-08-07 19:27:00
+601	https://open.spotify.com/track/2x7MyWybabEz6Y6wvHuwGE	Just Dance	242	73	The Fame	Lady Gaga, Colby O'Donis	1323	0	933	pink	100	0	0	0	happiness	pop	dancepop	electropop	2024-08-07 19:28:00
+602	https://open.spotify.com/track/6b6uLZsoGhObYexIxnRbIb	Hangar 18 - Remastered 2004	311	61	Rust In Peace	Megadeth	888	2	1816	black	0	0	0	100	fear	thrashmetal	metal	speedmetal	2024-08-07 19:29:00
+603	https://open.spotify.com/track/3Hbd6gPZ0QErPWXVkC6GRt	Intro	158	46	An Awesome Wave	alt-J	692	0	1107	red	21	28	31	20	anger	indierock	electro	alternativerock	2024-08-07 19:30:00
+604	https://open.spotify.com/track/2gE0khQ948RYQOeTgCUL2a	My Girls	341	55	Merriweather Post Pavilion	Animal Collective	1093	0	1197	green	0	0	100	0	anger	experimental	freakfolk	avantgarde	2024-08-07 19:31:00
+605	https://open.spotify.com/track/1eT2CjXwFXNx6oY5ydvzKU	Hey Jude	239	62	Love	The Beatles	679	1	470	red	21	29	30	20	anger	classicrock	rock	pop	2024-08-07 19:32:00
+606	https://open.spotify.com/track/2SgbR6ttzoNlCRGQOKjrop	Cowboys from Hell	244	71	Cowboys from Hell	Pantera	207	2	1367	black	0	0	35	65	fear	thrashmetal	metal	groovemetal	2024-08-07 19:33:00
+607	https://open.spotify.com/track/6tsojOQ5wHaIjKqIryLZK6	All My Life	263	73	One By One (Expanded Edition)	Foo Fighters	1573	0	1199	red	36	9	24	31	happiness	rock	alternativerock	grunge	2024-08-07 19:34:00
+608	https://open.spotify.com/track/1pKYYY0dkg23sQQXi0Q5zN	Around the World	430	76	Homework	Daft Punk	1531	5	772	cyan	1	0	97	3	anger	house	electronica	techno	2024-08-07 19:35:00
+609	https://open.spotify.com/track/2oDqmfa2g8W893LlwJG1qu	Closer	373	66	The Downward Spiral	Nine Inch Nails	433	1	427	red	38	28	34	0	happiness	industrial	industrialrock	rock	2024-08-07 19:36:00
+610	https://open.spotify.com/track/1Q1b8eVkUPGlpSArl8JAVw	Heart of Gold - 2009 Remaster	187	73	Harvest (2009 Remaster)	Neil Young	621	1	485	red	36	9	24	31	happiness	classicrock	folkrock	rock	2024-08-07 19:37:00
+611	https://open.spotify.com/track/4sAJYPTfoyMKk9kF7qJAjA	Read My Mind	247	0	Friends Never Fail	The Killers	864	0	717	red	21	29	29	21	sadness	rock	indierock	alternativerock	2024-08-07 19:38:00
+612	https://open.spotify.com/track/50xwQXPtfNZFKFeZ0XePWc	Yellow Submarine - Remastered 2009	159	63	Revolver (Remastered)	The Beatles	647	0	436	red	100	0	0	0	happiness	classicrock	rock	pop	2024-08-07 19:39:00
+613	https://open.spotify.com/track/08YEGpKt2LHJ0URCXKHEie	9 Crimes	219	57	9	Damien Rice	600	0	790	green	100	0	0	0	happiness	singersongwriter	folk	chillout	2024-08-07 19:40:00
+614	https://open.spotify.com/track/0HZhYMZOcUzZKSFwPOti6m	Jar of Hearts	247	74	lovestrong.	Christina Perri	823	0	972	pink	15	0	33	52	fear	pop	singersongwriter	soul	2024-08-07 19:41:00
+615	https://open.spotify.com/track/2bL2gyO6kBdLkNSkxXNh6x	Animals	231	80	V	Maroon 5	1223	1	928	pink	0	98	0	2	sadness	pop	poprock	trance	2024-08-07 19:42:00
+616	https://open.spotify.com/track/7H2zem6ynyk67mqqXDIwDS	Creature Fear	186	52	For Emma, Forever Ago	Bon Iver	547	1	742	green	1	99	0	0	sadness	folk	singersongwriter	indiefolk	2024-08-07 19:43:00
+617	https://open.spotify.com/track/20OFwXhEXf12DzwXmaV7fj	Bad Moon Rising	142	78	Green River	Creedence Clearwater Revival	710	5	388	red	0	0	99	1	anger	classicrock	rock	southernrock	2024-08-07 19:44:00
+618	https://open.spotify.com/track/0LtOwyZoSNZKJWHqjzADpW	Feels Like We Only Go Backwards	193	75	Lonerism	Tame Impala	406	1	1048	red	100	0	0	0	happiness	psychedelicrock	psychedelicpop	indierock	2024-08-07 19:45:00
+619	https://open.spotify.com/track/4LJhJ6DQS7NwE7UKtvcM52	What's My Age Again?	148	76	Enema Of The State	blink-182	667	0	1448	red	73	0	1	27	happiness	punk	rock	poppunk	2024-08-07 19:46:00
+620	https://open.spotify.com/track/55mJleti2WfWEFNFcBduhc	Schism	404	69	Lateralus	TOOL	1377	1	1046	black	98	2	0	0	happiness	progressivemetal	progressiverock	metal	2024-08-07 19:47:00
+623	https://open.spotify.com/track/5HF5PRNJ8KGtbzNPPc93tG	King And Lionheart	274	57	My Head Is An Animal	Of Monsters and Men	655	1	674	green	22	30	27	21	sadness	folk	rock	indierock	2024-08-07 19:48:00
+624	https://open.spotify.com/track/6RHHbAbyIcPpvS1dP3KUGq	Running Up That Hill	297	64	Covers	Placebo	652	0	1016	red	36	9	24	31	happiness	rock	alternativerock	indierock	2024-08-07 19:49:00
+625	https://open.spotify.com/track/61mWefnWQOLf90gepjOCb3	Duality	253	77	Vol. 3: The Subliminal Verses	Slipknot	350	0	508	black	28	22	25	25	happiness	metal	numetal	alternativemetal	2024-08-07 19:50:00
+626	https://open.spotify.com/track/4VywXu6umkIQ2OS0m1I79y	Better Together	208	71	In Between Dreams	Jack Johnson	853	0	942	purple	21	29	29	21	sadness	singersongwriter	chillout	pop	2024-08-07 19:51:00
+627	https://open.spotify.com/track/2PzU4IB8Dr6mxV3lHuaG34	(I Can't Get No) Satisfaction - Mono Version	223	77	Out Of Our Heads	The Rolling Stones	685	1	450	red	2	0	98	1	anger	classicrock	rock	britishinvasion	2024-08-07 19:52:00
+628	https://open.spotify.com/track/4AmcmraFjVzFb9SQDNTRyl	Youth	253	63	If You Leave	Daughter	585	1	736	green	17	27	35	21	anger	indiefolk	folk	soundtrack	2024-08-07 19:53:00
+629	https://open.spotify.com/track/5NdxiycRi3nP2v7RJoAJIT	Your Hand In Mine	497	53	The Earth Is Not a Cold Dead Place	Explosions In The Sky	967	0	1186	red	21	29	29	21	sadness	postrock	ambient	postrock	2024-08-07 19:54:00
+630	https://open.spotify.com/track/76G5L5EC20PrZkH1vvT0s2	Sunset	219	54	Coexist	The xx	826	0	1246	cyan	99	0	0	1	happiness	indietronica	indierock	rock	2024-08-07 19:55:00
+631	https://open.spotify.com/track/4c3zZWPPYkvjSV07Cv95oJ	Timshel	173	48	Sigh No More	Mumford & Sons	565	1	733	green	0	0	100	0	anger	folk	indiefolk	folkrock	2024-08-07 19:56:00
+632	https://open.spotify.com/track/3ctALmweZBapfBdFiIVpji	The Game of Love	322	60	Random Access Memories	Daft Punk	1010	0	359	blue	0	0	0	100	fear	funk	house	disco	2024-08-07 19:57:00
+633	https://open.spotify.com/track/3ZE3wv8V3w2T2f7nOCjV0N	Life on Mars? - 2015 Remaster	236	71	Hunky Dory (2015 Remaster)	David Bowie	662	1	528	red	28	22	25	25	happiness	rock	glamrock	classicrock	2024-08-07 19:58:00
+634	https://open.spotify.com/track/3hU637WcAGM5ubSqeaTme5	The Show Must Go On - Remastered 2011	278	57	Innuendo (Deluxe Remastered Version)	Queen	688	2	529	red	93	0	7	0	happiness	classicrock	rock	hardrock	2024-08-07 19:59:00
+635	https://open.spotify.com/track/4yqtwO7MQIIXqoiRBPHAgR	Money for Nothing	506	64	Brothers in Arms	Dire Straits	689	2	465	red	0	99	1	0	sadness	rock	classicrock	pop	2024-08-07 20:00:00
+636	https://open.spotify.com/track/6nTiIhLmQ3FWhvrGafw2zj	American Idiot	176	79	American Idiot	Green Day	950	0	963	red	100	0	0	0	happiness	rock	punk	poppunk	2024-08-07 20:01:00
+637	https://open.spotify.com/track/5qaLfqAUiqvsoL0l4T05Yx	Seven Devils	303	52	Ceremonials (Deluxe Edition)	Florence + The Machine	802	1	1138	pink	22	30	27	21	sadness	indiepop	pop	alternativerock	2024-08-07 20:02:00
+638	https://open.spotify.com/track/7mMlbJlXXo2mRtQ4R9sIzD	Hide and Seek	269	62	Speak for Yourself	Imogen Heap	1378	1	1085	purple	28	22	25	25	happiness	chillout	electronica	singersongwriter	2024-08-07 20:03:00
+639	https://open.spotify.com/track/4PRGxHpCpF2yoOHYKQIEwD	Rock and Roll - Remaster	221	69	Led Zeppelin IV (Deluxe Edition)	Led Zeppelin	725	0	523	red	39	0	19	42	fear	classicrock	rock	hardrock	2024-08-07 20:04:00
+640	https://open.spotify.com/track/3z53rfQOg6Eb5pBCRsd7Uu	Pennyroyal Tea	219	58	In Utero - 20th Anniversary Remaster	Nirvana	1622	0	1165	red	100	0	0	0	happiness	grunge	rock	alternativerock	2024-08-07 20:05:00
+641	https://open.spotify.com/track/2Z8WuEywRWYTKe1NybPQEW	Ride	215	82	Blurryface	Twenty One Pilots	1635	0	1075	pink	2	0	3	94	fear	indiepop	rock	alternativehiphop	2024-08-07 20:06:00
+642	https://open.spotify.com/track/65ShmiE5aLBdcIGr7tHX35	Vicarious	427	63	10,000 Days	TOOL	1380	2	1044	black	0	0	99	1	anger	progressivemetal	progressiverock	metal	2024-08-07 20:07:00
+644	https://open.spotify.com/track/08YJEcxGtYXwCGqXMZDiyQ	Take It All	228	54	21	Adele	1323	0	1193	blue	28	22	25	25	happiness	soul	pop	blues	2024-08-07 20:08:00
+645	https://open.spotify.com/track/4wSmqFg31t6LsQWtzYAJob	Genesis	235	60	Justice	Justice	1196	0	457	cyan	22	30	27	21	sadness	electro	house	electronica	2024-08-07 20:09:00
+646	https://open.spotify.com/track/1JSTJqkT5qHq8MDJnJbRE1	Every Breath You Take	254	84	Synchronicity (Remastered 2003)	The Police	645	0	436	red	99	1	0	0	happiness	rock	classicrock	pop	2024-08-07 20:10:00
+647	https://open.spotify.com/track/0faXHILILebCGnJBPU6KJJ	The Diary of Jane - Single Version	201	74	Phobia (Clean Version)	Breaking Benjamin	753	2	1174	red	9	0	2	90	fear	rock	alternativerock	hardrock	2024-08-07 20:11:00
+648	https://open.spotify.com/track/0eBryM7ePQH3Klt3jz8xZd	First Day of My Life	189	66	I'm Wide Awake, It's Morning	Bright Eyes	669	1	864	green	87	13	0	0	happiness	singersongwriter	folk	emo	2024-08-07 20:12:00
+649	https://open.spotify.com/track/7vjzFWG4neQ9YYMN9yZ9hr	Helicopter	221	58	Silent Alarm (U.S. Version)	Bloc Party	884	0	786	red	100	0	0	0	happiness	indierock	rock	alternativerock	2024-08-07 20:13:00
+650	https://open.spotify.com/track/09oOhscdjOI4JzxgP9t0x3	Bliss	251	45	Origin of Symmetry	Muse	895	0	845	red	100	0	0	0	happiness	alternativerock	rock	progressiverock	2024-08-07 20:14:00
+651	https://open.spotify.com/track/57bgtoPSgt236HzfBOd8kj	Thunderstruck	293	83	The Razors Edge	AC/DC	710	2	479	red	36	9	24	31	happiness	hardrock	rock	classicrock	2024-08-07 20:15:00
+653	https://open.spotify.com/track/2bbhyUWJ5VjdfI3P4PRLu2	Samson	190	50	Begin to Hope (Special Edition)	Regina Spektor	794	0	924	green	15	2	27	56	fear	singersongwriter	antifolk	indiepop	2024-08-07 20:16:00
+654	https://open.spotify.com/track/2ekn2ttSfGqwhhate0LSR0	New Rules	209	81	Dua Lipa (Deluxe)	Dua Lipa	1264	0	949	pink	100	0	0	0	happiness	pop	electropop	emo	2024-08-07 20:17:00
+655	https://open.spotify.com/track/3bHhUEOTIbezeZ856R0BX5	Society	236	68	Into The Wild (Music For The Motion Picture)	Eddie Vedder	773	2	851	purple	0	2	0	98	fear	soundtrack	singersongwriter	rock	2024-08-07 20:18:00
+656	https://open.spotify.com/track/1kdiiFGX1Htx0aVZYaDwEJ	Tears Don't Fall	348	62	The Poison	Bullet For My Valentine	422	1	627	black	0	0	100	0	anger	metalcore	metal	emocore	2024-08-07 20:19:00
+657	https://open.spotify.com/track/47No93LxERvV6MtOAmQzHS	Ignorance	219	67	Brand New Eyes	Paramore	969	1	796	red	94	5	0	1	happiness	alternativerock	rock	poppunk	2024-08-07 20:20:00
+658	https://open.spotify.com/track/01Mpj13vURSO3cCLprPt5T	Raining Blood	254	62	Reign In Blood	Slayer	912	2	1813	black	0	0	100	0	anger	thrashmetal	metal	slayer	2024-08-07 20:21:00
+659	https://open.spotify.com/track/0gmbgwZ8iqyMPmXefof8Yf	How You Remind Me	224	79	Silver Side Up	Nickelback	776	2	1166	red	0	0	100	0	anger	rock	alternativerock	hardrock	2024-08-07 20:22:00
+660	https://open.spotify.com/track/58ge6dfP91o9oXMzq3XkIS	505	254	77	Favourite Worst Nightmare (Standard Version)	Arctic Monkeys	927	2	698	red	21	29	29	21	sadness	indierock	rock	alternativerock	2024-08-07 20:23:00
+661	https://open.spotify.com/track/7C7yqFTM0ncyJ04GIKrxdV	Anything Could Happen	286	56	Halcyon	Ellie Goulding	1285	0	1003	pink	95	5	0	0	happiness	pop	synthpop	indiepop	2024-08-07 20:24:00
+662	https://open.spotify.com/track/4I3YOooM15HkKZVFTEZms5	Telephone - Alphabeat Remix Edit	289	20	Telephone (The DJ Remixes)	Lady Gaga, Beyoncé, Alphabeat	1205	0	1115	pink	21	28	31	20	anger	pop	electropop	dancepop	2024-08-07 20:25:00
+663	https://open.spotify.com/track/5hheGdf1cb4rK0FNiedCfK	The Devil in I	343	71	.5: The Gray Chapter (Special Edition)	Slipknot	369	0	515	black	0	0	0	100	fear	numetal	metal	alternativemetal	2024-08-07 20:26:00
+664	https://open.spotify.com/track/25yQPHgC35WNnnOUqFhgVR	Lucy In The Sky With Diamonds - Remastered 2009	208	68	Sgt. Pepper's Lonely Hearts Club Band (Remastered)	The Beatles	683	1	482	red	100	0	0	0	happiness	classicrock	rock	psychedelicrock	2024-08-07 20:27:00
+666	https://open.spotify.com/track/2SGBEDwsOAOAHrrdAd304i	She Moves In Her Own Way	169	56	Inside In / Inside Out	The Kooks	802	0	689	red	56	0	44	0	happiness	indierock	rock	britpop	2024-08-07 20:29:00
+667	https://open.spotify.com/track/4OMu5a8sFpcRCPCcsoEaov	Babe I'm Gonna Leave You - 1990 Remaster	401	63	Led Zeppelin	Led Zeppelin	694	1	532	red	0	0	100	0	anger	classicrock	rock	hardrock	2024-08-07 20:30:00
+668	https://open.spotify.com/track/3ovjw5HZZv43SxTwApooCM	Wind Of Change	312	78	Crazy World	Scorpions	693	0	531	red	100	0	0	0	happiness	classicrock	rock	hardrock	2024-08-07 20:31:00
+669	https://open.spotify.com/track/1nFtiJxYdhtFfFtfXBv06s	Something In The Way	232	62	Nevermind (Remastered)	Nirvana	1620	1	1142	red	36	9	24	31	happiness	grunge	rock	alternativerock	2024-08-07 20:32:00
+671	https://open.spotify.com/track/3oL3XRtkP1WVbMxf7dtTdu	The One That Got Away	227	75	Katy Perry - Teenage Dream: The Complete Confection	Katy Perry	1350	0	919	pink	36	9	24	31	happiness	pop	poprock	rock	2024-08-07 20:34:00
+672	https://open.spotify.com/track/1SDiiE3v2z89VxC3aVRKHQ	Since I've Been Loving You - Remaster	444	63	Led Zeppelin III (Remaster)	Led Zeppelin	609	1	556	red	97	0	3	0	happiness	classicrock	rock	blues	2024-08-07 20:35:00
+673	https://open.spotify.com/track/0UdBCetwMDQO7JIhi7Waik	Girl With One Eye	218	46	Lungs (Deluxe Edition)	Florence + The Machine	877	0	615	red	0	0	100	0	anger	rock	indierock	indiepop	2024-08-07 20:36:00
+674	https://open.spotify.com/track/63y6xWR4gXz7bnUGOk8iI6	Into You	244	65	Dangerous Woman	Ariana Grande	240	0	425	pink	0	0	0	100	fear	pop	dancepop	edm	2024-08-07 20:37:00
+675	https://open.spotify.com/track/7Bxv0WL7UC6WwQpk9TzdMJ	Within	229	61	Random Access Memories	Daft Punk	1524	0	733	cyan	21	28	31	20	anger	house	disco	funk	2024-08-07 20:38:00
+676	https://open.spotify.com/track/3BcQFPRZuuUClWStz29WjN	Old Yellow Bricks	187	57	Favourite Worst Nightmare (Standard Version)	Arctic Monkeys	944	2	702	red	0	0	90	10	anger	indierock	rock	alternativerock	2024-08-07 20:39:00
+677	https://open.spotify.com/track/2irCiCNN2kheis3bdovtQO	Pass This On	228	42	Deep Cuts	The Knife	1151	0	505	pink	97	0	3	0	happiness	synthpop	electronica	electro	2024-08-07 20:40:00
+678	https://open.spotify.com/track/3WBPiogtVDBSXK7uOpxJ6m	The Bitter End	191	64	Sleeping With Ghosts	Placebo	931	1	830	red	100	0	0	0	happiness	rock	alternativerock	indierock	2024-08-07 20:41:00
+679	https://open.spotify.com/track/7gsArdm7rk6X6wsMr2QKWS	From The Ritz To The Rubble	193	53	Whatever People Say I Am, That's What I'm Not	Arctic Monkeys	946	0	701	red	97	2	1	0	happiness	indierock	rock	alternativerock	2024-08-07 20:42:00
+680	https://open.spotify.com/track/389QX9Q1eUOEZ19vtzzI9O	While My Guitar Gently Weeps - Remastered 2009	285	69	The Beatles (Remastered)	The Beatles	680	0	463	red	100	0	0	0	happiness	classicrock	rock	pop	2024-08-07 20:43:00
+681	https://open.spotify.com/track/2LthqyP0MLhGUBICwR1535	Re: Stacks	401	63	For Emma, Forever Ago	Bon Iver	565	0	809	green	0	0	21	79	fear	folk	singersongwriter	indiefolk	2024-08-07 20:44:00
+682	https://open.spotify.com/track/2Dv7PTwSoB17f3VFDIKw8m	Dissolve Me	239	52	An Awesome Wave	alt-J	793	0	622	red	100	0	0	0	happiness	indierock	experimental	artrock	2024-08-07 20:45:00
+683	https://open.spotify.com/track/5QmolkpuE6IfPdr7j2MGn5	Celestica	228	49	(II)	Crystal Castles	351	1	308	cyan	36	9	24	31	happiness	newrave	indietronica	bit	2024-08-07 20:46:00
+684	https://open.spotify.com/track/5OndtwLGA9O6XHFcGm2H7r	Out Of The Woods	236	62	1989	Taylor Swift	1246	0	938	pink	0	0	100	0	anger	pop	synthpop	poprock	2024-08-07 20:47:00
+685	https://open.spotify.com/track/2EIEJ1zpvjpHuL6eWKGDZ8	Modern Man	280	47	The Suburbs	Arcade Fire	902	0	789	red	62	0	38	0	happiness	indierock	rock	alternativerock	2024-08-07 20:48:00
+686	https://open.spotify.com/track/2mkv1b3dRFyiJ4Ybq31owf	Hunger Of The Pine	300	51	This Is All Yours	alt-J	824	0	559	red	21	28	31	20	anger	indierock	experimental	indiepop	2024-08-07 20:49:00
+687	https://open.spotify.com/track/76Je5Wklky23mVoxiRszcN	Walk	256	68	Wasting Light	Foo Fighters	731	1	1182	red	0	0	0	100	fear	rock	alternativerock	hardrock	2024-08-07 20:50:00
+688	https://open.spotify.com/track/5ubHAQtKuFfiG4FXfLP804	Lego House	185	72	+	Ed Sheeran	975	7	766	blue	100	0	0	0	happiness	soul	folk	pop	2024-08-07 20:51:00
+689	https://open.spotify.com/track/2CbtdkBeW9Znt4vXTOafAl	A Certain Romance	331	52	Whatever People Say I Am, That's What I'm Not	Arctic Monkeys	927	1	692	red	21	68	0	11	sadness	indierock	rock	alternativerock	2024-08-07 20:52:00
+690	https://open.spotify.com/track/7nzsY8vlnKdvGOEE0rjAXZ	Arabella	207	74	AM	Arctic Monkeys	833	0	647	red	21	28	31	20	anger	indierock	rock	alternativerock	2024-08-07 20:53:00
+691	https://open.spotify.com/track/15irEKZ9D6FQqLoZ1qJ1Cx	Faust Arp	130	57	In Rainbows	Radiohead	826	2	857	red	100	0	0	0	happiness	alternativerock	rock	experimental	2024-08-07 20:54:00
+692	https://open.spotify.com/track/1w9ta1CvXlJPRXh6Py2Mto	What Kind Of Man	216	52	How Big, How Blue, How Beautiful (Deluxe)	Florence + The Machine	876	0	711	red	0	0	0	100	fear	indierock	rock	alternativerock	2024-08-07 20:55:00
+693	https://open.spotify.com/track/2MLHyLy5z5l5YRp7momlgw	Island In The Sun	200	78	Weezer (Green Album)	Weezer	921	1	764	red	19	0	1	80	fear	rock	alternativerock	indierock	2024-08-07 20:56:00
+694	https://open.spotify.com/track/3H2VmsXSSxjIv1UUPEQ30d	Brompton Cocktail	253	50	Avenged Sevenfold	Avenged Sevenfold	874	2	1355	black	0	0	0	100	fear	metal	metalcore	hardrock	2024-08-07 20:57:00
+695	https://open.spotify.com/track/7uMZy0bALAdneerERyr7Ks	Reflektor	451	59	Reflektor	Arcade Fire	811	0	699	red	21	28	31	20	anger	indierock	rock	indiepop	2024-08-07 20:58:00
+696	https://open.spotify.com/track/3PbsDnKdrZY0ttX7VE9s5R	Underdog	277	63	West Ryder Pauper Lunatic Asylum	Kasabian	422	0	1075	red	28	22	25	25	happiness	indierock	rock	psychedelicrock	2024-08-07 20:59:00
+697	https://open.spotify.com/track/4absiGHMelB8eH976ytjBj	Evil	216	65	Antics	Interpol	652	6	1100	red	28	22	25	25	happiness	indierock	rock	postpunk	2024-08-07 21:00:00
+698	https://open.spotify.com/track/5kiZpF6a7kxZLurZVSewtw	Hinnom, TX	165	47	Bon Iver	Bon Iver	547	0	735	green	9	21	44	26	anger	folk	singersongwriter	indiefolk	2024-08-07 21:01:00
+699	https://open.spotify.com/track/7nnWIPM5hwE3DaUBkvOIpy	Drive	232	75	Make Yourself	Incubus	933	0	814	red	96	0	1	3	happiness	rock	alternativerock	indierock	2024-08-07 21:02:00
+700	https://open.spotify.com/track/6xqCTPxYnRf8X0p6N5Vw2T	Ooh La	209	45	Inside In / Inside Out	The Kooks	943	1	700	red	36	9	24	31	happiness	indierock	rock	britpop	2024-08-07 21:03:00
+701	https://open.spotify.com/track/52vA3CYKZqZVdQnzRrdZt6	The Times They Are A-Changin'	192	69	The Times They Are A-Changin'	Bob Dylan	690	1	755	green	0	0	0	100	fear	folk	classicrock	singersongwriter	2024-08-07 21:04:00
+702	https://open.spotify.com/track/0TcJ7QWpggdSg8t0fHThHm	LoveGame	216	64	The Fame	Lady Gaga	1198	1	1124	pink	22	30	27	21	sadness	pop	electropop	dancepop	2024-08-07 21:05:00
+703	https://open.spotify.com/track/5fgb3Md1xjt3mxeBqguiIA	I Would Do Anything for You	214	61	Torches	Foster The People	1148	0	1149	red	21	29	29	21	sadness	indierock	indiepop	electropop	2024-08-07 21:06:00
+704	https://open.spotify.com/track/6HTVZeVQ9J6Uiq6tHESxU9	Welcome Home, Son	288	69	Ghost	Radical Face	592	0	844	green	32	12	34	22	anger	folk	singersongwriter	indietronica	2024-08-07 21:07:00
+705	https://open.spotify.com/track/0QCuMBeqdWkwFUTO1WlAjH	Seaside	99	49	Inside In / Inside Out	The Kooks	809	0	838	red	36	9	24	31	happiness	indierock	rock	britpop	2024-08-07 21:08:00
+706	https://open.spotify.com/track/6LUGgCmUX9Z1t3BnKXyL2F	All I Ever Needed	185	19	All I Ever Needed	Airia	640	1	1171	purple	70	1	0	29	happiness	chillout	ambient	lounge	2024-08-07 21:09:00
+707	https://open.spotify.com/track/15JINEqzVMv3SvJTAXAKED	Love The Way You Lie	263	82	Recovery	Eminem, Rihanna	447	0	1583	orange	2	1	23	74	fear	rap	hiphop	hiphop	2024-08-07 21:10:00
+708	https://open.spotify.com/track/2opyAm6zOyjR0An5LkblfN	Make Me Wanna Die	236	54	Light Me Up	The Pretty Reckless	1339	0	1356	red	36	9	24	31	happiness	rock	garagerock	alternativerock	2024-08-07 21:11:00
+709	https://open.spotify.com/track/0U0p8weaMIbIFMJ0CPlvHV	Sprawl II (Mountains Beyond Mountains)	326	56	The Suburbs	Arcade Fire	864	0	701	red	17	13	69	1	anger	indierock	rock	alternativerock	2024-08-07 21:12:00
+711	https://open.spotify.com/track/5XcZRgJv3zMhTqCyESjQrF	Poison	270	72	Trash	Alice Cooper	713	1	480	red	73	3	4	21	happiness	hardrock	rock	classicrock	2024-08-07 21:13:00
+713	https://open.spotify.com/track/5egqKwgK5r5rvGD1LrtR7J	Points of Authority	200	65	Hybrid Theory (Bonus Edition)	Linkin Park	457	2	681	black	99	1	0	0	happiness	numetal	rock	alternativerock	2024-08-07 21:14:00
+714	https://open.spotify.com/track/6jEvloulrt9iCYW9IXJ2yi	After the Storm	248	52	Sigh No More	Mumford & Sons	564	7	732	green	28	22	25	25	happiness	folk	indiefolk	bluegrass	2024-08-07 21:15:00
+715	https://open.spotify.com/track/7BY005dacJkbO6EPiOh2wb	House Of The Rising Sun	271	70	The Animals	The Animals	688	1	502	red	33	8	15	43	fear	classicrock	rock	bluesrock	2024-08-07 21:16:00
+716	https://open.spotify.com/track/005lwxGU1tms6HGELIcUv9	I Kissed A Girl	180	70	One Of The Boys	Katy Perry	1356	1	847	pink	0	100	0	0	sadness	pop	poprock	rock	2024-08-07 21:17:00
+717	https://open.spotify.com/track/6MAdEUilV2p9RQUqE5bMAK	Domino	232	66	Who You Are (Platinum Edition)	Jessie J	1362	0	851	pink	0	7	0	93	fear	pop	poprock	electropop	2024-08-07 21:18:00
+718	https://open.spotify.com/track/46Xnj8vZFwOZCE4aZNXlTf	Not In Love - Radio Version	227	61	(II)	Crystal Castles, Robert Smith	358	3	307	pink	99	0	0	0	happiness	newrave	synthpop	bit	2024-08-07 21:19:00
+719	https://open.spotify.com/track/67vYdAAM3oGsEImCRfbtsF	Times Like These	266	68	One By One (Expanded Edition)	Foo Fighters	1576	2	1190	red	10	1	46	43	anger	rock	alternativerock	grunge	2024-08-07 21:20:00
+720	https://open.spotify.com/track/6GG73Jik4jUlQCkKg9JuGO	The Middle	166	79	Bleed American	Jimmy Eat World	462	0	833	red	0	100	0	0	sadness	rock	alternativerock	emo	2024-08-07 21:21:00
+721	https://open.spotify.com/track/62jc4VA6WPoANaL9Duu8db	Flesh without Blood	265	59	Art Angels	Grimes	1207	0	1149	cyan	10	22	43	25	anger	electropop	pop	dreampop	2024-08-07 21:22:00
+722	https://open.spotify.com/track/0k1xMUwn9sb7bZiqdT9ygx	Beyond	290	59	Random Access Memories	Daft Punk	1011	0	361	blue	100	0	0	0	happiness	disco	funk	house	2024-08-07 21:23:00
+723	https://open.spotify.com/track/0pqnGHJpmpxLKifKRmU6WP	Believer	204	87	Evolve	Imagine Dragons	856	0	727	red	6	9	51	35	anger	rock	indierock	alternativerock	2024-08-07 21:24:00
+724	https://open.spotify.com/track/6W21LNLz9Sw7sUSNWMSHRu	Freak On a Leash	256	75	Follow The Leader	Korn	341	0	558	black	0	0	100	0	anger	numetal	metal	rock	2024-08-07 21:25:00
+725	https://open.spotify.com/track/61dTqhd46yMkSWmC5LAh5F	Angel Of Death	291	56	Reign In Blood	Slayer	912	1	1813	black	21	29	29	21	sadness	thrashmetal	metal	slayer	2024-08-07 21:26:00
+726	https://open.spotify.com/track/7rSn37L6jGaPnOOLBbEwXX	Happy Up Here	164	47	Junior	Röyksopp	1123	0	1143	cyan	28	22	25	25	happiness	electronica	chillout	synthpop	2024-08-07 21:27:00
+727	https://open.spotify.com/track/3glgou0Tu1wEYeo5Lt87In	California Gurls	236	29	California Gurls (feat. Snoop Dogg)	Katy Perry, Snoop Dogg	1264	0	932	pink	2	4	94	0	anger	pop	poprock	electropop	2024-08-07 21:28:00
+728	https://open.spotify.com/track/5IyL3XOaRPpTgxVjRIAxXU	Ziggy Stardust - 2012 Remaster	194	64	The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster)	David Bowie	1276	1	555	red	1	23	0	76	fear	classicrock	glamrock	rock	2024-08-07 21:29:00
+729	https://open.spotify.com/track/13NCxLOlvQ4Tnexgfp03Gs	Do Me a Favour	205	57	Favourite Worst Nightmare (Standard Version)	Arctic Monkeys	942	0	689	red	0	100	0	0	sadness	indierock	rock	alternativerock	2024-08-07 21:30:00
+730	https://open.spotify.com/track/33BnSMHgX0AsbKSIbkuMwh	Limit To Your Love	277	55	James Blake	James Blake	1738	0	1042	yellow	0	0	85	15	anger	dubstep	experimental	downtempo	2024-08-07 21:31:00
+731	https://open.spotify.com/track/6GskIhdM6TN6EkPgeSjVfW	Fidelity	227	53	Begin to Hope (Special Edition)	Regina Spektor	844	0	953	pink	78	0	21	0	happiness	singersongwriter	pop	indiepop	2024-08-07 21:32:00
+732	https://open.spotify.com/track/7MXVkk9YMctZqd1Srtv4MB	Starboy	230	84	Starboy	The Weeknd, Daft Punk	1774	0	986	pink	100	0	0	0	happiness	pop	electropop	dubstep	2024-08-07 21:33:00
+733	https://open.spotify.com/track/6mVD1SfTvlFAPVi7txFL5H	Machu Picchu	210	62	Angles	The Strokes	943	1	808	red	1	99	0	0	sadness	indierock	rock	alternativerock	2024-08-07 21:34:00
+734	https://open.spotify.com/track/4wzt5Rrk3W98pHXAqutuJw	Talk	311	63	X&Y	Coldplay	863	0	820	red	36	9	24	31	happiness	rock	britpop	alternativerock	2024-08-07 21:35:00
+735	https://open.spotify.com/track/60IkVf7UfQXmt5CwkpcX8a	From the Inside	174	57	Meteora	Linkin Park	325	0	596	black	99	1	0	0	happiness	numetal	rock	alternativerock	2024-08-07 21:36:00
+736	https://open.spotify.com/track/55q3Ro66yXWi9rsEddeEN4	Pyramid Song	289	61	Amnesiac	Radiohead	666	1	1007	red	21	0	79	0	anger	alternativerock	rock	experimental	2024-08-07 21:37:00
+737	https://open.spotify.com/track/4ZtqsOdBbS6GoedzzRGSo9	Breathe	336	52	The Fat of the Land	The Prodigy	845	1	1539	cyan	0	0	100	0	anger	techno	electronica	industrial	2024-08-07 21:38:00
+738	https://open.spotify.com/track/7zZkPiqHnL7icGGb4Almf6	Reunion	235	45	Hurry Up, We're Dreaming	M83	1353	1	721	pink	0	0	100	0	anger	shoegaze	indierock	synthpop	2024-08-07 21:39:00
+739	https://open.spotify.com/track/7ccI9cStQbQdystvc6TvxD	We Are The Champions - Remastered 2011	179	64	News Of The World (Deluxe Remastered Version)	Queen	679	0	516	red	28	22	25	25	happiness	classicrock	rock	hardrock	2024-08-07 21:40:00
+740	https://open.spotify.com/track/30YMGz5pjtRaIjtQcpjn01	Sorrow	205	39	High Violet	The National	660	1	1105	red	100	0	0	0	happiness	indierock	rock	alternativerock	2024-08-07 21:41:00
+741	https://open.spotify.com/track/3hlksXnvbKogFdPbpO9vel	Super Bass	200	79	Pink Friday (Complete Edition)	Nicki Minaj	447	0	1412	orange	21	29	29	21	sadness	hiphop	pop	hiphop	2024-08-07 21:42:00
+742	https://open.spotify.com/track/5I6y1KWmUoV5YCaIEcs1qs	Should Have Known Better	308	65	Carrie & Lowell	Sufjan Stevens	550	0	745	green	0	100	0	0	sadness	folk	indiefolk	singersongwriter	2024-08-07 21:43:00
+743	https://open.spotify.com/track/19K3lUMJmOdeuOBTrbLm19	Weekend Wars	251	56	Oracular Spectacular	MGMT	809	0	1003	red	2	0	98	0	anger	rock	indierock	indiepop	2024-08-07 21:44:00
+744	https://open.spotify.com/track/1OOtq8tRnDM8kG2gqUPjAj	Beat It	258	79	Thriller 25 Super Deluxe Edition	Michael Jackson	1205	0	885	pink	36	9	24	31	happiness	pop	rock	funk	2024-08-07 21:45:00
+746	https://open.spotify.com/track/67oWRoHnyZRwIma6ZShcBz	This Love	206	0	Hot Hits MCO 3.0	Maroon 5	1080	0	868	pink	81	0	0	18	happiness	pop	rock	poprock	2024-08-07 21:46:00
+747	https://open.spotify.com/track/5JLv62qFIS1DR3zGEcApRt	Wide Awake	221	67	Katy Perry - Teenage Dream: The Complete Confection	Katy Perry	1294	1	940	pink	99	1	0	0	happiness	pop	chillout	world	2024-08-07 21:47:00
+748	https://open.spotify.com/track/2hHLbkatPwOOmrNxTiD41L	I Really Like You	205	69	Emotion (Deluxe Expanded Edition)	Carly Rae Jepsen	1296	0	926	pink	56	44	0	0	happiness	pop	synthpop	electropop	2024-08-07 21:48:00
+749	https://open.spotify.com/track/7qUoDTmVj07qUf6ZBDhWKl	Blood Bank	285	63	Blood Bank	Bon Iver	557	2	745	green	94	6	0	0	happiness	folk	singersongwriter	indiefolk	2024-08-07 21:49:00
+750	https://open.spotify.com/track/0h4rVZcOiSaL9b5mT1A2gq	Fear of the Dark - 2015 Remaster	438	54	Fear of the Dark (2015 - Remaster)	Iron Maiden	1198	2	347	black	0	8	0	92	fear	metal	nwobhm	rock	2024-08-07 21:50:00
+752	https://open.spotify.com/track/3uliGwmB52ZA7brgpZMzyH	Love Is A Losing Game	155	66	Back To Black (Deluxe Edition)	Amy Winehouse	608	2	1118	blue	36	9	24	31	happiness	soul	jazz	pop	2024-08-07 21:51:00
+753	https://open.spotify.com/track/225xvV8r1yKMHErSWivnow	"I Don't Want to Miss a Thing - From ""Armageddon"" Soundtrack"	299	75	Armageddon - The Album	Aerosmith	767	0	449	red	100	0	0	0	happiness	rock	classicrock	soundtrack	2024-08-07 21:52:00
+754	https://open.spotify.com/track/7hxZF4jETnE5Q75rKQnMjE	I Walk the Line	177	68	I Walk the Line (Original Soundtrack Recording)	Johnny Cash	1134	1	1481	green	0	0	5	95	fear	country	folk	singersongwriter	2024-08-07 21:53:00
+755	https://open.spotify.com/track/4s6LhHAV5SEsOV0lC2tjvJ	California Dreamin' - Single Version	162	77	If You Can Believe Your Eyes & Ears	The Mamas & The Papas	655	1	441	red	59	41	0	0	happiness	classicrock	rock	pop	2024-08-07 21:54:00
+756	https://open.spotify.com/track/6SONqPbbSCVP5rgi0CdRxu	Girl Gone Wild	223	47	MDNA (Deluxe Version)	Madonna	1294	0	946	pink	3	96	0	0	sadness	pop	electropop	trance	2024-08-07 21:55:00
+757	https://open.spotify.com/track/6vTtCOimcPs5H1Jr9d0Aep	Sour Times	252	60	Dummy	Portishead	1445	1	1082	purple	21	29	29	21	sadness	triphop	chillout	triphop	2024-08-07 21:56:00
+758	https://open.spotify.com/track/4JiEyzf0Md7KEFFGWDDdCr	Knockin' On Heaven's Door	336	77	Use Your Illusion II	Guns N' Roses	753	0	513	red	19	4	1	75	fear	rock	hardrock	classicrock	2024-08-07 21:57:00
+759	https://open.spotify.com/track/4JKA36eyfTOq7WPoqLSPQt	Thistle & Weeds	290	47	Sigh No More	Mumford & Sons	581	0	692	green	0	3	0	97	fear	folk	indiefolk	bluegrass	2024-08-07 21:58:00
+760	https://open.spotify.com/track/49rcSzMayJhIwGf0CJCaxJ	Wherever I May Roam	404	62	Metallica	Metallica	1489	2	1007	black	0	0	78	21	anger	metal	thrashmetal	rock	2024-08-07 21:59:00
+761	https://open.spotify.com/track/6PLimDpu9j7Bbs61fxux2A	What Do You Mean?	209	0	Old But Gold	Justin Bieber	1331	0	1018	pink	17	27	35	21	anger	pop	blackmetal	tropicalhouse	2024-08-07 22:00:00
+762	https://open.spotify.com/track/2ZdWa7qK1fe0dUSP6mJj4e	My Boy Builds Coffins	176	44	Lungs (Deluxe Edition)	Florence + The Machine	835	0	1018	red	28	22	25	25	happiness	rock	indiepop	pop	2024-08-07 22:01:00
+763	https://open.spotify.com/track/2UyWClHKt6fut3IpS2tJiR	Waste	206	59	Torches	Foster The People	833	0	1068	pink	28	22	25	25	happiness	indiepop	rock	indierock	2024-08-07 22:02:00
+764	https://open.spotify.com/track/2CVV8PtUYYsux8XOzWkCP0	Subterranean Homesick Alien	268	59	OK Computer	Radiohead	884	0	853	red	28	22	25	25	happiness	alternativerock	rock	experimental	2024-08-07 22:03:00
+765	https://open.spotify.com/track/3D1P3oPecqAQy2u33gAhsM	Odessa	316	52	Swim	Caribou	1096	0	1162	cyan	21	29	29	21	sadness	experimental	electronica	folktronica	2024-08-07 22:04:00
+766	https://open.spotify.com/track/2dphvmoLEXdk8hOYxmHlI3	Strawberry Swing	250	55	Viva La Vida or Death and All His Friends	Coldplay	620	4	1064	red	0	100	0	0	sadness	rock	alternativerock	britpop	2024-08-07 22:05:00
+767	https://open.spotify.com/track/3g9mw4A8vdljOKgwrit88g	Wash.	299	57	Bon Iver	Bon Iver	561	0	751	green	7	14	49	30	anger	folk	singersongwriter	indiefolk	2024-08-07 22:06:00
+768	https://open.spotify.com/track/6WF4hzdGXvXd1joERSXJjm	Hurts Like Heaven	242	56	Mylo Xyloto	Coldplay	928	0	663	red	14	26	39	22	anger	alternativerock	rock	britpop	2024-08-07 22:07:00
+769	https://open.spotify.com/track/1we2UifyzGe2tgvTVFTwD4	If I Had A Heart	227	52	Fever Ray	Fever Ray	980	0	544	purple	94	5	0	1	happiness	ambient	experimental	darkambient	2024-08-07 22:08:00
+770	https://open.spotify.com/track/6haHIyPMUnVCZn6pHpyzM8	"Not Ready to Die - From ""Call of the Dead"""	425	56	"Not Ready to Die (From ""Call of the Dead"")"	Avenged Sevenfold	437	1	603	black	11	24	42	23	anger	metalcore	hardrock	metal	2024-08-07 22:09:00
+771	https://open.spotify.com/track/0WZZJ0mDKIkLfL0710ssZt	Neighborhood #1 (Tunnels)	288	58	Funeral	Arcade Fire	863	4	687	red	100	0	0	0	happiness	indierock	rock	alternativerock	2024-08-07 22:10:00
+772	https://open.spotify.com/track/1aaIYTqoRDzRUilU2Q6vTe	Archangel	238	45	Untrue	Burial	1782	1	1132	yellow	36	9	24	31	happiness	dubstep	ambient	electronica	2024-08-07 22:11:00
+773	https://open.spotify.com/track/6q1qACcezH6eH77Xljh5QV	I Need A Dollar	243	67	Good Things	Aloe Blacc	1049	0	446	blue	0	99	0	0	sadness	soul	neosoul	pop	2024-08-07 22:12:00
+774	https://open.spotify.com/track/522YBf6WqBwJVAe7oHLymu	Seasons (Waiting on You)	226	65	Singles	Future Islands	865	0	1229	pink	0	99	0	1	sadness	synthpop	indiepop	indierock	2024-08-07 22:13:00
+775	https://open.spotify.com/track/56sk7jBpZV0CD31G9hEU3b	Animal I Have Become	231	72	One-X	Three Days Grace	761	1	1180	red	36	9	24	31	happiness	rock	alternativerock	hardrock	2024-08-07 22:14:00
+776	https://open.spotify.com/track/0qksx8mV28lztYIZ1om8ml	Shiver	304	66	Parachutes	Coldplay	883	0	815	red	0	6	34	59	fear	rock	britpop	alternativerock	2024-08-07 22:15:00
+777	https://open.spotify.com/track/4DMKwE2E2iYDKY01C335Uw	Carry on Wayward Son	323	76	Leftoverture (Expanded Edition)	Kansas	615	2	993	red	28	22	25	25	happiness	classicrock	progressiverock	rock	2024-08-07 22:16:00
+778	https://open.spotify.com/track/2s7pyee9w04uQy3cNKzey9	Mykonos	275	62	First Collection 2006-2009	Fleet Foxes	607	2	680	green	4	0	0	96	fear	folk	indierock	rock	2024-08-07 22:17:00
+779	https://open.spotify.com/track/1Rd5OVjqDAr5xC96MHt448	Daydreaming	384	60	A Moon Shaped Pool	Radiohead	986	0	587	purple	10	22	43	25	anger	ambient	experimental	ambientpop	2024-08-07 22:18:00
+780	https://open.spotify.com/track/6zfczP87XO2SxWlQtnjFNa	The Look	278	71	The English Riviera	Metronomy	1076	0	1181	pink	98	0	0	2	happiness	experimental	pop	indiepop	2024-08-07 22:19:00
+781	https://open.spotify.com/track/67HxeUADW4H3ERfaPW59ma	Love Me Two Times	195	63	Strange Days	The Doors	436	3	997	red	0	0	100	0	anger	classicrock	psychedelicrock	rock	2024-08-07 22:20:00
+782	https://open.spotify.com/track/5SAUIWdZ04OxYfJFDchC7S	Smoke on the Water	342	65	Machine Head	Deep Purple	713	0	555	red	21	28	31	20	anger	classicrock	hardrock	rock	2024-08-07 22:21:00
+783	https://open.spotify.com/track/6wNUBZNWFxdUGof6vkaykE	One For The Road	206	66	AM	Arctic Monkeys	802	1	686	red	21	28	31	20	anger	indierock	rock	alternativerock	2024-08-07 22:22:00
+784	https://open.spotify.com/track/5UgT7w6zVZjP3oyawMzbiK	The End	703	61	The Doors	The Doors	446	1	1015	red	10	1	46	43	anger	psychedelicrock	classicrock	rock	2024-08-07 22:23:00
+785	https://open.spotify.com/track/6nzXkCBOhb2mxctNihOqbb	Bad Girls	228	69	Matangi	M.I.A.	405	1	1376	orange	22	30	27	21	sadness	hiphop	hiphop	rap	2024-08-07 22:24:00
+786	https://open.spotify.com/track/3G69vJMWsX6ZohTykad2AU	One	276	76	Achtung Baby (Deluxe Edition)	U2	740	0	468	red	100	0	0	0	happiness	rock	classicrock	pop	2024-08-07 22:25:00
+787	https://open.spotify.com/track/1lbXEepatjRVjoG8pZMtdp	Dreams	254	69	Greatest Hits	Fleetwood Mac	663	1	444	red	22	30	27	21	sadness	classicrock	rock	pop	2024-08-07 22:26:00
+788	https://open.spotify.com/track/5EabbLQZbdhCqG6aK9PFLU	New Dawn Fades - 2007 Remaster	292	52	Unknown Pleasures (Collector's Edition)	Joy Division	1398	2	632	red	0	78	0	22	sadness	postpunk	newwave	postpunk	2024-08-07 22:27:00
+789	https://open.spotify.com/track/0BqQWfhMrkpRAUCbdfdHUC	Little Sister	174	58	Lullabies To Paralyze	Queens of the Stone Age	235	1	854	red	0	0	0	100	fear	rock	stonerrock	alternativerock	2024-08-07 22:28:00
+790	https://open.spotify.com/track/305WCRhhS10XUcH6AEwZk6	Are You Gonna Be My Girl	214	76	Get Born	Jet	876	0	744	red	36	9	24	31	happiness	rock	indierock	alternativerock	2024-08-07 22:29:00
+792	https://open.spotify.com/track/13uyMAetJNWMWJamO4aynQ	Rococo	237	45	The Suburbs	Arcade Fire	888	0	786	red	21	29	29	21	sadness	indierock	rock	alternativerock	2024-08-07 22:30:00
+794	https://open.spotify.com/track/1vzqcPRQ6P1Uw7NZ5M77wJ	Amaranth	231	49	Dark Passion Play	Nightwish	1361	8	770	black	70	0	0	30	happiness	symphonicmetal	gothicmetal	metal	2024-08-07 22:31:00
+795	https://open.spotify.com/track/0t2QiRkpag0fAgs9zuCPlH	Disparate Youth	284	58	Master of My Make-Believe	Santigold	708	1	1404	red	22	30	27	21	sadness	indierock	dub	reggaefusion	2024-08-07 22:32:00
+796	https://open.spotify.com/track/4RCWB3V8V0dignt99LZ8vH	Hey There Delilah	233	80	All That We Needed	Plain White T's	990	0	1390	red	35	25	33	7	happiness	rock	emo	pop	2024-08-07 22:33:00
+797	https://open.spotify.com/track/5cCAZS9VhLGEDV4NCfieeg	I Wanna Go	210	67	Femme Fatale (Deluxe Version)	Britney Spears	1342	1	949	pink	22	30	27	21	sadness	pop	electropop	hinrg	2024-08-07 22:34:00
+799	https://open.spotify.com/track/69QHm3pustz01CJRwdo20z	Hells Bells	312	73	Back In Black	AC/DC	709	0	479	red	0	100	0	0	sadness	hardrock	rock	classicrock	2024-08-07 22:35:00
+800	https://open.spotify.com/track/1PXsUXSM3LF2XNSkmIldPb	Little Black Submarines	251	66	El Camino	The Black Keys	1338	0	1358	blue	100	0	0	0	happiness	bluesrock	garagerock	rock	2024-08-07 22:36:00
+801	https://open.spotify.com/track/4tUOFydV4QoeqZOIoxzHNk	Blinding	276	43	Lungs (Deluxe Edition)	Florence + The Machine	834	0	1017	red	0	0	100	0	anger	rock	indiepop	indierock	2024-08-07 22:37:00
+802	https://open.spotify.com/track/0rmGAIH9LNJewFw7nKzZnc	You Give Love A Bad Name	223	80	Slippery When Wet	Bon Jovi	731	0	539	red	0	0	0	100	fear	rock	hardrock	classicrock	2024-08-07 22:38:00
+803	https://open.spotify.com/track/3YuaBvuZqcwN3CEAyyoaei	Like a Stone	294	76	Audioslave	Audioslave	1570	0	1198	red	0	0	2	98	fear	rock	alternativerock	grunge	2024-08-07 22:39:00
+804	https://open.spotify.com/track/6C0xucNj75wRdlejwWIEW1	Club Foot	214	61	Kasabian	Kasabian	870	0	679	red	36	9	24	31	happiness	indierock	rock	alternativerock	2024-08-07 22:40:00
+805	https://open.spotify.com/track/0JNdS1n0ifOP25XvhwAMgM	The Edge Of Glory	321	65	Born This Way	Lady Gaga	1252	0	936	pink	100	0	0	0	happiness	pop	electropop	synthpop	2024-08-07 22:41:00
+806	https://open.spotify.com/track/51xBgzcyzojRpqFW2ICQAB	No Cars Go	344	57	Neon Bible	Arcade Fire	863	3	687	red	0	15	3	81	fear	indierock	rock	alternativerock	2024-08-07 22:42:00
+807	https://open.spotify.com/track/5OF7nhjVV0dmngqYjDrZGw	Nemo	276	50	Once	Nightwish	1358	1	770	black	100	0	0	0	happiness	symphonicmetal	gothicmetal	metal	2024-08-07 22:43:00
+808	https://open.spotify.com/track/1dyTcli07c77mtQK3ahUZR	Just	235	64	The Bends	Radiohead	895	0	839	red	36	9	24	31	happiness	alternativerock	rock	britpop	2024-08-07 22:44:00
+809	https://open.spotify.com/track/0Ln5tJyLX5qusquBOtq7wf	Fire	252	66	West Ryder Pauper Lunatic Asylum	Kasabian	866	1	676	red	28	22	25	25	happiness	indierock	rock	alternativerock	2024-08-07 22:45:00
+810	https://open.spotify.com/track/6BT7qiDY4A5tOyklohjQuW	Monkey Gone to Heaven	175	62	Doolittle	Pixies	928	1	756	red	28	22	25	25	happiness	rock	alternativerock	indierock	2024-08-07 22:46:00
+811	https://open.spotify.com/track/5Y2YS9LVwVFqxcxkJJSbnr	Alice Practice	161	45	Crystal Castles	Crystal Castles	352	0	315	grey	28	22	25	25	happiness	bit	newrave	electro	2024-08-07 22:47:00
+812	https://open.spotify.com/track/7g3htkaLz4ETFn0cifwM3y	High By The Beach	258	67	Honeymoon	Lana Del Rey	558	0	157	pink	0	0	100	0	anger	pop	trap	triphop	2024-08-07 22:48:00
+814	https://open.spotify.com/track/5WnYyCWBbJyLChmd2sbZK9	Between Two Lungs	249	43	Lungs (Deluxe Edition)	Florence + The Machine	813	0	1068	red	28	22	25	25	happiness	rock	indiepop	pop	2024-08-07 22:49:00
+815	https://open.spotify.com/track/1T0Kkq1Oio6nHVhenMQeDR	Hurricane Drunk	193	43	Lungs (Deluxe Edition)	Florence + The Machine	855	0	1054	pink	0	0	0	100	fear	pop	indiepop	rock	2024-08-07 22:50:00
+816	https://open.spotify.com/track/0p5eZCY0R7uNCZS1YDtIYI	Hey	211	67	Doolittle	Pixies	925	0	753	red	100	0	0	0	happiness	alternativerock	rock	indierock	2024-08-07 22:51:00
+817	https://open.spotify.com/track/6ttYF5VadzTssGV2i1Q08T	Codex	287	53	The King Of Limbs	Radiohead	670	1	1008	red	3	17	60	19	anger	alternativerock	rock	experimental	2024-08-07 22:52:00
+818	https://open.spotify.com/track/0RN9h0ojhQWtAD6O8X7Zzp	Riot Van	135	48	Whatever People Say I Am, That's What I'm Not	Arctic Monkeys	356	0	853	red	0	0	100	0	anger	indierock	rock	alternativerock	2024-08-07 22:53:00
+819	https://open.spotify.com/track/3tNEFAZBI9XsHPo6jF6BC1	Imagine	310	33	Masters of Chant: Chapter IV	John Lennon, Gregorian	659	0	573	red	100	0	0	0	happiness	classicrock	rock	pop	2024-08-07 22:54:00
+821	https://open.spotify.com/track/7Cg3F9ZsZ2TYUnlza49NYh	Kong	238	56	Black Sands	Bonobo	969	1	1015	purple	0	1	63	36	anger	downtempo	chillout	triphop	2024-08-07 22:55:00
+822	https://open.spotify.com/track/6cFZ4PLC19taNlpl9pbGMf	Somebody To Love - Remastered 2011	296	69	A Day At The Races (Deluxe Remastered Version)	Queen	716	0	491	red	44	0	56	0	anger	classicrock	rock	glamrock	2024-08-07 22:56:00
+823	https://open.spotify.com/track/2bfGNzdiRa1jXZRdfssSzR	Dirty Harry	230	70	Demon Days	Gorillaz	991	5	821	orange	0	100	0	0	sadness	hiphop	rock	pop	2024-08-07 22:57:00
+824	https://open.spotify.com/track/77loZpT5Y5PRP1S451P9Yz	The Reason	233	80	The Reason (15th Anniversary Deluxe)	Hoobastank	875	0	828	red	21	29	29	21	sadness	rock	alternativerock	pop	2024-08-07 22:58:00
+825	https://open.spotify.com/track/7Ie9W94M7OjPoZVV216Xus	Not Afraid	248	79	Recovery	Eminem	464	0	1464	orange	28	22	25	25	happiness	rap	hiphop	hiphop	2024-08-07 22:59:00
+826	https://open.spotify.com/track/6oO7WMjD6kEvCITLbVj0mu	Hypnotize	189	68	Hypnotize	System Of A Down	374	2	510	black	21	28	31	20	anger	alternativemetal	metal	rock	2024-08-07 23:00:00
+827	https://open.spotify.com/track/3ekNuTF3UpOvIZCfiejpnC	Stubborn Love	279	66	The Lumineers	The Lumineers	577	2	708	green	1	0	99	0	anger	folk	folkrock	indiefolk	2024-08-07 23:01:00
+828	https://open.spotify.com/track/5cwN1htZyoWqZCc33f3RfE	The High Road	232	65	Broken Bells	Broken Bells	843	0	1060	pink	28	22	25	25	happiness	indiepop	experimental	rock	2024-08-07 23:02:00
+829	https://open.spotify.com/track/0xQZkTxb49QpopIZQhKJUY	Engel	264	61	Sehnsucht	Rammstein	218	0	662	black	2	19	80	0	anger	industrialmetal	metal	industrial	2024-08-07 23:03:00
+830	https://open.spotify.com/track/2QjOHCTQ1Jl3zawyYOpxh6	Sweater Weather	240	88	I Love You.	The Neighbourhood	854	0	707	red	21	28	31	20	anger	indierock	alternativerock	pop	2024-08-07 23:04:00
+831	https://open.spotify.com/track/5PntSbMHC1ud6Vvl8x56qd	Loser	235	70	Mellow Gold	Beck	935	0	778	red	28	22	25	25	happiness	rock	alternativerock	singersongwriter	2024-08-07 23:05:00
+834	https://open.spotify.com/track/0wXuerDYiBnERgIpbb3JBR	Redbone	327	82	"""Awaken, My Love!"""	Childish Gambino	973	0	409	blue	0	0	0	100	fear	funk	soul	psychedelicsoul	2024-08-07 23:06:00
+835	https://open.spotify.com/track/0xJLcjd0gaZct43xG1UlXS	Butterflies and Hurricanes	302	57	Absolution	Muse	709	1	909	red	28	22	25	25	happiness	alternativerock	rock	progressiverock	2024-08-07 23:07:00
+836	https://open.spotify.com/track/3WXhshrs1fzwF3rQE399Gq	Kill V. Maim	246	66	Art Angels	Grimes	489	1	936	cyan	100	0	0	0	happiness	electropop	pop	electroclash	2024-08-07 23:08:00
+837	https://open.spotify.com/track/0HVQuuXGAcQ2P5mBN521ae	War Pigs	474	54	The Ultimate Collection	Black Sabbath	1190	3	655	red	21	79	0	0	sadness	classicrock	hardrock	metal	2024-08-07 23:09:00
+838	https://open.spotify.com/track/3BmjRmFTESgWZLPSVGp8aG	Lying from You	175	59	Meteora (Bonus Edition)	Linkin Park	460	0	680	black	1	99	0	0	sadness	numetal	rock	alternativerock	2024-08-07 23:10:00
+839	https://open.spotify.com/track/6Vjk8MNXpQpi0F4BefdTyq	Kashmir - Remaster	517	69	Physical Graffiti (Deluxe Edition)	Led Zeppelin	704	0	538	red	21	29	29	21	sadness	classicrock	rock	hardrock	2024-08-07 23:11:00
+840	https://open.spotify.com/track/28J7s6ylqLYzBUTBSUyEjm	Still Take You Home	174	45	Whatever People Say I Am, That's What I'm Not	Arctic Monkeys	816	0	680	red	0	0	0	100	fear	indierock	rock	alternativerock	2024-08-07 23:12:00
+841	https://open.spotify.com/track/4Wgj6jzoI2gYlumXdYAB8U	The National Anthem	352	57	Kid A	Radiohead	653	0	1034	red	28	22	25	25	happiness	rock	alternativerock	experimental	2024-08-07 23:13:00
+843	https://open.spotify.com/track/3mwvKOyMmG77zZRunnxp9E	Buddy Holly	159	73	Weezer	Weezer	924	0	768	red	36	9	24	31	happiness	rock	alternativerock	indierock	2024-08-07 23:15:00
+844	https://open.spotify.com/track/1vxu8vMNshg5J8z3oA7QJZ	Parabola	364	61	Lateralus	TOOL	1380	0	1045	black	0	38	60	2	anger	progressivemetal	progressiverock	rock	2024-08-07 23:16:00
+845	https://open.spotify.com/track/7s0lDK7y3XLmI7tcsRAbW0	My Songs Know What You Did In The Dark (Light Em Up)	187	66	Save Rock And Roll	Fall Out Boy	919	2	808	red	0	100	0	0	sadness	rock	alternativerock	poprock	2024-08-07 23:17:00
+846	https://open.spotify.com/track/4lhqb6JvbHId48OUJGwymk	Hey Brother	255	78	True	Avicii	1173	0	1613	pink	0	0	100	0	anger	pop	country	house	2024-08-07 23:18:00
+847	https://open.spotify.com/track/26tWBbtjvgi0tipRL2VQ2X	Brothers in Arms	419	53	Brothers in Arms	Dire Straits	659	0	569	red	0	0	0	100	fear	classicrock	rock	blues	2024-08-07 23:19:00
+848	https://open.spotify.com/track/4Xs4CSjF2hz4DC6cnm5YRy	Reunion	237	49	Coexist	The xx	828	0	1251	cyan	21	28	31	20	anger	indietronica	indierock	rock	2024-08-07 23:20:00
+849	https://open.spotify.com/track/0VhhaYztcRWc7PEjJCjr1g	Ruby	203	62	Yours Truly, Angry Mob (Deluxe)	Kaiser Chiefs	930	2	702	red	100	0	0	0	happiness	indierock	rock	britpop	2024-08-07 23:21:00
+850	https://open.spotify.com/track/3UGIZ8qcrMTwzLbx6Kttqt	Boyfriend	171	71	Believe	Justin Bieber	1270	1	953	pink	100	0	0	0	happiness	pop	rb	teenpop	2024-08-07 23:22:00
+851	https://open.spotify.com/track/1z4xjDLLWJgG48Bn8OCxZv	Help I'm Alive	286	60	Fantasies	Metric	816	1	661	red	0	0	0	100	fear	indierock	rock	alternativerock	2024-08-07 23:23:00
+852	https://open.spotify.com/track/3N2UhXZI4Gf64Ku3cCjz2g	Inertia Creeps	357	51	Mezzanine	Massive Attack	972	2	1043	purple	28	22	25	25	happiness	triphop	chillout	triphop	2024-08-07 23:24:00
+853	https://open.spotify.com/track/5EWPGh7jbTNO2wakv8LjUI	Free Bird	547	74	Pronounced' Leh-'Nerd 'Skin-'Nerd	Lynyrd Skynyrd	1140	0	608	red	82	0	0	18	happiness	classicrock	southernrock	rock	2024-08-07 23:25:00
+854	https://open.spotify.com/track/7oaEjLP2dTJLJsITbAxTOz	Touch (feat. Paul Williams)	499	62	Random Access Memories	Daft Punk, Paul Williams	1005	0	358	blue	0	0	0	100	fear	funk	disco	house	2024-08-07 23:26:00
+855	https://open.spotify.com/track/64yrDBpcdwEdNY9loyEGbX	21 Guns	321	75	21st Century Breakdown	Green Day	948	0	931	red	95	0	5	0	happiness	rock	alternativerock	punk	2024-08-07 23:27:00
+856	https://open.spotify.com/track/7azo4rpSUh8nXgtonC6Pkq	Thriller	358	68	Scream	Michael Jackson	1294	0	888	pink	22	30	27	21	sadness	pop	funk	halloween	2024-08-07 23:28:00
+857	https://open.spotify.com/track/6vSq5q5DCs1IvwKIq53hj2	Animal	263	61	Miike Snow	Miike Snow	1127	0	1128	cyan	28	22	25	25	happiness	electropop	electronica	pop	2024-08-07 23:29:00
+858	https://open.spotify.com/track/0umDVf77ygI5RiVp9OvNDj	Pyro	251	65	Come Around Sundown (Expanded Edition)	Kings of Leon	881	9	632	red	0	2	0	98	fear	indierock	rock	alternativerock	2024-08-07 23:30:00
+859	https://open.spotify.com/track/6xpDh0dXrkVp0Po1qrHUd8	Adam's Song	250	70	Enema Of The State	blink-182	672	0	1448	red	0	100	0	0	sadness	punk	poppunk	rock	2024-08-07 23:31:00
+860	https://open.spotify.com/track/3i4xZSH1kTLE22TUvUFMYo	Emergency	240	59	All We Know Is Falling	Paramore	454	0	848	red	1	0	85	15	anger	rock	poppunk	emo	2024-08-07 23:32:00
+861	https://open.spotify.com/track/6GtX0jaNL8IjVQfrDBx81z	Bullet With Butterfly Wings - Remastered 2012	258	73	Mellon Collie And The Infinite Sadness (Deluxe Edition)	The Smashing Pumpkins	616	8	1028	red	1	0	83	16	anger	alternativerock	rock	grunge	2024-08-07 23:33:00
+862	https://open.spotify.com/track/2WNJUbFqc5cZBKUq6O4tpm	Team	117	48	For Emma, Forever Ago	Bon Iver	561	3	870	green	14	26	39	22	anger	folk	rock	singersongwriter	2024-08-07 23:34:00
+863	https://open.spotify.com/track/76hfruVvmfQbw0eYn1nmeC	Cake By The Ocean	219	80	DNCE	DNCE	973	6	349	pink	7	14	49	30	anger	pop	funk	poprock	2024-08-07 23:35:00
+864	https://open.spotify.com/track/273dCMFseLcVsoSWx59IoE	Bad Blood	212	64	1989	Taylor Swift	1238	0	940	pink	0	100	0	0	sadness	pop	singersongwriter	synthpop	2024-08-07 23:36:00
+865	https://open.spotify.com/track/7fcfNW0XxTWlwVlftzfDOR	Walk	315	73	Vulgar Display of Power	Pantera	205	1	1364	black	4	8	1	86	fear	metal	thrashmetal	groovemetal	2024-08-07 23:37:00
+866	https://open.spotify.com/track/2O3l4X1yTua8oMMCtazkyo	The Happiest Days of Our Lives	111	59	The Wall	Pink Floyd	808	3	792	red	100	0	0	0	happiness	progressiverock	rock	classicrock	2024-08-07 23:38:00
+867	https://open.spotify.com/track/11DdPGqDsM3ux1gVAqUIln	Balaclava	167	51	Favourite Worst Nightmare (Standard Version)	Arctic Monkeys	943	0	703	red	21	29	29	21	sadness	indierock	rock	alternativerock	2024-08-07 23:39:00
+868	https://open.spotify.com/track/7bu0znpSbTks0O6I98ij0W	Tonight, Tonight - Remastered 2012	255	69	Mellon Collie And The Infinite Sadness (Deluxe Edition)	The Smashing Pumpkins	618	0	1024	red	100	0	0	0	happiness	alternativerock	rock	grunge	2024-08-07 23:40:00
+869	https://open.spotify.com/track/2pE0CMK1fE3mfU0eEOHhKw	The Mother We Share	191	58	The Bones of What You Believe	CHVRCHES	825	0	1211	pink	28	22	25	25	happiness	synthpop	indietronica	dreampop	2024-08-07 23:41:00
+870	https://open.spotify.com/track/2Vfbf60Ujpom3Bcljzw7Dd	Cigarettes In the Theatre	214	49	Tourist History	Two Door Cinema Club	814	1	1212	red	38	12	28	22	happiness	indierock	indietronica	electropop	2024-08-07 23:42:00
+871	https://open.spotify.com/track/6YffUZJ2R06kyxyK6onezL	Ring of Fire	158	71	Ring Of Fire: The Best Of Johnny Cash	Johnny Cash	1152	0	1540	green	20	35	26	19	sadness	country	folk	classicrock	2024-08-07 23:43:00
+872	https://open.spotify.com/track/6gZVQvQZOFpzIy3HblJ20F	Man in the Box	285	73	Facelift	Alice In Chains	1619	0	1213	red	3	0	94	3	anger	grunge	rock	hardrock	2024-08-07 23:44:00
+873	https://open.spotify.com/track/2A7GGXmTlXuH9LOvBXgOX4	Champagne Supernova - Remastered	451	68	(What's The Story) Morning Glory? (Deluxe Remastered Edition)	Oasis	849	0	815	pink	98	0	0	2	happiness	britpop	rock	alternativerock	2024-08-07 23:45:00
+874	https://open.spotify.com/track/5J4ZkQpzMUFojo1CtAZYpn	Love Me Harder	236	76	My Everything (Deluxe)	Ariana Grande, The Weeknd	1241	0	945	pink	7	14	49	30	anger	pop	chillout	soul	2024-08-07 23:46:00
+875	https://open.spotify.com/track/42Lq6GBO5KUSNeSgJsOoke	Panama	213	53	Best of Volume 1	Van Halen	760	0	535	red	100	0	0	0	happiness	hardrock	rock	classicrock	2024-08-07 23:47:00
+876	https://open.spotify.com/track/4KcH1ZRV2W1q7Flq0QqC76	Blitzkrieg Bop - 2016 Remaster	134	72	Ramones (40th Anniversary Deluxe Edition; 2016 Remaster)	Ramones	919	0	308	red	21	29	30	20	anger	punk	rock	classicrock	2024-08-07 23:48:00
+877	https://open.spotify.com/track/0nJW01T7XtvILxQgC5J7Wh	When I Was Your Man	214	84	Unorthodox Jukebox	Bruno Mars	1302	0	1076	pink	91	0	9	0	happiness	pop	rb	soul	2024-08-07 23:49:00
+878	https://open.spotify.com/track/2PDQReEXBViVwkrbQ34vd7	Climbing Up the Walls	285	56	OK Computer	Radiohead	885	0	854	red	63	35	1	1	happiness	alternativerock	rock	experimental	2024-08-07 23:50:00
+879	https://open.spotify.com/track/1ExfPZEiahqhLyajhybFeS	The Lazy Song	190	73	Doo-Wops & Hooligans	Bruno Mars	1370	2	931	pink	70	2	11	16	happiness	pop	reggae	chillout	2024-08-07 23:51:00
+881	https://open.spotify.com/track/79crMEpECzB2QJTdM9bhHS	Try	195	44	Coexist	The xx	817	5	1331	red	14	26	39	22	anger	postrock	chillout	rock	2024-08-07 23:52:00
+882	https://open.spotify.com/track/3HE50TVRquwXe9yv2HFoNL	Never Too Late	209	69	One-X	Three Days Grace	750	1	1179	red	100	0	0	0	happiness	rock	alternativerock	hardrock	2024-08-07 23:53:00
+883	https://open.spotify.com/track/5VvsZvy1mwx4teyvI7O9rs	Daniel	251	54	Two Suns	Bat For Lashes	1362	0	1115	purple	83	17	0	0	happiness	chillout	pop	dreampop	2024-08-07 23:54:00
+884	https://open.spotify.com/track/04caEZhAsQKnWqKsMwk9ud	My Number	239	68	Holy Fire	Foals	1659	0	686	red	100	0	0	0	happiness	indierock	rock	pop	2024-08-07 23:55:00
+886	https://open.spotify.com/track/1zB4vmk8tFRmM9UULNzbLB	Thunder	187	83	Evolve	Imagine Dragons	1130	9	1161	pink	0	93	7	0	sadness	indiepop	electropop	pop	2024-08-07 23:57:00
+887	https://open.spotify.com/track/0NTMtAO2BV4tnGvw9EgBVq	Bitch Better Have My Money	219	75	Bitch Better Have My Money	Rihanna	582	2	137	orange	21	29	29	21	sadness	hiphop	hiphop	trap	2024-08-07 23:58:00
+888	https://open.spotify.com/track/0cOyhnhy13lc5G5nr4EF0q	Tainted Love	200	59	Lest We Forget - The Best Of	Marilyn Manson	233	0	629	black	30	5	46	18	anger	metal	industrial	rock	2024-08-07 23:59:00
+889	https://open.spotify.com/track/7tmtOEDxPN7CWaQWBsG1DY	Hold Back The River	239	63	Chaos And The Calm	James Bay	708	0	716	red	0	0	0	100	fear	rock	folk	pop	2024-08-08 00:00:00
+890	https://open.spotify.com/track/1ryMgu0CnRSseTYpvMDOLD	Mein Herz brennt	280	56	Mutter	Rammstein	218	0	665	black	38	12	28	22	happiness	industrialmetal	metal	industrial	2024-08-08 00:01:00
+891	https://open.spotify.com/track/6ie2Bw3xLj2JcGowOlcMhb	Green Light	235	74	Melodrama	Lorde	1209	1	1127	pink	100	0	0	0	happiness	pop	electropop	dancepop	2024-08-08 00:02:00
+892	https://open.spotify.com/track/0v1XpBHnsbkCn7iJ9Ucr1l	It's My Life	224	79	Crush	Bon Jovi	744	3	499	red	100	0	0	0	happiness	rock	hardrock	classicrock	2024-08-08 00:03:00
+893	https://open.spotify.com/track/6xtQ23d8GEXgcxyUKPtwc5	Runaway	184	63	Hybrid Theory (Bonus Edition)	Linkin Park	457	1	681	black	1	99	0	0	sadness	numetal	rock	alternativerock	2024-08-08 00:04:00
+894	https://open.spotify.com/track/2pmtavvgqZN52EePYxutgk	Your Body	240	60	Lotus (Deluxe Version)	Christina Aguilera	1298	1	928	pink	100	0	0	0	happiness	pop	electropop	rb	2024-08-08 00:05:00
+895	https://open.spotify.com/track/46aIq2GKW7Vr6i4g2Vvycd	Ai Se Eu Te Pego - Ao Vivo	170	66	Na Balada (Ao Vivo)	Michel Teló	371	3	1201	yellow	0	100	0	0	sadness	latin	pop	rock	2024-08-08 00:06:00
+896	https://open.spotify.com/track/1jF7IL57ayN4Ity3jQqGu0	Try	248	77	The Truth About Love	P!nk	1200	0	907	pink	100	0	0	0	happiness	pop	poprock	rock	2024-08-08 00:07:00
+897	https://open.spotify.com/track/1a9YW7fATU351ok4zWjU7a	Brick by Boring Brick	254	64	Brand New Eyes	Paramore	955	1	936	red	28	22	25	25	happiness	rock	poppunk	alternativerock	2024-08-08 00:08:00
+898	https://open.spotify.com/track/1lATXTBJDHwawvT1UfxWu3	The Pot	382	68	10,000 Days	TOOL	1674	0	817	black	34	66	0	0	sadness	progressivemetal	progressiverock	metal	2024-08-08 00:09:00
+899	https://open.spotify.com/track/3rEwGRmPVVudVjqdgv0tRR	If It Means A Lot To You	243	68	Homesick	A Day To Remember	645	0	1510	red	28	22	25	25	happiness	posthardcore	poppunk	rock	2024-08-08 00:10:00
+900	https://open.spotify.com/track/0QwZfbw26QeUoIy82Z2jYp	Good Times Bad Times - 1993 Remaster	166	69	Led Zeppelin	Led Zeppelin	725	0	526	red	36	9	24	31	happiness	classicrock	hardrock	rock	2024-08-08 00:11:00
+901	https://open.spotify.com/track/3iVcZ5G6tvkXZkZKlMpIUs	Alright	219	74	To Pimp A Butterfly	Kendrick Lamar	476	2	1649	orange	0	100	0	0	sadness	hiphop	jazzrap	conscioushiphop	2024-08-08 00:12:00
+902	https://open.spotify.com/track/4tmwiN9YU7xMjh2hoqcVuI	Taro	306	57	An Awesome Wave	alt-J	823	0	563	red	21	29	30	20	anger	indierock	indiepop	artrock	2024-08-08 00:13:00
+903	https://open.spotify.com/track/2d5vz9uU5Jan1rX8mkxw2w	Manhattan	204	58	Only By The Night	Kings of Leon	881	7	632	red	88	1	11	0	happiness	rock	indierock	southernrock	2024-08-08 00:14:00
+905	https://open.spotify.com/track/1FkoVC85Ds3mFoK0fVqEqP	Self Esteem	258	75	Smash	The Offspring	945	1	963	red	100	0	0	0	happiness	punk	rock	alternativerock	2024-08-08 00:16:00
+906	https://open.spotify.com/track/5cy5IStIn7OSHDEIgXeDyq	Debaser	172	64	Doolittle	Pixies	643	1	1044	red	1	5	93	0	anger	alternativerock	rock	indierock	2024-08-08 00:17:00
+907	https://open.spotify.com/track/5fpEDGQX0Ah3utGnFYulQZ	Keep Your Head Up	265	67	Every Kingdom	Ben Howard	646	0	710	green	21	28	31	20	anger	folk	singersongwriter	rock	2024-08-08 00:18:00
+908	https://open.spotify.com/track/1H5N26VqHR4JhuaRKY2I0u	Heaven Knows I'm Miserable Now - 2011 Remaster	216	62	Louder Than Bombs	The Smiths	1433	1	544	pink	4	96	0	0	sadness	newwave	rock	postpunk	2024-08-08 00:19:00
+909	https://open.spotify.com/track/0Q2YGyMeeZMAvzebtxoQ5f	Vanished	243	64	Crystal Castles	Crystal Castles	350	1	318	cyan	28	22	25	25	happiness	electronica	bit	electro	2024-08-08 00:20:00
+910	https://open.spotify.com/track/2yqVlvXgZ51ynGqwfYADx4	Under Pressure - Live at Wembley '86	221	34	Live At Wembley Stadium	Queen	718	0	489	red	0	0	0	100	fear	classicrock	rock	glamrock	2024-08-08 00:21:00
+911	https://open.spotify.com/track/3kb38wezoUA8ki5jPYy3t5	Little Secrets	239	61	Manners	Passion Pit	831	1	1208	pink	0	0	100	0	anger	pop	electropop	indiepop	2024-08-08 00:22:00
+913	https://open.spotify.com/track/6qZjm61s6u8Ead9sWxCDro	Elephant	211	70	Lonerism	Tame Impala	474	0	1026	red	22	30	27	21	sadness	psychedelicrock	spacerock	rock	2024-08-08 00:23:00
+914	https://open.spotify.com/track/45QyGXbqTWaFUrIKe2ugs3	D Is for Dangerous	135	51	Favourite Worst Nightmare (Standard Version)	Arctic Monkeys	944	1	703	red	96	4	0	0	happiness	indierock	rock	alternativerock	2024-08-08 00:24:00
+915	https://open.spotify.com/track/37EmPMVwdBaKs7UhJOkHUU	We Used to Wait	301	48	The Suburbs	Arcade Fire	896	0	790	red	18	7	75	1	anger	indierock	rock	alternativerock	2024-08-08 00:25:00
+916	https://open.spotify.com/track/48bo7uexDvAThcRDvEB2W7	Simple Song	255	62	Port Of Morrow	The Shins	860	1	747	red	0	0	100	0	anger	rock	indierock	alternativerock	2024-08-08 00:26:00
+917	https://open.spotify.com/track/1B3GJK8724WmZVsWfnWHno	Mrs. Robinson	216	44	Quentin Tarantino's Once Upon a Time in Hollywood Original Motion Picture Soundtrack	Simon & Garfunkel	702	1	740	red	36	9	24	31	happiness	classicrock	folk	rock	2024-08-08 00:27:00
+918	https://open.spotify.com/track/1wsRitfRRtWyEapl0q22o8	Guerrilla Radio	206	70	The Battle Of Los Angeles	Rage Against The Machine	727	7	1152	red	42	58	0	0	sadness	rock	hardrock	alternativerock	2024-08-08 00:28:00
+919	https://open.spotify.com/track/1z6WtY7X4HQJvzxC4UgkSf	Love On Top	267	75	4	Beyoncé	1074	0	444	blue	31	69	0	0	sadness	soul	pop	rb	2024-08-08 00:29:00
+920	https://open.spotify.com/track/423o3ZHIaBtGXyhF1uH41a	Walk of Life	252	63	Brothers in Arms	Dire Straits	649	1	452	red	36	9	24	31	happiness	classicrock	rock	pop	2024-08-08 00:30:00
+921	https://open.spotify.com/track/3AqPL1n1wKc5DVFFnYuJhp	To Build A Home	371	68	Ma Fleur	The Cinematic Orchestra, Patrick Watson	1402	1	1074	purple	22	30	27	21	sadness	chillout	downtempo	jazz	2024-08-08 00:31:00
+922	https://open.spotify.com/track/1MTQHCpraD4S8g5PAFKzoj	Behind Blue Eyes	270	72	Results May Vary	Limp Bizkit	827	0	840	red	95	0	0	5	happiness	rock	numetal	alternativerock	2024-08-08 00:32:00
+923	https://open.spotify.com/track/4QK4pMWEwlXxwg1zp08xpl	Jenny Was A Friend Of Mine	244	50	Hot Fuss	The Killers	900	0	798	red	98	2	0	0	happiness	rock	indierock	alternativerock	2024-08-08 00:33:00
+924	https://open.spotify.com/track/6pUAg3OgdO2kQ4lub9Tb5m	Terrible Love	280	41	High Violet	The National	690	0	1086	red	100	0	0	0	happiness	indierock	rock	alternativerock	2024-08-08 00:34:00
+926	https://open.spotify.com/track/16H7OIbU4YUXqrqp9qC0NI	One More Dance	185	1	One More Dance	Drake Blue	1572	0	1387	cyan	0	100	0	0	sadness	dancehall	hiphop	pop	2024-08-08 00:35:00
+927	https://open.spotify.com/track/0YTfMKGPhWhjS9wgzWvfaf	Glósóli	376	39	Takk...	Sigur Rós	962	1	1181	red	15	0	74	11	anger	postrock	ambient	experimental	2024-08-08 00:36:00
+928	https://open.spotify.com/track/39shmbIHICJ2Wxnk1fPSdz	Should I Stay or Should I Go - Remastered	189	79	Combat Rock (Remastered)	The Clash	1354	1	482	red	0	3	68	29	anger	punk	rock	classicrock	2024-08-08 00:37:00
+930	https://open.spotify.com/track/3SFXsFpeGmBTtQvKiwYMDA	Pretty Fly (For A White Guy)	189	74	Americana	The Offspring	947	1	965	red	100	0	0	0	happiness	rock	punk	alternativerock	2024-08-08 00:38:00
+931	https://open.spotify.com/track/2TYfPBSXeAJQgP1CpkXDUP	Breaking Down	229	40	Ceremonials (Deluxe Edition)	Florence + The Machine	812	0	1070	pink	14	26	39	22	anger	indiepop	pop	indierock	2024-08-08 00:39:00
+932	https://open.spotify.com/track/6VObnIkLVruX4UVyxWhlqm	Skyfall	286	73	Skyfall	Adele	844	0	457	purple	100	0	0	0	happiness	soundtrack	pop	soul	2024-08-08 00:40:00
+933	https://open.spotify.com/track/5wQnmLuC1W7ATsArWACrgW	Welcome to the Black Parade	311	77	The Black Parade	My Chemical Romance	452	1	861	red	21	29	30	20	anger	rock	emo	punk	2024-08-08 00:41:00
+934	https://open.spotify.com/track/4VgEM12OeaN3GyBV487Me7	Holiday	233	67	Greatest Hits: God's Favorite Band	Green Day	956	0	958	red	21	29	29	21	sadness	rock	punk	alternativerock	2024-08-08 00:42:00
+935	https://open.spotify.com/track/3Am0IbOxmvlSXro7N5iSfZ	Strawberry Fields Forever - Remastered 2009	247	70	Magical Mystery Tour (Remastered)	The Beatles	679	0	499	red	82	1	17	0	happiness	classicrock	rock	pop	2024-08-08 00:43:00
+936	https://open.spotify.com/track/2O6X9nPVVQSefg3xOQAo5u	Mysterons	305	52	Dummy	Portishead	1406	0	1093	purple	96	0	4	0	happiness	triphop	chillout	triphop	2024-08-08 00:44:00
+937	https://open.spotify.com/track/5M4yti0QxgqJieUYaEXcpw	Eventually	319	66	Currents	Tame Impala	1111	0	1284	red	7	13	49	31	anger	psychedelicrock	psychedelicpop	rock	2024-08-08 00:45:00
+938	https://open.spotify.com/track/4bPQs0PHn4xbipzdPfn6du	I Write Sins Not Tragedies	187	75	A Fever You Can't Sweat Out	Panic! At The Disco	460	1	868	red	15	0	85	0	anger	emo	rock	poppunk	2024-08-08 00:46:00
+939	https://open.spotify.com/track/0bTlXQJzw4ddaLQPJ4rGS2	Revelry	202	60	Only By The Night	Kings of Leon	880	5	632	red	0	100	0	0	sadness	rock	indierock	alternativerock	2024-08-08 00:47:00
+940	https://open.spotify.com/track/383QXk8nb2YrARMUwDdjQS	Psycho	317	69	Drones	Muse	1413	1	453	red	12	25	41	22	anger	alternativerock	rock	hardrock	2024-08-08 00:48:00
+941	https://open.spotify.com/track/3hmX5dfwY9oRIpJKvt755u	Second Heartbeat	420	51	Waking The Fallen	Avenged Sevenfold	394	0	660	black	100	0	0	0	happiness	metalcore	metal	hardcore	2024-08-08 00:49:00
+942	https://open.spotify.com/track/6HZILIRieu8S0iqY8kIKhj	DNA.	186	78	DAMN.	Kendrick Lamar	400	1	1540	orange	0	0	0	100	fear	rap	hiphop	hiphop	2024-08-08 00:50:00
+943	https://open.spotify.com/track/4qBHDoJFUUSvTa4aZJfEuw	Postcards from Italy	257	59	Gulag Orkestar	Beirut	804	9	552	green	28	22	25	25	happiness	folk	indiefolk	gypsy	2024-08-08 00:51:00
+944	https://open.spotify.com/track/4VP8QiCeaZq8BeTIUrMQOG	No You Girls	224	62	Tonight	Franz Ferdinand	894	2	662	red	21	29	29	21	sadness	indierock	britpop	rock	2024-08-08 00:52:00
+945	https://open.spotify.com/track/6asU049doNupkVllo61luh	Zebra	289	50	Teen Dream	Beach House	769	1	1084	pink	28	22	25	25	happiness	dreampop	indiepop	pop	2024-08-08 00:53:00
+946	https://open.spotify.com/track/2cSRuejq6DU9U6OkSmUw17	Under Your Spell	296	58	Desire	Desire	1367	0	269	pink	0	99	0	0	sadness	synthpop	soundtrack	disco	2024-08-08 00:54:00
+947	https://open.spotify.com/track/5KOHd90fkcnS37GkBUjsdW	Hallowed Be Thy Name - 2015 Remaster	431	54	The Number of the Beast (2015 - Remaster)	Iron Maiden	1213	0	341	black	1	99	0	0	sadness	metal	nwobhm	rock	2024-08-08 00:55:00
+948	https://open.spotify.com/track/2E64SWjM9rQmAshItmdbcw	Communication Breakdown - Remaster	150	50	Led Zeppelin (Remaster)	Led Zeppelin	733	0	520	red	36	9	24	31	happiness	classicrock	hardrock	rock	2024-08-08 00:56:00
+950	https://open.spotify.com/track/1ZBqJilDGBVYktvlCEo9jC	Obstacle 1	251	62	Turn On The Bright Lights	Interpol	663	0	1102	red	33	54	13	0	sadness	indierock	postpunk	rock	2024-08-08 00:57:00
+951	https://open.spotify.com/track/0OM9ri37LIbPc9hffwsyb1	Hard To Explain	224	58	Is This It	The Strokes	648	1	1079	red	100	0	0	0	happiness	rock	indierock	garagerock	2024-08-08 00:58:00
+952	https://open.spotify.com/track/1k18nxjYj8R5iz82Ap7GEY	Marry The Night	265	55	Born This Way	Lady Gaga	1258	0	941	pink	0	0	100	0	anger	pop	electropop	rock	2024-08-08 00:59:00
+953	https://open.spotify.com/track/7g13jf3zqlP5S68Voo5v9m	Dancing On My Own - Radio Edit	278	61	Body Talk	Robyn	1245	0	940	pink	100	0	0	0	happiness	pop	electropop	electro	2024-08-08 01:00:00
+954	https://open.spotify.com/track/0jBE7Fn78EAvmIs3dCd6GO	Is This It	151	57	Is This It	The Strokes	1331	2	1341	red	78	0	21	0	happiness	indierock	rock	alternativerock	2024-08-08 01:01:00
+955	https://open.spotify.com/track/35ItUJlMtjOQW3SSiTCrrw	Crazy Little Thing Called Love - Remastered 2011	163	67	The Game (Deluxe Remastered Version)	Queen	641	2	452	red	100	0	0	0	happiness	classicrock	rock	rockabilly	2024-08-08 01:02:00
+956	https://open.spotify.com/track/59HjlYCeBsxdI0fcm3zglw	Wildest Dreams	220	71	1989	Taylor Swift	1269	0	950	pink	0	25	0	75	fear	pop	singersongwriter	dreampop	2024-08-08 01:03:00
+957	https://open.spotify.com/track/1A8SxnqRK3qabmuN2qxIpa	Spaceman	285	62	Day & Age (Bonus Tracks)	The Killers	834	1	709	red	28	22	25	25	happiness	indierock	rock	alternativerock	2024-08-08 01:04:00
+958	https://open.spotify.com/track/4E5xVW505akJX0wcKj8Mpd	Tornado Of Souls - Remastered 2004	319	64	Rust In Peace	Megadeth	1500	0	963	black	0	0	99	0	anger	thrashmetal	metal	speedmetal	2024-08-08 01:05:00
+959	https://open.spotify.com/track/1NhPKVLsHhFUHIOZ32QnS2	Secrets	225	76	Waking Up	OneRepublic	972	3	840	red	28	22	25	25	happiness	alternativerock	rock	pop	2024-08-08 01:06:00
+960	https://open.spotify.com/track/7v0mtl6oInUtHOmTk2b0gC	Rope	259	59	Wasting Light	Foo Fighters	765	0	1195	red	100	0	0	0	happiness	rock	alternativerock	hardrock	2024-08-08 01:07:00
+961	https://open.spotify.com/track/6crBy2sODw2HS53xquM6us	Tribute	248	68	Tenacious D	Tenacious D	1069	7	1799	red	21	29	29	21	sadness	rock	comedy	alternativerock	2024-08-08 01:08:00
+962	https://open.spotify.com/track/1vTBBxcBB2Nb3ezQFRrGFO	Cape Cod Kwassa Kwassa	215	53	Vampire Weekend	Vampire Weekend	788	2	1084	red	36	9	24	31	happiness	indierock	indiepop	afrobeat	2024-08-08 01:09:00
+963	https://open.spotify.com/track/3CmHvyZQQAGkKkTjTBFWN6	Have a Cigar	308	64	Wish You Were Here	Pink Floyd	556	2	973	red	28	22	25	25	happiness	progressiverock	classicrock	rock	2024-08-08 01:10:00
+964	https://open.spotify.com/track/722tgOgdIbNe3BEyLnejw4	Black Skinhead	188	75	Yeezus	Kanye West	471	3	1645	orange	0	0	100	0	anger	hiphop	hiphop	rap	2024-08-08 01:11:00
+965	https://open.spotify.com/track/0aGQHMr7bc23Y9Ts84ffop	Around the World	239	67	Californication (Deluxe Edition)	Red Hot Chili Peppers	300	0	999	red	100	0	0	0	happiness	rock	alternativerock	funk	2024-08-08 01:12:00
+966	https://open.spotify.com/track/3QDahKSqLwYJYQRbILdzS6	Kid A	285	55	Kid A	Radiohead	1028	1	1208	red	62	6	31	0	happiness	experimental	alternativerock	ambient	2024-08-08 01:13:00
+967	https://open.spotify.com/track/2IqjKEBiz0CdLKdkXhxw84	Retrograde	224	65	Overgrown	James Blake	1337	3	1154	blue	7	0	92	1	anger	soul	experimental	downtempo	2024-08-08 01:14:00
+968	https://open.spotify.com/track/4GCFX86ToOj0PYaoHggZyk	Wish I Had an Angel	246	46	Once	Nightwish	1367	3	771	black	10	22	45	24	anger	symphonicmetal	gothicmetal	metal	2024-08-08 01:15:00
+970	https://open.spotify.com/track/0zITULEFzksIY7OZbBENVo	The Art Of Subconscious Illusion	226	36	Sounding The Seventh Trumpet	Avenged Sevenfold	385	0	658	black	21	29	30	20	anger	metalcore	metal	melodichardcore	2024-08-08 01:17:00
+971	https://open.spotify.com/track/4sAjWbPq6iSI6I0Ovr9CkY	2 Minutes to Midnight - 2015 Remaster	364	54	Powerslave (2015 - Remaster)	Iron Maiden	1207	1	344	black	28	22	25	25	happiness	metal	nwobhm	rock	2024-08-08 01:18:00
+972	https://open.spotify.com/track/1tjHKKI0r82IB5KL29whHs	Panic Station	184	60	The 2nd Law	Muse	289	0	999	red	100	0	0	0	happiness	alternativerock	rock	funk	2024-08-08 01:19:00
+973	https://open.spotify.com/track/79koEJRtKOOGJ0VSAF3FMk	Motherboard	342	55	Random Access Memories	Daft Punk	941	1	1183	blue	100	0	0	0	happiness	disco	funk	house	2024-08-08 01:20:00
+974	https://open.spotify.com/track/6D60klaHqbCl9ySc8VcRss	Stronger (What Doesn't Kill You)	222	66	Stronger (Deluxe Version)	Kelly Clarkson	1405	0	791	pink	0	0	100	0	anger	pop	poprock	rock	2024-08-08 01:21:00
+975	https://open.spotify.com/track/0MtVmhAx6CxNuxFIUc6Mj9	Elephant Gun	349	60	Elephant Gun	Beirut	569	1	715	green	28	22	25	25	happiness	folk	indiefolk	gypsy	2024-08-08 01:22:00
+977	https://open.spotify.com/track/1Cj2vqUwlJVG27gJrun92y	The Sound of Silence	248	73	Immortalized	Disturbed	341	0	494	red	20	27	33	20	anger	rock	metal	hardrock	2024-08-08 01:23:00
+978	https://open.spotify.com/track/3rTnGUeDrnZV22DvRuUuXr	Wait	343	65	Hurry Up, We're Dreaming	M83	1341	1	731	pink	0	0	98	2	anger	shoegaze	dreampop	postrock	2024-08-08 01:24:00
+979	https://open.spotify.com/track/4TOMI010Sd4ZAX4aZ5TS85	Perfect Day	225	69	Transformer	Lou Reed	662	0	530	red	30	5	46	18	anger	classicrock	rock	singersongwriter	2024-08-08 01:25:00
+980	https://open.spotify.com/track/2JZu2ny6Et9wFic99sMF7x	Hand in Glove - 2011 Remaster	203	52	The Smiths	The Smiths	1432	2	542	pink	100	0	0	0	happiness	newwave	rock	postpunk	2024-08-08 01:26:00
+981	https://open.spotify.com/track/1Se0r96r0gnqg67kJPmESc	Parallel Universe	269	63	Californication (Deluxe Edition)	Red Hot Chili Peppers	630	0	1007	red	14	26	39	22	anger	rock	alternativerock	funkrock	2024-08-08 01:27:00
+982	https://open.spotify.com/track/0tZ3mElWcr74OOhKEiNz1x	Bulls On Parade	229	74	Evil Empire	Rage Against The Machine	727	0	1155	red	28	22	25	25	happiness	rock	alternativerock	hardrock	2024-08-08 01:28:00
+983	https://open.spotify.com/track/1hHuyqVCZCbhYQixEkdQCo	Sing for Absolution	295	55	Absolution	Muse	851	1	847	red	1	99	0	0	sadness	alternativerock	rock	progressiverock	2024-08-08 01:29:00
+984	https://open.spotify.com/track/0wvIGFIgbyz4JNwQhZgTv2	Rooster	374	69	Dirt	Alice In Chains	1624	0	1168	red	28	22	25	25	happiness	grunge	rock	alternativerock	2024-08-08 01:30:00
+985	https://open.spotify.com/track/6WE7jSshLCuVKoCmobVKVf	Heartbreaker - 1990 Remaster	254	64	Led Zeppelin II (1994 Remaster)	Led Zeppelin	712	1	555	red	21	29	29	21	sadness	classicrock	hardrock	rock	2024-08-08 01:31:00
+986	https://open.spotify.com/track/0l58YQ6trzdxO3C9XFczZS	Whispers in the Dark	196	45	Babel (Deluxe Version)	Mumford & Sons	581	0	686	green	7	12	50	32	anger	folk	rock	indiefolk	2024-08-08 01:32:00
+987	https://open.spotify.com/track/0C80GCp0mMuBzLf3EAXqxv	Shoot to Thrill	317	73	Back In Black	AC/DC	760	1	543	red	100	0	0	0	happiness	hardrock	rock	classicrock	2024-08-08 01:33:00
+988	https://open.spotify.com/track/0eEgMbSzOHmkOeVuNC3E0k	Kids with Guns	226	66	Demon Days	Gorillaz	680	5	1054	red	100	0	0	0	happiness	rock	triphop	hiphop	2024-08-08 01:34:00
+989	https://open.spotify.com/track/6ocbgoVGwYJhOv1GgI9NsF	7 rings	179	85	thank u, next	Ariana Grande	567	1	116	orange	20	27	33	20	anger	trap	pop	rap	2024-08-08 01:35:00
+991	https://open.spotify.com/track/11EX5yhxr9Ihl3IN1asrfK	Need You Now	278	70	Need You Now	Lady A	1156	0	1631	green	0	0	100	0	anger	country	pop	countrypop	2024-08-08 01:37:00
+992	https://open.spotify.com/track/1tuwC1Ob5vnYZhvg3zyzJg	Pictures of You - 2010 Remaster	448	57	Disintegration (Deluxe Edition)	The Cure	1442	0	553	pink	100	0	0	0	happiness	newwave	postpunk	rock	2024-08-08 01:38:00
+993	https://open.spotify.com/track/35YZB3NoKwJezIXb1OWaJd	Hallelujah	204	54	Riot!	Paramore	865	1	788	red	36	9	24	31	happiness	rock	poppunk	alternativerock	2024-08-08 01:39:00
+994	https://open.spotify.com/track/6y2DHyCYf6azhUfXmnuH6w	Question!	201	64	Mezmerize	System Of A Down	376	2	513	black	36	9	24	31	happiness	alternativemetal	metal	rock	2024-08-08 01:40:00
+995	https://open.spotify.com/track/09JbdAdaulzSwZIKSv9Y3f	Missing	214	48	Coexist	The xx	994	0	1038	red	21	29	30	20	anger	rock	triphop	indierock	2024-08-08 01:41:00
+997	https://open.spotify.com/track/6nJPHXRpKYv2yqtalEjKy5	Got the Life	225	69	Follow The Leader	Korn	294	2	520	black	96	0	0	4	happiness	numetal	metal	rock	2024-08-08 01:43:00
+998	https://open.spotify.com/track/2IvNxLl01CTAfCOA103Tgx	No One's Gonna Love You	217	61	Cease To Begin	Band of Horses	799	0	655	red	36	9	24	31	happiness	indierock	rock	folk	2024-08-08 01:44:00
+999	https://open.spotify.com/track/3MODES4TNtygekLl146Dxd	Ramble On - 1990 Remaster	263	71	Led Zeppelin II (1994 Remaster)	Led Zeppelin	714	0	517	red	86	1	12	1	happiness	classicrock	rock	hardrock	2024-08-08 01:45:00
+1000	https://open.spotify.com/track/2QIt8RWdk5ZJneKTt4sZnK	Dust Bowl Dance	283	48	Sigh No More	Mumford & Sons	581	1	686	green	100	0	0	0	happiness	folk	indiefolk	folkrock	2024-08-08 01:46:00
+1001	https://open.spotify.com/track/7mG2RbhyzGsjpQOz568d39	Pressure	186	61	All We Know Is Falling	Paramore	451	0	842	red	0	0	100	0	anger	rock	poppunk	alternativerock	2024-08-08 01:47:00
+1002	https://open.spotify.com/track/0IedgQjjJ8Ad4B3UDQ5Lyn	Fragments of Time (feat. Todd Edwards)	280	61	Random Access Memories	Daft Punk, Todd Edwards	1209	0	826	pink	100	0	0	0	happiness	disco	pop	house	2024-08-08 01:48:00
+1003	https://open.spotify.com/track/5hkdfA87RZvNaxl6XiveOA	Everybody's Changing	215	62	Hopes And Fears	Keane	96	2	633	pink	36	9	24	31	happiness	britpop	rock	pop	2024-08-08 01:49:00
+1004	https://open.spotify.com/track/3acN2t6e9hYnLKgXKTDwRF	Love Yourself	233	0	Santai Aja	Justin Bieber	1314	0	1057	pink	0	100	0	0	sadness	pop	hiphop	hiphop	2024-08-08 01:50:00
+1005	https://open.spotify.com/track/2hnMS47jN0etwvFPzYk11f	Santeria	183	77	Sublime	Sublime	776	1	1311	red	73	27	0	0	happiness	ska	reggae	rock	2024-08-08 01:51:00
+1006	https://open.spotify.com/track/2KHRENHQzTIQ001nlP9Gdc	Contact	384	56	Random Access Memories	Daft Punk	1510	0	782	cyan	0	100	0	0	sadness	house	disco	funk	2024-08-08 01:52:00
+1007	https://open.spotify.com/track/1FoUsSi9BCTlNt2Vd7V8XA	Optimistic	316	53	Kid A	Radiohead	652	2	1036	red	12	88	0	0	sadness	alternativerock	rock	experimental	2024-08-08 01:53:00
+1008	https://open.spotify.com/track/2Hy2bQlZcLSxNY73CobvZx	When I Grow Up	271	36	Fever Ray	Fever Ray	1073	0	736	purple	28	22	25	25	happiness	ambient	electronica	chillout	2024-08-08 01:54:00
+1009	https://open.spotify.com/track/1gsbmurLH1ln5NC1ucshl9	Promises	257	18	Workout 2019	Nero	1778	0	1031	yellow	0	0	100	0	anger	dubstep	pop	drumandbass	2024-08-08 01:55:00
+1010	https://open.spotify.com/track/5a2hIQWInPjqkkFiUEgxoX	Peace Sells - Remastered	244	59	Peace Sells...But Who's Buying (25th Anniversary)	Megadeth	890	2	1813	black	0	0	100	0	anger	thrashmetal	metal	speedmetal	2024-08-08 01:56:00
+1011	https://open.spotify.com/track/29U7stRjqHU6rMiS8BfaI9	What A Wonderful World - Single Version	139	67	What A Wonderful World	Louis Armstrong	618	3	1412	blue	100	0	0	0	happiness	jazz	blues	swing	2024-08-08 01:57:00
+1012	https://open.spotify.com/track/5nv854ey1k43KaZ0kHmE4Z	The Youth	228	52	Oracular Spectacular	MGMT	771	2	699	red	21	28	31	20	anger	indierock	rock	indiepop	2024-08-08 01:58:00
+1013	https://open.spotify.com/track/6OtCIsQZ64Vs1EbzztvAv4	Good Life	253	73	Waking Up	OneRepublic	1050	1	871	red	100	0	0	0	happiness	rock	pop	alternativerock	2024-08-08 01:59:00
+1014	https://open.spotify.com/track/1X1DWw2pcNZ8zSub3uhlNz	Hall of Fame (feat. will.i.am)	203	69	#3	The Script, will.i.am	1355	2	845	pink	21	29	29	21	sadness	pop	poprock	rock	2024-08-08 02:00:00
+1015	https://open.spotify.com/track/3e9HZxeyfWwjeyPAMmWSSQ	thank u, next	207	83	thank u, next	Ariana Grande	1276	0	988	pink	0	100	0	0	sadness	pop	electropop	rock	2024-08-08 02:01:00
+1017	https://open.spotify.com/track/3EQBI1Fiv7z3QfqTeb9Tqk	Can’t Buy Me Love - Acoustic Cover	131	2	Relaxing Classical Playlist: Mellow Rhythms for Good Day	The Beatles, Philip De Blue	658	2	564	red	0	0	100	0	anger	classicrock	rock	pop	2024-08-08 02:02:00
+1018	https://open.spotify.com/track/6ORqU0bHbVCRjXm9AjyHyZ	Good Riddance (Time of Your Life)	153	76	Nimrod	Green Day	993	0	953	red	100	0	0	0	happiness	rock	punk	alternativerock	2024-08-08 02:03:00
+1019	https://open.spotify.com/track/6kesIBNAY17BoAz28pnWMC	Run	355	65	Final Straw	Snow Patrol	871	0	704	red	90	0	1	9	happiness	rock	indierock	alternativerock	2024-08-08 02:04:00
+1020	https://open.spotify.com/track/3ZpWy5rBZv2aLQAldnmTsP	Whiskey In The Jar	305	63	Garage, Inc.	Metallica	1488	2	1015	black	0	64	1	35	sadness	metal	hardrock	rock	2024-08-08 02:05:00
+1021	https://open.spotify.com/track/3sP3c86WFjOzHHnbhhZcLA	Give Your Heart a Break	205	71	Unbroken	Demi Lovato	1305	0	972	pink	21	29	29	21	sadness	pop	poprock	teenpop	2024-08-08 02:06:00
+1022	https://open.spotify.com/track/1LsZVVQxkbmL9izqfy1RRK	Lover To Lover	243	42	Ceremonials (Deluxe Edition)	Florence + The Machine	813	0	1070	pink	100	0	0	0	happiness	indiepop	pop	indierock	2024-08-08 02:07:00
+1023	https://open.spotify.com/track/4A065x9kJt955eGVqf813g	Them Bones	149	67	Dirt	Alice In Chains	1640	1	1183	red	3	0	94	3	anger	grunge	rock	alternativerock	2024-08-08 02:08:00
+1024	https://open.spotify.com/track/2zmR3FG7iOGDAdwrVPzdg9	Invincible	301	50	Black Holes and Revelations	Muse	895	1	846	red	21	29	29	21	sadness	alternativerock	rock	progressiverock	2024-08-08 02:09:00
+1025	https://open.spotify.com/track/38xWaVFKaxZlMFvzNff2aW	Breakeven	261	70	The Script	The Script	1062	0	879	red	100	0	0	0	happiness	rock	pop	poprock	2024-08-08 02:10:00
+1026	https://open.spotify.com/track/2qT1uLXPVPzGgFOx4jtEuo	no tears left to cry	206	79	Sweetener	Ariana Grande	1258	0	942	pink	21	28	31	20	anger	pop	dancepop	disco	2024-08-08 02:11:00
+1027	https://open.spotify.com/track/7LHZ7HA45ezKcdN8sBrBuS	Welcome Home (Sanitarium) (Remastered)	387	56	Master of Puppets (Remastered Deluxe Box Set)	Metallica	1501	0	991	black	5	1	0	94	fear	thrashmetal	metal	rock	2024-08-08 02:12:00
+1029	https://open.spotify.com/track/7h2yhVxcZOGyQdOwD4Hu8J	I Want To Break Free - Remastered 2011	258	64	The Works (Deluxe Remastered Version)	Queen	720	0	490	red	8	0	92	0	anger	classicrock	rock	glamrock	2024-08-08 02:13:00
+1030	https://open.spotify.com/track/56KqaFSGTb7ifpt16t5Y1N	Rock the Casbah - Remastered	222	72	Combat Rock (Remastered)	The Clash	1355	0	484	red	36	9	24	31	happiness	punk	rock	classicrock	2024-08-08 02:14:00
+1031	https://open.spotify.com/track/6wNF6hphTxhUiAmQG3uzbf	Aces High - 2015 Remaster	272	51	Powerslave (2015 - Remaster)	Iron Maiden	1210	0	342	black	1	0	99	0	anger	metal	nwobhm	rock	2024-08-08 02:15:00
+1032	https://open.spotify.com/track/6ggJ6MceyHGWtUg1KLp3M1	Risingson	299	49	Mezzanine	Massive Attack	972	1	1043	purple	1	99	0	0	sadness	triphop	chillout	triphop	2024-08-08 02:16:00
+1033	https://open.spotify.com/track/3yrSvpt2l1xhsV9Em88Pul	Brown Eyed Girl	183	80	Blowin' Your Mind!	Van Morrison	667	1	452	red	28	22	25	25	happiness	classicrock	rock	singersongwriter	2024-08-08 02:17:00
+1034	https://open.spotify.com/track/3w0Kw31MTI6NwWjCBJNUJk	Heartlines	302	43	Ceremonials (Deluxe Edition)	Florence + The Machine	811	0	1070	pink	11	24	42	23	anger	anthem	indiepop	pop	2024-08-08 02:18:00
+1035	https://open.spotify.com/track/1ndGB6rvxKYN9seCYO1dTF	The Zephyr Song	232	70	By the Way (Deluxe Edition)	Red Hot Chili Peppers	299	1	1011	red	21	29	29	21	sadness	rock	alternativerock	funk	2024-08-08 02:19:00
+1037	https://open.spotify.com/track/5rAxhWcgFng3s570sGO2F8	A Place for My Head	185	65	Hybrid Theory (Bonus Edition)	Linkin Park	458	2	681	black	96	3	1	0	happiness	numetal	rock	alternativerock	2024-08-08 02:20:00
+1038	https://open.spotify.com/track/1fJFuvU2ldmeAm5nFIHcPP	First Date	172	73	Take Off Your Pants And Jacket	blink-182	668	0	1456	pink	99	0	0	0	happiness	poppunk	punk	rock	2024-08-08 02:21:00
+1039	https://open.spotify.com/track/5UPnBgnylUCjtAPtAH4tJY	Atmosphere - 2010 Remaster	249	41	Substance	Joy Division	533	0	799	red	36	9	24	31	happiness	postpunk	newwave	rock	2024-08-08 02:22:00
+1040	https://open.spotify.com/track/4Oq241mV2LEcQsfXQPOfZe	Crossroads	270	46	Diamonds in the Rough	Avenged Sevenfold	873	2	1355	black	9	21	44	26	anger	metal	metalcore	hardrock	2024-08-08 02:23:00
+1041	https://open.spotify.com/track/7utRJ4BeYx85khzP3lKoBX	Tears in Heaven	272	63	Clapton Chronicles: The Best of Eric Clapton	Eric Clapton	626	0	564	red	84	16	0	0	happiness	classicrock	blues	rock	2024-08-08 02:24:00
+1042	https://open.spotify.com/track/0VpFFXnT2kNjqJmTv57aZi	Life in Technicolor ii	245	46	Viva La Vida (Prospekt's March Edition)	Coldplay	888	1	815	red	32	12	34	22	anger	rock	alternativerock	britpop	2024-08-08 02:25:00
+1044	https://open.spotify.com/track/6s1lXoCa6EmIGnr0GrwcJp	The Boy with the Thorn in His Side - 2011 Remaster	197	55	The Queen Is Dead	The Smiths	1432	3	542	pink	0	0	100	0	anger	newwave	rock	indiepop	2024-08-08 02:27:00
+1045	https://open.spotify.com/track/3AA8xNhDC0MpqwkGX3EP5V	If I Ever Feel Better	267	66	United	Phoenix	1351	1	949	pink	59	20	21	0	happiness	pop	indiepop	rock	2024-08-08 02:28:00
+1046	https://open.spotify.com/track/3AwLxSqo1jOOMpNsgxqRNE	Prison Song	201	65	Toxicity	System Of A Down	376	2	514	black	98	0	0	2	happiness	alternativemetal	metal	rock	2024-08-08 02:29:00
+1047	https://open.spotify.com/track/0uppYCG86ajpV2hSR3dJJ0	Give It Away	283	73	Blood Sugar Sex Magik (Deluxe Edition)	Red Hot Chili Peppers	310	2	1008	red	21	29	29	21	sadness	rock	funk	funkrock	2024-08-08 02:30:00
+1048	https://open.spotify.com/track/1XPta4VLT78HQnVFd1hlsK	Today	202	58	(Rotten Apples) The Smashing Pumpkins Greatest Hits	The Smashing Pumpkins	616	5	1028	red	2	98	0	0	sadness	rock	alternativerock	grunge	2024-08-08 02:31:00
+1049	https://open.spotify.com/track/2daZovie6pc2ZK7StayD1K	Dead Inside	263	58	Drones	Muse	929	0	814	red	100	0	0	0	happiness	rock	alternativerock	progressiverock	2024-08-08 02:32:00
+1050	https://open.spotify.com/track/2SpGXD7EbexndFmmThrnsy	Deer Dance	175	59	Toxicity	System Of A Down	377	0	566	black	1	99	0	0	sadness	alternativemetal	metal	rock	2024-08-08 02:33:00
+1051	https://open.spotify.com/track/1K89oHPxT4wRg5ocaDLq3J	Starman - Single Mix	255	42	Legacy (Deluxe Edition)	David Bowie	1276	0	556	red	0	0	29	70	fear	classicrock	rock	glamrock	2024-08-08 02:34:00
+1052	https://open.spotify.com/track/4JsDHMv5PVO8N07DbDq33r	All I Want	203	65	What Separates Me From You	A Day To Remember	697	0	1709	red	6	0	77	17	anger	posthardcore	hardcore	poppunk	2024-08-08 02:35:00
+1053	https://open.spotify.com/track/1UYj8qTWjneZJDVjUMwMub	The Moment	255	64	Currents	Tame Impala	1112	1	1285	red	100	0	0	0	happiness	psychedelicrock	psychedelicpop	synthpop	2024-08-08 02:36:00
+1054	https://open.spotify.com/track/0Oe49j06Bjrxs8PltuVeaW	On The Floor - Radio Edit	231	75	On The Floor	Jennifer Lopez, Pitbull	1263	1	942	pink	0	90	9	0	sadness	pop	electropop	latin	2024-08-08 02:37:00
+1055	https://open.spotify.com/track/619bPJZXSzqYi5vysR51Sa	First Breath After Coma	574	44	The Earth Is Not a Cold Dead Place	Explosions In The Sky	819	0	1379	red	21	29	29	21	sadness	postrock	ambient	experimental	2024-08-08 02:38:00
