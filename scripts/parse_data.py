@@ -93,7 +93,7 @@ def parse_data(path: str):
 
     # Add tags to tagsets with progress bar
     for i, row in tqdm(df.iterrows(), total=len(df), desc="Processing rows", unit="row"):
-        img_path = f"{row['image_uri']}.jpg"
+        img_path = f"{row['color']}.jpg"
         tags = set()
         # Process alphanumerical tags
         for name in ALPHANUMERICAL_TAGSET_TYPES.keys():
