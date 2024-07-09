@@ -18,6 +18,13 @@ def get_album_image_url(track_url):
     album_img_url = soup.find("meta", property="og:image")["content"]
     return album_img_url
 
+def download_image(image_url, image_name):
+    """
+    Download the image from the given URL to the local directory.
+    """
+    with open(image_name, "wb") as f:
+        f.write(requests.get(image_url).content)
+
 def add_image_uri_to_df(df):
     """
     Add album image URIs to the DataFrame. And download the image to the local directory. (../data/album_images/)
@@ -30,8 +37,7 @@ def add_image_uri_to_df(df):
             # Download the image to the local directory
             short_url = image_url[24:]
             image_name = f"../data/album_images/{short_url}.jpg"
-            with open(image_name, "wb") as f:
-                f.write(requests.get(image_url).content)
+            #download_image(image_url, image_name)
             # Remove https://i.scdn.co/image/ from the first part of uri
             image_uris.append(short_url)
         else:
@@ -52,7 +58,7 @@ def add_timestamp_to_df(df, starting_date):
 
 def main():
     # Load CSV file
-    path = "../data/csv_file/small_sample"
+    path = "../data/csv_file/sample_table"
     df = pd.read_csv(f"{path}.csv", sep="\t", encoding="utf-8")
 
     # Add image links to data
