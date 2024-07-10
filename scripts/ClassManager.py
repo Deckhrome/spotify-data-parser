@@ -107,15 +107,16 @@ class ClassManager:
                 return
         raise ValueError(f"Tagset with id {tagset_id} not found")
 
-    def add_media(self, path, list_of_tags):
+    def add_media(self, path, thumbnail, list_of_tags):
         """
         Adds a media to the list of medias.
 
         Args:
             path (str): The path of the media.
+            thumbnail (str): The path of the thumbnail.
             list_of_tags (list): The list of tags associated with the media.
         """
-        self.medias.append({"path": path, "tags": list_of_tags})
+        self.medias.append({"path": path, "thumbnail": thumbnail, "tags": list_of_tags})
 
     def to_dict(self):
         """
