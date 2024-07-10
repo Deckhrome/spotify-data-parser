@@ -13,7 +13,7 @@ import time
 
 # Define tagset types
 TAGSET_TYPES = {
-    "uri": 1,
+    # "uri": 1,
     "track_name": 1,
     "album_name": 1,
     "artist_infos": 1,
@@ -29,7 +29,7 @@ TAGSET_TYPES = {
 NUMERICAL_TAGSET_TYPES = {"track_duration": 1, "track_popularity": 1}
 
 ALPHANUMERICAL_TAGSET_TYPES = {
-    "uri": 1,
+    # "uri": 1,
     "track_name": 1,
     "album_name": 1,
     "artist_infos": 1,
@@ -93,7 +93,8 @@ def parse_data(path: str):
 
     # Add tags to tagsets with progress bar
     for i, row in tqdm(df.iterrows(), total=len(df), desc="Processing rows", unit="row"):
-        img_path = f"{row['color']}.jpg"
+        thumbnail = f"{row["image_uri"]}.jpg"
+        file_uri = f"https://open.spotify.com/track/{row['uri']}"
         tags = set()
         # Process alphanumerical tags
         for name in ALPHANUMERICAL_TAGSET_TYPES.keys():
@@ -119,7 +120,7 @@ def parse_data(path: str):
                         tag_manager.add_tag_to_tagset(tagset_id, tag)
                     tags.add(tag_id)
 
-        tag_manager.add_media(img_path, list(tags))
+        tag_manager.add_media(file_uri, thumbnail, list(tags))
 
         if i % 100 == 0:
             current_time = time.time()
