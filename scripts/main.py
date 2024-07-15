@@ -33,13 +33,13 @@ def main():
     try:
         # Define paths
         output_dir = "../build"
-        output_file = os.path.join(output_dir, "sample_data.json")
+        output_file = os.path.join(output_dir, "full_data.json")
 
         # Initialize ClassManager
         class_manager = ClassManager()
 
         # Parse data
-        class_manager = parse_data(get_csv_path(sample_csv))
+        class_manager = parse_data(get_csv_path(full_path))
 
         # Build hierarchies
         build_hierarchies(class_manager)

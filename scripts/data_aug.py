@@ -5,12 +5,11 @@ import pandas as pd
 from tqdm import tqdm
 import argparse
 import threading
-import os
 
-NUMBER_OF_THREADS = 100
+NUMBER_OF_THREADS = 18
 
 """
-This script adds image URIs and Timestamps to a CSV file.
+This script adds image URIs and Timestamps to a CSV file. And also downloads the images to the local directory.
 """
 
 lock = threading.Lock()
@@ -19,11 +18,14 @@ def get_album_image_url(track_url):
     """
     Fetch the album image URL from the Spotify track page.
     """
-    response = requests.get(track_url)
-    soup = BeautifulSoup(response.text, features="html.parser")
-    album_img_tag = soup.find("meta", property="og:image")
-    if album_img_tag:
-        return album_img_tag["content"]
+    try:
+        response = requests.get(track_url)
+        soup = BeautifulSoup(response.text, features="html.parser")
+        album_img_tag = soup.find("meta", property="og:image")
+        if album_img_tag:
+            return album_img_tag["content"]
+    except Exception as e:
+        print(f"Error fetching image URL from {track_url}: {e}")
     return None
 
 def download_image(image_url, image_name):
@@ -36,7 +38,7 @@ def download_image(image_url, image_name):
     except Exception as e:
         print(f"Error downloading image: {e}")
 
-def process_row(uri, image_uris_set):
+def process_row(uri, image_uris_set, index, image_uris):
     """
     Process a single row, adding the image URI and downloading the image.
     """
@@ -46,35 +48,33 @@ def process_row(uri, image_uris_set):
         short_url = image_url[24:]
         with lock:
             if short_url in image_uris_set:
-                return short_url
+                image_uris[index] = short_url
+                return
             image_uris_set.add(short_url)
-        # Uncomment the following lines to enable image downloading
-        # image_name = f"../data/album_images/{short_url}.jpg"
-        # download_image(image_url, image_name)
-        return short_url
-    return ""
+        image_name = f"../data/album_images/{short_url}.jpg"
+        download_image(image_url, image_name)
+        image_uris[index] = short_url
+    else:
+        image_uris[index] = ""
 
 def add_image_uri_to_df(df, start, end):
     """
     Add album image URIs to the DataFrame and download the image to the local directory. (../data/album_images/)
     """
     image_uris_set = set()
-    image_uris = []
+    image_uris = df["image_uri"].tolist()  # Copy existing values
 
     threads = []
-    for uri in tqdm(df["sp_uri"][start:end]):
-        # Create and start a new thread for each URI
-        thread = threading.Thread(target=lambda q, arg1, arg2: q.append(process_row(arg1, arg2)), args=(image_uris, uri, image_uris_set))
+    for idx, uri in tqdm(enumerate(df["sp_uri"][start:end]), total=end-start):
+        thread = threading.Thread(target=process_row, args=(uri, image_uris_set, start + idx, image_uris))
         threads.append(thread)
         thread.start()
 
-        # Limit the number of active threads to NUMBER_OF_THREADS
         if len(threads) >= NUMBER_OF_THREADS:
             for t in threads:
                 t.join()
             threads = []
 
-    # Wait for any remaining threads to finish
     for t in threads:
         t.join()
 
@@ -94,8 +94,8 @@ def add_timestamp_to_df(df, starting_date):
 
 def main(start, end):
     # Load CSV file
-    path = "../data/csv_file/full_table"
-    df = pd.read_csv(f"{path}.csv", sep="\t", encoding="utf-8", skiprows=range(1, start + 1))
+    path = "../data/csv_file/full_table_aug"
+    df = pd.read_csv(f"{path}.csv", sep="\t", encoding="utf-8")
 
     if end == -1:
         end = len(df)
