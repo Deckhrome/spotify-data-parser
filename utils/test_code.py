@@ -32,7 +32,7 @@ def check_unique_ids(data):
 
 def main():
     # Load the JSON file
-    with open('../build/csv_file/full_data.json') as f:
+    with open('../build/full_data.json') as f:
         data = json.load(f)
         
     # Run the ID checks

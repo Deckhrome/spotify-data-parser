@@ -38,7 +38,7 @@ class ClassManager:
             "genre": {},
             "alphanumerical": {},
             "emotion": {},
-            "timestamp": {},
+            "Timestamp UTC": {},
         }
         self.medias = []
         self.next_tag_id = 1

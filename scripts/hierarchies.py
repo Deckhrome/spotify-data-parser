@@ -392,10 +392,28 @@ genre_hierarchy = {
             {
                 "tag_id": "classical",
                 "child_nodes": [
-                    {"tag_id": "contemporaryclassical", "child_nodes": []},
+                    {"tag_id": "earlymusic", 
+                     "child_nodes": [
+                            {"tag_id": "baroque", "child_nodes": []},
+                            {"tag_id": "renaissance", "child_nodes": []},
+                            {"tag_id": "medieval", "child_nodes": []},
+                     ]},
+                    {"tag_id": "stcenturyclassical", "child_nodes": [
+                            {"tag_id": "modernism", "child_nodes": []},
+                            {"tag_id": "impressionism", "child_nodes": []},
+                            {"tag_id": "contemporaryclassical", "child_nodes": []},
+                            
+                    ]},
                     {"tag_id": "opera", "child_nodes": []},
                 ],
             },
+            {
+                "tag_id": "avantgarde",
+                "child_nodes": [
+                    {"tag_id": "minimalism", "child_nodes": []},
+                    {"tag_id": "musiqueconcrete", "child_nodes": []},
+                ],
+            }
         ],
     },
 }
@@ -408,6 +426,7 @@ all_hierarchies = [
 ]
 
 
+# Recursively associate tag with ID
 def associate_tag_with_id(node, class_manager, tagset_id, category):
     if "tag_id" in node:
         tag_id, is_new = class_manager.get_or_create_tag_id(node["tag_id"], category)

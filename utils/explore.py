@@ -60,6 +60,34 @@ def explore_data():
     else:
         print("DataFrame is empty. No operations performed.")
 
+# Open file showing speed (rows processed over time) in ../build/rows_processed_good(bad).png
+def plot_speed():
+    data = pd.read_csv('../build/rows_processed_good.csv', sep=', ', encoding='utf-8')
+    df = pd.DataFrame(data)
+    rows_processed_1 = np.array(df['Rows Processed'])
+    time_1 = np.array(df['Time (seconds)'])
+
+    data2 = pd.read_csv('../build/rows_processed_bad.csv', sep=', ', encoding='utf-8')
+    df2 = pd.DataFrame(data2)
+    rows_processed_2 = np.array(df2['Rows Processed'])
+    time_2 = np.array(df2['Time (seconds)'])
+
+    plt.figure(figsize=(10, 6))
+    plt.plot(rows_processed_1, time_1, label='Exponential')
+    plt.plot(rows_processed_2, time_2, label='Linear')
+    plt.title('Rows Processed vs Time')
+    plt.xlabel('Rows Processed')
+    plt.ylabel('Time (seconds)')
+    plt.grid(True)
+
+    # Add a legend
+    plt.legend()
+
+    # Save the plot to a file
+    plt.savefig('output_plot.png')
+
+    # Show the plot (optional)
+    plt.show()
 
 def plot_stats():
     df = pd.read_csv('stats.csv', sep='\t', encoding='utf-8')
@@ -86,8 +114,13 @@ def get_unique_values(df, column):
     """Get unique values from a column in a DataFrame."""
     return df[column].unique()
 
+def show_duplicates(df, column):
+    """Show duplicate rows based on a column in a DataFrame."""
+    return df[df.duplicated(subset=column, keep=False)].sort_values(by=column)
+
 if __name__ == '__main__':
-    df = pd.read_csv('../data/full_table.csv', sep='\t', encoding='utf-8')
-    print(get_unique_values(df, 'color'))
+    plot_speed()
+    # df = pd.read_csv('../data/csv_file/full_table_aug_clean.csv', sep='\t', encoding='utf-8')
+    # print(show_duplicates(df, 'uri'))
     # plot_stats()
     #explore_data()

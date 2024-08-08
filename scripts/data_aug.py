@@ -44,16 +44,20 @@ def process_row(uri, image_uris_set, index, image_uris):
     """
     track_url = f"https://open.spotify.com/track/{uri.split(':')[-1]}"
     image_url = get_album_image_url(track_url)
+    # If image URL is found
     if image_url:
-        short_url = image_url[24:]
+        # Extract the image URI from the URL
+        image_uri = image_url[24:]
         with lock:
-            if short_url in image_uris_set:
-                image_uris[index] = short_url
+            # Check if the image URI is already in the set
+            if image_uri in image_uris_set:
+                image_uris[index] = image_uri
                 return
-            image_uris_set.add(short_url)
-        image_name = f"../data/album_images/{short_url}.jpg"
+            image_uris_set.add(image_uri)
+        image_name = f"../data/album_images/{image_uri}.jpg"
+        # Download the image and save the URI
         download_image(image_url, image_name)
-        image_uris[index] = short_url
+        image_uris[index] = image_uri
     else:
         image_uris[index] = ""
 
@@ -89,7 +93,7 @@ def add_timestamp_to_df(df, starting_date):
     for _ in range(len(df)):
         timestamps.append(starting_date.strftime("%Y-%m-%d %H:%M:%S"))
         starting_date += datetime.timedelta(minutes=1)
-    df["timestamp"] = timestamps
+    df["Timestamp UTC"] = timestamps
     return df
 
 def main(start, end):

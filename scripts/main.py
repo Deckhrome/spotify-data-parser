@@ -39,7 +39,7 @@ def main():
         class_manager = ClassManager()
 
         # Parse data
-        class_manager = parse_data(get_csv_path(full_path))
+        class_manager = parse_data(get_csv_path(full_path_clean))
 
         # Build hierarchies
         build_hierarchies(class_manager)

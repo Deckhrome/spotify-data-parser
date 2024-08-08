@@ -6,7 +6,7 @@ import time
 
 # tag types
 # 1 - alphanumerical
-# 2 - timestamp
+# 2 - Timestamp UTC
 # 3 - time
 # 4 - date
 # 5 - numerical
@@ -23,7 +23,7 @@ TAGSET_TYPES = {
     "genre": 1,
     "genre_2": 1,
     "genre_3": 1,
-    "timestamp": 2,
+    "Timestamp UTC": 2,
 }
 
 NUMERICAL_TAGSET_TYPES = {"track_duration": 1, "track_popularity": 1}
@@ -37,7 +37,7 @@ ALPHANUMERICAL_TAGSET_TYPES = {
     "genre": 1,
     "genre_2": 1,
     "genre_3": 1,
-    "timestamp": 2,
+    "Timestamp UTC": 2,
 }
 
 # Define ranges for duration and popularity
@@ -93,7 +93,7 @@ def parse_data(path: str):
 
     # Add tags to tagsets with progress bar
     for i, row in tqdm(df.iterrows(), total=len(df), desc="Processing rows", unit="row"):
-        thumbnail = f"{row["image_uri"]}.jpg"
+        thumbnail = f"{row['image_uri']}.jpg"
         file_uri = f"{row['uri']}"
         tags = set()
         # Process alphanumerical tags
@@ -129,14 +129,20 @@ def parse_data(path: str):
 
     # Plotting the results
     plt.figure(figsize=(10, 6))
-    plt.plot(times, rows_processed, label="Rows Processed")
-    plt.xlabel("Time (seconds)")
-    plt.ylabel("Rows Processed")
+    plt.plot(rows_processed, times, label="Rows Processed")
+    plt.xlabel("Rows Processed")
+    plt.ylabel("Time (seconds)")
     plt.title("Rows Processed Over Time")
     plt.legend()
     plt.grid(True)
 
     # Save the plot figure
-    plt.savefig("../build/rows_processed_over_time_50k.png")
+    plt.savefig("../build/rows_processed_good.png")
+
+    # Save data of the plot in a file
+    with open("../build/rows_processed_good.txt", "w") as f:
+        f.write("Rows Processed, Time (seconds)\n")
+        for i in range(len(rows_processed)):
+            f.write(f"{rows_processed[i]}, {times[i]}\n")
 
     return tag_manager
