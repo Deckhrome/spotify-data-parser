@@ -1,6 +1,8 @@
-# Ignore build output directories
+# Ignore 
 /target/
 /build/
+/utils/
+/data/csv_file/
 
 # Ignore IDE-specific files
 .idea/

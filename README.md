@@ -4,7 +4,11 @@ This project provides a utility to parse Spotify track data from a CSV file, cle
 
 ## Project Structure
 
-- `main.py`: The entry point for the application. It reads the CSV file, processes the data, and outputs a JSON file.
+- `main.py`: The entry point for the application. It reads the CSV file, processes the data, build the hierarchies
+      store in the hierarchies.json, and outputs a JSON file. Here's an example of how to start the script
+
+      python main.py ../data/csv_file/sample_table_aug.csv ../build/ ../data/hierarchies.json sample_data (last one is optional)
+
 - `parse_data.py`: Contains functions for parsing data from the CSV file and managing tags and media.
 - `clean_CSV.py`: Contains functions for cleaning and transforming the data.
 - `ClassManager.py`: Manages the tags, tagsets, and media.
