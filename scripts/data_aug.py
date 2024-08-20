@@ -47,6 +47,7 @@ def process_row(uri, image_uris_set, index, image_uris):
     # If image URL is found
     if image_url:
         # Extract the image URI from the URL
+        # https://i.scdn.co/image/
         image_uri = image_url[24:]
         with lock:
             # Check if the image URI is already in the set
