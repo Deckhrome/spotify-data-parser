@@ -2,11 +2,9 @@
 /target/
 /build/
 /utils/
-/data/csv_file/
-/tests/
+/data/
 
 .pytest_cache/
-.github/
 
 # Ignore IDE-specific files
 .idea/
