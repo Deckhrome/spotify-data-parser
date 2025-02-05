@@ -2,8 +2,7 @@
 /target/
 /build/
 /utils/
-/data/csv_file/
-/tests/
+/data/
 
 .pytest_cache/
 .github/
