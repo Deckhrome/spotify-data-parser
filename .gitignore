@@ -5,7 +5,6 @@
 /data/
 
 .pytest_cache/
-.github/
 
 # Ignore IDE-specific files
 .idea/
