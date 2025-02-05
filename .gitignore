@@ -3,6 +3,10 @@
 /build/
 /utils/
 /data/csv_file/
+/tests/
+
+.pytest_cache/
+.github/
 
 # Ignore IDE-specific files
 .idea/
